@@ -1,6 +1,6 @@
 {
   "_version": "3.1.0",
-  "_updated": "2026-03-12T17:26:39Z",
+  "_updated": "2026-03-12T17:33:22Z",
   "6E": {
     "name": "IndiGo",
     "iata": "6E",
@@ -3608,6 +3608,20 @@
           "checked2": 0,
           "checked3": 75,
           "overweightPerKg": 10
+        },
+        "intl_americas": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 10
+        },
+        "intl_africa": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 10
         }
       },
       "premium_economy": {
@@ -3711,6 +3725,20 @@
               "checked2": 0,
               "checked3": 75,
               "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_africa": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
             }
           }
         },
@@ -3764,6 +3792,20 @@
               "checked2": 0,
               "checked3": 75,
               "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_africa": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
             }
           }
         },
@@ -3812,6 +3854,20 @@
               "overweightPerKg": 8
             },
             "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_africa": {
               "cabin": 0,
               "checked1": 0,
               "checked2": 0,
@@ -3940,6 +3996,20 @@
           "checked2": 0,
           "checked3": 75,
           "overweightPerKg": 10
+        },
+        "intl_americas": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 10
+        },
+        "intl_africa": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 10
         }
       },
       "premium_economy": {
@@ -4043,6 +4113,20 @@
               "checked2": 0,
               "checked3": 75,
               "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_africa": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
             }
           }
         },
@@ -4096,6 +4180,20 @@
               "checked2": 0,
               "checked3": 75,
               "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_africa": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
             }
           }
         },
@@ -4144,6 +4242,20 @@
               "overweightPerKg": 8
             },
             "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_africa": {
               "cabin": 0,
               "checked1": 0,
               "checked2": 0,
@@ -4351,6 +4463,13 @@
               "checked2": 40,
               "checked3": 75,
               "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 40,
+              "checked3": 75,
+              "overweightPerKg": 10
             }
           }
         },
@@ -4396,6 +4515,13 @@
               "checked2": 0,
               "checked3": 75,
               "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
             }
           }
         },
@@ -4436,6 +4562,13 @@
               "overweightPerKg": 8
             },
             "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            },
+            "intl_americas": {
               "cabin": 0,
               "checked1": 0,
               "checked2": 0,
@@ -4556,6 +4689,13 @@
           "checked2": 0,
           "checked3": 70,
           "overweightPerKg": 10
+        },
+        "intl_americas": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 70,
+          "overweightPerKg": 10
         }
       },
       "premium_economy": {
@@ -4651,6 +4791,13 @@
               "checked2": 0,
               "checked3": 70,
               "overweightPerKg": 10
+            },
+            "intl_americas": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 70,
+              "overweightPerKg": 10
             }
           }
         },
@@ -4691,6 +4838,13 @@
               "overweightPerKg": 7
             },
             "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 70,
+              "overweightPerKg": 10
+            },
+            "intl_americas": {
               "cabin": 0,
               "checked1": 0,
               "checked2": 0,
