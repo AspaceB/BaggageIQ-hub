@@ -1,0 +1,4961 @@
+{
+  "_version": "3.0.0",
+  "_updated": "2026-03-12T00:00:00Z",
+  "6E": {
+    "name": "IndiGo",
+    "iata": "6E",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 30
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 30
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 18,
+          "checked2": 35,
+          "checked3": 55,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 55,
+          "checked3": 80,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 25,
+          "checked3": 45,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 40,
+          "checked3": 65,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 35,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 50,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 35,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 50,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "SG": {
+    "name": "SpiceJet",
+    "iata": "SG",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 30
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 30
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 17,
+          "checked2": 33,
+          "checked3": 50,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 28,
+          "checked2": 50,
+          "checked3": 75,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 25,
+          "checked3": 45,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 40,
+          "checked3": 65,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 35,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 50,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 35,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 50,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "AI": {
+    "name": "Air India",
+    "iata": "AI",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 2,
+          "checkedKg": 30
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 35
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 40
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 50
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 25,
+          "checked3": 50,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 40,
+          "checked3": 75,
+          "overweightPerKg": 7
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 20,
+          "checked3": 45,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 60,
+          "overweightPerKg": 7
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 40,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 50,
+          "overweightPerKg": 7
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 7
+        }
+      }
+    }
+  },
+  "UK": {
+    "name": "Vistara",
+    "iata": "UK",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 30
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 35
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 40
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 35
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 40
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 28,
+          "checked3": 50,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 75,
+          "overweightPerKg": 6
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 40,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 55,
+          "overweightPerKg": 6
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 35,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 45,
+          "overweightPerKg": 6
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 35,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 45,
+          "overweightPerKg": 6
+        }
+      }
+    }
+  },
+  "IX": {
+    "name": "Air India Express",
+    "iata": "IX",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 16,
+          "checked2": 32,
+          "checked3": 50,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 25,
+          "checked2": 45,
+          "checked3": 70,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 22,
+          "checked3": 40,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 35,
+          "checked3": 55,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 30,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 45,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 30,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 45,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "QP": {
+    "name": "Akasa Air",
+    "iata": "QP",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 25
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 25
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 16,
+          "checked2": 32,
+          "checked3": 50,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 25,
+          "checked2": 45,
+          "checked3": 70,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 22,
+          "checked3": 40,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 35,
+          "checked3": 55,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 30,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 45,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 30,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 45,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "AA": {
+    "name": "American Airlines",
+    "iata": "AA",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "standard": {
+          "label": "Main Cabin",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 8
+            }
+          }
+        },
+        "plus": {
+          "label": "Main Plus",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 150,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 150,
+              "overweightPerKg": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "DL": {
+    "name": "Delta Air Lines",
+    "iata": "DL",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "standard": {
+          "label": "Main Cabin",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 0,
+              "checkedKg": 0
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 35,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "UA": {
+    "name": "United Airlines",
+    "iata": "UA",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 65,
+          "checked1": 35,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "standard": {
+          "label": "Economy",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 0,
+              "checkedKg": 0
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 35,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 8
+            }
+          }
+        },
+        "flex": {
+          "label": "Economy Flex",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "B6": {
+    "name": "JetBlue",
+    "iata": "B6",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 40,
+          "checked2": 55,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 40,
+          "checked2": 55,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "blue": {
+          "label": "Blue",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 0,
+              "checkedKg": 0
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 0,
+              "checkedKg": 0
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 35,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 40,
+              "checked2": 55,
+              "checked3": 150,
+              "overweightPerKg": 8
+            }
+          }
+        },
+        "blue_plus": {
+          "label": "Blue Plus",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 55,
+              "checked3": 150,
+              "overweightPerKg": 8
+            }
+          }
+        },
+        "blue_extra": {
+          "label": "Blue Extra",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 0,
+              "checkedKg": 0
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 35,
+              "checked2": 45,
+              "checked3": 150,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 55,
+              "checked3": 150,
+              "overweightPerKg": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "NK": {
+    "name": "Spirit Airlines",
+    "iata": "NK",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 35,
+          "checked1": 40,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 45,
+          "checked1": 50,
+          "checked2": 60,
+          "checked3": 120,
+          "overweightPerKg": 6
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 35,
+          "checked1": 40,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 45,
+          "checked1": 50,
+          "checked2": 60,
+          "checked3": 120,
+          "overweightPerKg": 6
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 35,
+          "checked1": 40,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 45,
+          "checked1": 50,
+          "checked2": 60,
+          "checked3": 120,
+          "overweightPerKg": 6
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 35,
+          "checked1": 40,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 45,
+          "checked1": 50,
+          "checked2": 60,
+          "checked3": 120,
+          "overweightPerKg": 6
+        }
+      }
+    }
+  },
+  "F9": {
+    "name": "Frontier Airlines",
+    "iata": "F9",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 40,
+          "checked1": 40,
+          "checked2": 55,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 50,
+          "checked1": 50,
+          "checked2": 65,
+          "checked3": 120,
+          "overweightPerKg": 6
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 45,
+          "checked2": 60,
+          "checked3": 120,
+          "overweightPerKg": 6
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 55,
+          "checked3": 120,
+          "overweightPerKg": 6
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 55,
+          "checked3": 120,
+          "overweightPerKg": 6
+        }
+      }
+    }
+  },
+  "WN": {
+    "name": "Southwest Airlines",
+    "iata": "WN",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "AS": {
+    "name": "Alaska Airlines",
+    "iata": "AS",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    }
+  },
+  "HA": {
+    "name": "Hawaiian Airlines",
+    "iata": "HA",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 40,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 40,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 40,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    }
+  },
+  "BA": {
+    "name": "British Airways",
+    "iata": "BA",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 42,
+          "checked2": 85,
+          "checked3": 150,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 50,
+          "checked2": 100,
+          "checked3": 175,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 70,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 80,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 60,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 70,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "standard": {
+          "label": "Economy Standard",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 42,
+              "checked3": 85,
+              "overweightPerKg": 6
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            }
+          }
+        },
+        "plus": {
+          "label": "Economy Plus",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 42,
+              "checked3": 85,
+              "overweightPerKg": 6
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            }
+          }
+        },
+        "flex": {
+          "label": "Economy Flex",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 42,
+              "checked3": 85,
+              "overweightPerKg": 6
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "FR": {
+    "name": "Ryanair",
+    "iata": "FR",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 20
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 8,
+          "checked1": 25,
+          "checked2": 40,
+          "checked3": 65,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 10,
+          "checked1": 30,
+          "checked2": 50,
+          "checked3": 75,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 20,
+          "checked2": 35,
+          "checked3": 55,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 25,
+          "checked2": 45,
+          "checked3": 65,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 30,
+          "checked3": 50,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 35,
+          "checked3": 55,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 30,
+          "checked3": 50,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 35,
+          "checked3": 55,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "LH": {
+    "name": "Lufthansa",
+    "iata": "LH",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 25,
+          "checked2": 45,
+          "checked3": 90,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 50,
+          "checked2": 100,
+          "checked3": 175,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 40,
+          "checked3": 80,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 80,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 65,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 70,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "classic": {
+          "label": "Economy Classic",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 8,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 8,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 90,
+              "overweightPerKg": 6
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            }
+          }
+        },
+        "flex": {
+          "label": "Economy Flex",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 8,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 8,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 45,
+              "checked3": 90,
+              "overweightPerKg": 6
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "AF": {
+    "name": "Air France",
+    "iata": "AF",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 25,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 50,
+          "checked2": 100,
+          "checked3": 175,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 90,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 85,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 70,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 70,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "standard": {
+          "label": "Standard",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 12,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 12,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 6
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            }
+          }
+        },
+        "flex": {
+          "label": "Flex",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 12,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 12,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 6
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "EK": {
+    "name": "Emirates",
+    "iata": "EK",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "intl_americas": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "intl_africa": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 35
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 40
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 50
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 50
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 60,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 10
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 50,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 60,
+          "overweightPerKg": 10
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 10
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 10
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "saver": {
+          "label": "Saver",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 25
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 25
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "intl_africa": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 60,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        },
+        "flex": {
+          "label": "Flex",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_africa": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 60,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        },
+        "flex_plus": {
+          "label": "Flex Plus",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_africa": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 60,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "QR": {
+    "name": "Qatar Airways",
+    "iata": "QR",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "intl_americas": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "intl_africa": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 35
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 40
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 50
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 50
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 60,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 10
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 50,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 60,
+          "overweightPerKg": 10
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 10
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 10
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "classic": {
+          "label": "Classic",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 25
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 25
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_africa": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 60,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        },
+        "convenience": {
+          "label": "Convenience",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 30
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 30
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_africa": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 60,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        },
+        "comfort": {
+          "label": "Comfort",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 35
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 35
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_africa": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 60,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "EY": {
+    "name": "Etihad Airways",
+    "iata": "EY",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 12,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 40,
+          "checked2": 75,
+          "checked3": 150,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 40,
+          "checked2": 75,
+          "checked3": 150,
+          "overweightPerKg": 10
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 60,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 60,
+          "overweightPerKg": 10
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 10
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 10
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "saver": {
+          "label": "Saver",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 40,
+              "checked3": 75,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 40,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        },
+        "classic": {
+          "label": "Classic",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 30
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 30
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        },
+        "flex": {
+          "label": "Flex",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 35
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 35
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 8
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "SQ": {
+    "name": "Singapore Airlines",
+    "iata": "SQ",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "intl_americas": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 2,
+          "checkedKg": 35
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 40
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 50
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 50
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 55,
+          "overweightPerKg": 7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 70,
+          "overweightPerKg": 10
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 45,
+          "overweightPerKg": 7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 55,
+          "overweightPerKg": 10
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 10
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 10
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "standard": {
+          "label": "Standard",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 30
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 55,
+              "overweightPerKg": 7
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 70,
+              "overweightPerKg": 10
+            }
+          }
+        },
+        "flexi": {
+          "label": "Flexi",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 1,
+              "checkedKg": 35
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "intl_americas": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 7,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 55,
+              "overweightPerKg": 7
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 70,
+              "overweightPerKg": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "TK": {
+    "name": "Turkish Airlines",
+    "iata": "TK",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 2,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 8,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 8,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 8,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 8,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 40,
+          "checked3": 80,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 8
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 65,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 80,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    }
+  },
+  "AC": {
+    "name": "Air Canada",
+    "iata": "AC",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "transborder": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 2,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 5,
+          "cabinBags": 2,
+          "cabinKg": 10,
+          "checkedBags": 3,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 65,
+          "checked1": 30,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 65,
+          "checked1": 50,
+          "checked2": 100,
+          "checked3": 175,
+          "overweightPerKg": 8
+        },
+        "transborder": {
+          "cabin": 65,
+          "checked1": 30,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 90,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 85,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 8
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "standard": {
+          "label": "Standard",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 0,
+              "checkedKg": 0
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "transborder": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 0,
+              "checkedKg": 0
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 30,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            },
+            "transborder": {
+              "cabin": 0,
+              "checked1": 30,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 5
+            }
+          }
+        },
+        "flex": {
+          "label": "Flex",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            },
+            "transborder": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 1,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 8
+            },
+            "transborder": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 50,
+              "checked3": 100,
+              "overweightPerKg": 5
+            }
+          }
+        },
+        "comfort": {
+          "label": "Comfort",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "transborder": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 100,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 100,
+              "overweightPerKg": 8
+            },
+            "transborder": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 100,
+              "overweightPerKg": 5
+            }
+          }
+        }
+      }
+    }
+  }
+}
