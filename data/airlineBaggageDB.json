@@ -1,6 +1,6 @@
 {
-  "_version": "3.1.0",
-  "_updated": "2026-03-12T17:33:22Z",
+  "_version": "1.0.0",
+  "_updated": "2026-03-12T20:14:12Z",
   "6E": {
     "name": "IndiGo",
     "iata": "6E",
@@ -20,8 +20,8 @@
           "personalKg": 3,
           "cabinBags": 1,
           "cabinKg": 7,
-          "checkedBags": 0,
-          "checkedKg": 0
+          "checkedBags": 1,
+          "checkedKg": 15
         },
         "international": {
           "personalBags": 1,
@@ -91,7 +91,7 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 18,
+          "checked1": 0,
           "checked2": 35,
           "checked3": 55,
           "overweightPerKg": 3
@@ -456,159 +456,6 @@
           "checked2": 0,
           "checked3": 0,
           "overweightPerKg": 7
-        }
-      }
-    }
-  },
-  "UK": {
-    "name": "Vistara",
-    "iata": "UK",
-    "icao": "VTI",
-    "country": "India",
-    "alliance": "",
-    "airlineType": "full_service",
-    "dimensions": {
-      "personal": "40x30x15",
-      "cabin": "55x40x20"
-    },
-    "referenceUrl": "https://www.airvistara.com/in/en/travel-information/baggage",
-    "included": {
-      "economy": {
-        "domestic": {
-          "personalBags": 1,
-          "personalKg": 3,
-          "cabinBags": 1,
-          "cabinKg": 7,
-          "checkedBags": 1,
-          "checkedKg": 15
-        },
-        "international": {
-          "personalBags": 1,
-          "personalKg": 3,
-          "cabinBags": 1,
-          "cabinKg": 7,
-          "checkedBags": 1,
-          "checkedKg": 23
-        }
-      },
-      "premium_economy": {
-        "domestic": {
-          "personalBags": 1,
-          "personalKg": 3,
-          "cabinBags": 1,
-          "cabinKg": 7,
-          "checkedBags": 1,
-          "checkedKg": 25
-        },
-        "international": {
-          "personalBags": 1,
-          "personalKg": 3,
-          "cabinBags": 1,
-          "cabinKg": 7,
-          "checkedBags": 2,
-          "checkedKg": 30
-        }
-      },
-      "business": {
-        "domestic": {
-          "personalBags": 1,
-          "personalKg": 5,
-          "cabinBags": 2,
-          "cabinKg": 12,
-          "checkedBags": 2,
-          "checkedKg": 35
-        },
-        "international": {
-          "personalBags": 1,
-          "personalKg": 5,
-          "cabinBags": 2,
-          "cabinKg": 12,
-          "checkedBags": 2,
-          "checkedKg": 40
-        }
-      },
-      "first": {
-        "domestic": {
-          "personalBags": 1,
-          "personalKg": 5,
-          "cabinBags": 2,
-          "cabinKg": 12,
-          "checkedBags": 2,
-          "checkedKg": 35
-        },
-        "international": {
-          "personalBags": 1,
-          "personalKg": 5,
-          "cabinBags": 2,
-          "cabinKg": 12,
-          "checkedBags": 2,
-          "checkedKg": 40
-        }
-      }
-    },
-    "fees": {
-      "economy": {
-        "domestic": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 28,
-          "checked3": 50,
-          "overweightPerKg": 4
-        },
-        "international": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 45,
-          "checked3": 75,
-          "overweightPerKg": 6
-        }
-      },
-      "premium_economy": {
-        "domestic": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
-          "checked3": 40,
-          "overweightPerKg": 4
-        },
-        "international": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
-          "checked3": 55,
-          "overweightPerKg": 6
-        }
-      },
-      "business": {
-        "domestic": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
-          "checked3": 35,
-          "overweightPerKg": 4
-        },
-        "international": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
-          "checked3": 45,
-          "overweightPerKg": 6
-        }
-      },
-      "first": {
-        "domestic": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
-          "checked3": 35,
-          "overweightPerKg": 4
-        },
-        "international": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
-          "checked3": 45,
-          "overweightPerKg": 6
         }
       }
     }
@@ -2168,16 +2015,16 @@
           "personalKg": 5,
           "cabinBags": 1,
           "cabinKg": 10,
-          "checkedBags": 2,
-          "checkedKg": 23
+          "checkedBags": 0,
+          "checkedKg": 0
         },
         "international": {
           "personalBags": 1,
           "personalKg": 5,
           "cabinBags": 1,
           "cabinKg": 10,
-          "checkedBags": 2,
-          "checkedKg": 23
+          "checkedBags": 0,
+          "checkedKg": 0
         }
       },
       "premium_economy": {
@@ -2186,16 +2033,16 @@
           "personalKg": 5,
           "cabinBags": 1,
           "cabinKg": 10,
-          "checkedBags": 2,
-          "checkedKg": 23
+          "checkedBags": 0,
+          "checkedKg": 0
         },
         "international": {
           "personalBags": 1,
           "personalKg": 5,
           "cabinBags": 1,
           "cabinKg": 10,
-          "checkedBags": 2,
-          "checkedKg": 23
+          "checkedBags": 0,
+          "checkedKg": 0
         }
       },
       "business": {
@@ -2239,15 +2086,15 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
+          "checked1": 35,
+          "checked2": 45,
           "checked3": 75,
           "overweightPerKg": 5
         },
         "international": {
           "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
+          "checked1": 35,
+          "checked2": 45,
           "checked3": 75,
           "overweightPerKg": 5
         }
@@ -2255,15 +2102,15 @@
       "premium_economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
+          "checked1": 35,
+          "checked2": 45,
           "checked3": 75,
           "overweightPerKg": 5
         },
         "international": {
           "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
+          "checked1": 35,
+          "checked2": 45,
           "checked3": 75,
           "overweightPerKg": 5
         }
@@ -2298,6 +2145,47 @@
           "checked2": 0,
           "checked3": 75,
           "overweightPerKg": 5
+        }
+      }
+    },
+    "fareTypes": {
+      "economy": {
+        "choice_extra": {
+          "label": "Choice Extra",
+          "included": {
+            "domestic": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 2,
+              "checkedKg": 23
+            },
+            "international": {
+              "personalBags": 1,
+              "personalKg": 5,
+              "cabinBags": 1,
+              "cabinKg": 10,
+              "checkedBags": 2,
+              "checkedKg": 23
+            }
+          },
+          "fees": {
+            "domestic": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 5
+            },
+            "international": {
+              "cabin": 0,
+              "checked1": 0,
+              "checked2": 0,
+              "checked3": 75,
+              "overweightPerKg": 5
+            }
+          }
         }
       }
     }
@@ -3511,7 +3399,7 @@
           "cabinBags": 1,
           "cabinKg": 7,
           "checkedBags": 1,
-          "checkedKg": 20
+          "checkedKg": 30
         },
         "international": {
           "personalBags": 1,
@@ -3519,14 +3407,14 @@
           "cabinBags": 1,
           "cabinKg": 7,
           "checkedBags": 1,
-          "checkedKg": 20
+          "checkedKg": 30
         },
         "intl_americas": {
           "personalBags": 1,
           "personalKg": 5,
           "cabinBags": 1,
           "cabinKg": 7,
-          "checkedBags": 1,
+          "checkedBags": 2,
           "checkedKg": 23
         },
         "intl_africa": {
@@ -3534,7 +3422,7 @@
           "personalKg": 5,
           "cabinBags": 1,
           "cabinKg": 7,
-          "checkedBags": 1,
+          "checkedBags": 2,
           "checkedKg": 23
         }
       },
@@ -3684,7 +3572,7 @@
               "cabinBags": 1,
               "cabinKg": 7,
               "checkedBags": 1,
-              "checkedKg": 25
+              "checkedKg": 30
             },
             "international": {
               "personalBags": 1,
@@ -3692,14 +3580,14 @@
               "cabinBags": 1,
               "cabinKg": 7,
               "checkedBags": 1,
-              "checkedKg": 25
+              "checkedKg": 30
             },
             "intl_americas": {
               "personalBags": 1,
               "personalKg": 5,
               "cabinBags": 1,
               "cabinKg": 7,
-              "checkedBags": 1,
+              "checkedBags": 2,
               "checkedKg": 23
             },
             "intl_africa": {
@@ -3707,7 +3595,7 @@
               "personalKg": 5,
               "cabinBags": 1,
               "cabinKg": 7,
-              "checkedBags": 1,
+              "checkedBags": 2,
               "checkedKg": 23
             }
           },
@@ -4286,16 +4174,16 @@
           "personalKg": 5,
           "cabinBags": 1,
           "cabinKg": 7,
-          "checkedBags": 0,
-          "checkedKg": 0
+          "checkedBags": 1,
+          "checkedKg": 23
         },
         "international": {
           "personalBags": 1,
           "personalKg": 5,
           "cabinBags": 1,
           "cabinKg": 7,
-          "checkedBags": 0,
-          "checkedKg": 0
+          "checkedBags": 1,
+          "checkedKg": 23
         }
       },
       "premium_economy": {
@@ -4357,14 +4245,14 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 40,
+          "checked1": 0,
           "checked2": 75,
           "checked3": 150,
           "overweightPerKg": 8
         },
         "international": {
           "cabin": 0,
-          "checked1": 40,
+          "checked1": 0,
           "checked2": 75,
           "checked3": 150,
           "overweightPerKg": 10
@@ -4600,7 +4488,7 @@
           "cabinBags": 1,
           "cabinKg": 7,
           "checkedBags": 1,
-          "checkedKg": 25
+          "checkedKg": 30
         },
         "international": {
           "personalBags": 1,
@@ -5337,57 +5225,6 @@
       }
     }
   },
-  "G8": {
-    "name": "Go First",
-    "iata": "G8",
-    "icao": "GOW",
-    "country": "India",
-    "alliance": "",
-    "airlineType": "low-cost",
-    "dimensions": {
-      "personal": "",
-      "cabin": "55x35x25"
-    },
-    "referenceUrl": "https://www.flygofirst.com/terms-conditions/",
-    "included": {
-      "economy": {
-        "domestic": {
-          "personalBags": 1,
-          "personalKg": 0,
-          "cabinBags": 1,
-          "cabinKg": 7,
-          "checkedBags": 1,
-          "checkedKg": 15
-        },
-        "international": {
-          "personalBags": 1,
-          "personalKg": 0,
-          "cabinBags": 1,
-          "cabinKg": 7,
-          "checkedBags": 1,
-          "checkedKg": 20
-        }
-      }
-    },
-    "fees": {
-      "economy": {
-        "domestic": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 10.8,
-          "checked3": 12,
-          "overweightPerKg": 0
-        },
-        "international": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 18,
-          "checked3": 24,
-          "overweightPerKg": 0
-        }
-      }
-    }
-  },
   "S5": {
     "name": "Star Air",
     "iata": "S5",
@@ -5443,42 +5280,6 @@
           "personalKg": 0,
           "cabinBags": 1,
           "cabinKg": 5,
-          "checkedBags": 1,
-          "checkedKg": 15
-        }
-      }
-    },
-    "fees": {
-      "economy": {
-        "domestic": {
-          "cabin": 0,
-          "checked1": 0,
-          "checked2": 0,
-          "checked3": 0,
-          "overweightPerKg": 0
-        }
-      }
-    }
-  },
-  "S9": {
-    "name": "FlyBig",
-    "iata": "S9",
-    "icao": "FLG",
-    "country": "India",
-    "alliance": "",
-    "airlineType": "regional",
-    "dimensions": {
-      "personal": "",
-      "cabin": "55x35x25"
-    },
-    "referenceUrl": "Excess baggage INR 500/kg at airport; UDAN regional connectivity scheme operator",
-    "included": {
-      "economy": {
-        "domestic": {
-          "personalBags": 1,
-          "personalKg": 0,
-          "cabinBags": 1,
-          "cabinKg": 7,
           "checkedBags": 1,
           "checkedKg": 15
         }
@@ -10921,7 +10722,7 @@
         },
         "international": {
           "cabin": 0,
-          "checked1": 100,
+          "checked1": 0,
           "checked2": 150,
           "checked3": 200,
           "overweightPerKg": 5
@@ -11039,14 +10840,14 @@
           "cabinBags": 1,
           "cabinKg": 10,
           "checkedBags": 1,
-          "checkedKg": 23
+          "checkedKg": 20
         },
         "international": {
           "personalBags": 1,
           "personalKg": 0,
           "cabinBags": 1,
           "cabinKg": 10,
-          "checkedBags": 1,
+          "checkedBags": 2,
           "checkedKg": 23
         },
         "intl_americas": {
@@ -11065,14 +10866,14 @@
           "cabinBags": 1,
           "cabinKg": 10,
           "checkedBags": 1,
-          "checkedKg": 23
+          "checkedKg": 20
         },
         "international": {
           "personalBags": 1,
           "personalKg": 0,
           "cabinBags": 1,
           "cabinKg": 10,
-          "checkedBags": 1,
+          "checkedBags": 2,
           "checkedKg": 23
         }
       },
@@ -11844,7 +11645,7 @@
         },
         "international": {
           "cabin": 0,
-          "checked1": 68,
+          "checked1": 0,
           "checked2": 135,
           "checked3": 180,
           "overweightPerKg": 5
@@ -12129,7 +11930,7 @@
         },
         "international": {
           "cabin": 0,
-          "checked1": 100,
+          "checked1": 0,
           "checked2": 193,
           "checked3": 280,
           "overweightPerKg": 2.1
@@ -12319,7 +12120,7 @@
         },
         "international": {
           "cabin": 0,
-          "checked1": 100,
+          "checked1": 0,
           "checked2": 200,
           "checked3": 300,
           "overweightPerKg": 2.1
@@ -12509,7 +12310,7 @@
         },
         "international": {
           "cabin": 0,
-          "checked1": 60,
+          "checked1": 0,
           "checked2": 220,
           "checked3": 310,
           "overweightPerKg": 3
@@ -12796,7 +12597,7 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 30,
+          "checked1": 0,
           "checked2": 60,
           "checked3": 90,
           "overweightPerKg": 5
@@ -12987,7 +12788,7 @@
         },
         "international": {
           "cabin": 0,
-          "checked1": 100,
+          "checked1": 0,
           "checked2": 150,
           "checked3": 250,
           "overweightPerKg": 7
@@ -13225,14 +13026,14 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 6,
+          "checked1": 0,
           "checked2": 13,
           "checked3": 19,
           "overweightPerKg": 3
         },
         "international": {
           "cabin": 0,
-          "checked1": 9,
+          "checked1": 0,
           "checked2": 19,
           "checked3": 28,
           "overweightPerKg": 4
@@ -13511,14 +13312,14 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 5,
+          "checked1": 0,
           "checked2": 10,
           "checked3": 15,
           "overweightPerKg": 2.6
         },
         "international": {
           "cabin": 0,
-          "checked1": 10,
+          "checked1": 0,
           "checked2": 20,
           "checked3": 30,
           "overweightPerKg": 4
@@ -13634,7 +13435,7 @@
         },
         "international": {
           "cabin": 0,
-          "checked1": 120,
+          "checked1": 0,
           "checked2": 180,
           "checked3": 250,
           "overweightPerKg": 8
@@ -13793,7 +13594,7 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 23,
+          "checked1": 0,
           "checked2": 46,
           "checked3": 69,
           "overweightPerKg": 4
@@ -14027,7 +13828,7 @@
         },
         "international": {
           "cabin": 0,
-          "checked1": 50,
+          "checked1": 0,
           "checked2": 100,
           "checked3": 150,
           "overweightPerKg": 4
@@ -14213,14 +14014,14 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 98,
+          "checked1": 0,
           "checked2": 98,
           "checked3": 195,
           "overweightPerKg": 39
         },
         "international": {
           "cabin": 0,
-          "checked1": 130,
+          "checked1": 0,
           "checked2": 195,
           "checked3": 260,
           "overweightPerKg": 0
@@ -14386,14 +14187,14 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 111,
+          "checked1": 0,
           "checked2": 111,
           "checked3": 195,
           "overweightPerKg": 72
         },
         "international": {
           "cabin": 0,
-          "checked1": 111,
+          "checked1": 0,
           "checked2": 111,
           "checked3": 195,
           "overweightPerKg": 72
@@ -14652,14 +14453,14 @@
       "economy": {
         "domestic": {
           "cabin": 0,
-          "checked1": 18,
+          "checked1": 0,
           "checked2": 36,
           "checked3": 54,
           "overweightPerKg": 0
         },
         "international": {
           "cabin": 0,
-          "checked1": 60,
+          "checked1": 0,
           "checked2": 102,
           "checked3": 150,
           "overweightPerKg": 0
