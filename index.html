@@ -732,17 +732,65 @@
   <section class="feedback-section" id="feedback">
     <div class="section-header">
       <h2>We'd Love Your Feedback</h2>
-      <p>Found a bug or have an idea? Let us know &mdash; no account needed.</p>
+      <p>Share your thoughts, report a bug, or suggest a feature &mdash; no account needed.</p>
     </div>
 
     <div class="feedback-container">
       <div class="tabs">
-        <button class="tab-btn active" data-tab="bug">Report a Bug</button>
+        <button class="tab-btn active" data-tab="feedback">General Feedback</button>
+        <button class="tab-btn" data-tab="bug">Report a Bug</button>
         <button class="tab-btn" data-tab="feature">Request a Feature</button>
       </div>
 
+      <!-- General Feedback -->
+      <div id="tab-feedback" class="tab-panel active">
+        <div id="feedback-success" class="success-msg">Thanks for your feedback! We appreciate it.</div>
+        <div class="form-card">
+          <form action="https://formsubmit.co/bansalashish2k@gmail.com" method="POST" id="feedback-form">
+            <input type="hidden" name="_subject" value="[BaggageIQ Feedback]">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://aspaceb.github.io/BaggageIQ-hub/#submitted-feedback">
+
+            <div class="form-row">
+              <div>
+                <label>Your Name <span class="optional">(optional)</span></label>
+                <input type="text" name="name" placeholder="Jane Doe">
+              </div>
+              <div>
+                <label>Email <span class="optional">(optional, for follow-up)</span></label>
+                <input type="email" name="email" placeholder="jane@example.com">
+              </div>
+            </div>
+
+            <div>
+              <label>Your Feedback</label>
+              <textarea name="description" placeholder="Tell us what you think about BaggageIQ &mdash; what's working well, what could be better, or anything else on your mind..." required></textarea>
+            </div>
+
+            <div>
+              <label>Rating <span class="optional">(optional)</span></label>
+              <select name="rating">
+                <option value="">How would you rate BaggageIQ?</option>
+                <option value="5 - Love it!">5 — Love it!</option>
+                <option value="4 - Really good">4 — Really good</option>
+                <option value="3 - It's okay">3 — It's okay</option>
+                <option value="2 - Needs work">2 — Needs work</option>
+                <option value="1 - Not useful">1 — Not useful</option>
+              </select>
+            </div>
+
+            <div class="form-note">
+              Your feedback is sent directly to the developer via email. No account or login required.
+            </div>
+
+            <button type="submit" class="submit-btn">Send Feedback</button>
+          </form>
+        </div>
+      </div>
+
       <!-- Bug Report -->
-      <div id="tab-bug" class="tab-panel active">
+      <div id="tab-bug" class="tab-panel">
         <div id="bug-success" class="success-msg">Thanks for reporting! We'll look into it.</div>
         <div class="form-card">
           <form action="https://formsubmit.co/bansalashish2k@gmail.com" method="POST" id="bug-form">
@@ -859,15 +907,20 @@
     });
 
     // Show success message if redirected back after form submission
-    if (window.location.hash === '#submitted-bug') {
+    if (window.location.hash === '#submitted-feedback') {
+      document.getElementById('feedback-success').style.display = 'block';
+      document.getElementById('feedback-form').style.display = 'none';
+      document.querySelectorAll('.tab-btn')[0].click();
+      document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });
+    } else if (window.location.hash === '#submitted-bug') {
       document.getElementById('bug-success').style.display = 'block';
       document.getElementById('bug-form').style.display = 'none';
-      document.querySelectorAll('.tab-btn')[0].click();
+      document.querySelectorAll('.tab-btn')[1].click();
       document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });
     } else if (window.location.hash === '#submitted-feature') {
       document.getElementById('feature-success').style.display = 'block';
       document.getElementById('feature-form').style.display = 'none';
-      document.querySelectorAll('.tab-btn')[1].click();
+      document.querySelectorAll('.tab-btn')[2].click();
       document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });
     }
 
