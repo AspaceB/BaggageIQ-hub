@@ -4,153 +4,501 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BaggageIQ — Smart Flight Pricing with Baggage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
       --teal: #0d9488;
       --teal-dark: #0f766e;
       --teal-light: #ccfbf1;
+      --teal-50: #f0fdfa;
       --blue: #0ea5e9;
+      --indigo: #6366f1;
+      --purple: #8b5cf6;
       --slate-50: #f8fafc;
       --slate-100: #f1f5f9;
       --slate-200: #e2e8f0;
       --slate-300: #cbd5e1;
+      --slate-400: #94a3b8;
       --slate-500: #64748b;
       --slate-600: #475569;
       --slate-700: #334155;
       --slate-800: #1e293b;
       --slate-900: #0f172a;
       --green: #16a34a;
+      --green-light: #dcfce7;
       --amber: #f59e0b;
       --red: #ef4444;
-      --radius: 12px;
+      --radius: 16px;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+      --shadow: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.05);
+      --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       color: var(--slate-800);
       background: var(--slate-50);
       line-height: 1.6;
+      overflow-x: hidden;
     }
 
-    /* ── Header ── */
-    header {
-      background: linear-gradient(135deg, var(--slate-900) 0%, var(--teal-dark) 100%);
+    /* ── Hero ── */
+    .hero {
+      position: relative;
+      background: var(--slate-900);
       color: white;
-      padding: 3rem 1.5rem;
+      padding: 5rem 1.5rem 6rem;
       text-align: center;
+      overflow: hidden;
     }
-    header h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -20%;
+      width: 140%;
+      height: 200%;
+      background: radial-gradient(ellipse at 30% 50%, rgba(13, 148, 136, 0.15) 0%, transparent 60%),
+                  radial-gradient(ellipse at 70% 30%, rgba(99, 102, 241, 0.1) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      height: 80px;
+      background: var(--slate-50);
+      clip-path: ellipse(55% 100% at 50% 100%);
+    }
+    .hero-content { position: relative; z-index: 1; }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 1rem;
+      background: rgba(13, 148, 136, 0.15);
+      border: 1px solid rgba(13, 148, 136, 0.3);
+      border-radius: 50px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--teal-light);
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.03em;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+    .hero h1 .gradient {
+      background: linear-gradient(135deg, var(--teal-light) 0%, #67e8f9 50%, var(--teal-light) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--slate-400);
+      max-width: 560px;
+      margin: 0 auto 2rem;
+      line-height: 1.7;
+    }
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 2rem;
+      background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(13, 148, 136, 0.35);
+    }
+    .hero-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(13, 148, 136, 0.45);
+    }
+    .hero-cta svg { width: 18px; height: 18px; }
+
+    /* ── Stats ── */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      padding: 0 1.5rem;
+      margin-top: -2rem;
+      position: relative;
+      z-index: 2;
+    }
+    .stat {
+      background: white;
+      border-radius: var(--radius);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--slate-100);
+      min-width: 160px;
+    }
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--teal);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--slate-500);
+      font-weight: 500;
+      margin-top: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* ── How it works ── */
+    .how-it-works {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .section-header h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--slate-900);
       letter-spacing: -0.02em;
     }
-    header h1 span { color: var(--teal-light); }
-    header p {
-      font-size: 1.15rem;
-      color: var(--slate-300);
-      max-width: 600px;
-      margin: 0 auto;
+    .section-header p {
+      color: var(--slate-500);
+      font-size: 1.05rem;
+      margin-top: 0.5rem;
+    }
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+    .step-card {
+      position: relative;
+      background: white;
+      border-radius: var(--radius);
+      padding: 2rem 1.5rem 1.5rem;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--slate-100);
+      transition: all 0.3s;
+    }
+    .step-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-xl);
+    }
+    .step-number {
+      position: absolute;
+      top: -12px;
+      left: 1.5rem;
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
+      color: white;
+      border-radius: 50%;
+      font-size: 0.75rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(13, 148, 136, 0.3);
+    }
+    .step-icon {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    .step-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--slate-800);
+      margin-bottom: 0.4rem;
+    }
+    .step-card p {
+      font-size: 0.88rem;
+      color: var(--slate-500);
+      line-height: 1.5;
     }
 
-    /* ── Features strip ── */
-    .features {
+    /* ── Demo badge ── */
+    .demo-section {
+      background: var(--slate-900);
+      padding: 4rem 1.5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .demo-section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at 50% 50%, rgba(13, 148, 136, 0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .demo-section .section-header h2 { color: white; }
+    .demo-section .section-header p { color: var(--slate-400); }
+    .demo-badge-container {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .demo-flight {
+      background: white;
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      min-width: 280px;
+      text-align: left;
+      box-shadow: var(--shadow-xl);
+      position: relative;
+    }
+    .demo-flight .airline {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--slate-700);
+    }
+    .demo-flight .route {
+      font-size: 0.78rem;
+      color: var(--slate-400);
+      margin-top: 0.15rem;
+    }
+    .demo-flight .price-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+    .demo-flight .price {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--slate-900);
+    }
+    .demo-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+    .demo-badge.surcharge {
+      background: #dbeafe;
+      color: #1d4ed8;
+    }
+    .demo-badge.included {
+      background: var(--green-light);
+      color: var(--green);
+    }
+    .demo-score {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: white;
+    }
+    .score-great { background: #22c55e; }
+    .score-fair { background: var(--amber); }
+
+    /* ── Supported sites ── */
+    .sites-section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+    .sites-grid {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 1.5rem;
-      padding: 2rem 1.5rem;
-      max-width: 900px;
-      margin: 0 auto;
+      gap: 1rem;
+      margin-top: 2rem;
     }
-    .feature-card {
+    .site-pill {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.75rem 1.5rem;
       background: white;
       border: 1px solid var(--slate-200);
-      border-radius: var(--radius);
-      padding: 1.25rem 1.5rem;
-      flex: 1 1 240px;
-      max-width: 280px;
-      text-align: center;
-    }
-    .feature-card .icon { font-size: 1.8rem; margin-bottom: 0.5rem; }
-    .feature-card h3 { font-size: 0.95rem; color: var(--slate-700); margin-bottom: 0.25rem; }
-    .feature-card p { font-size: 0.85rem; color: var(--slate-500); }
-
-    /* ── Section ── */
-    .section {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 2.5rem 1.5rem;
-    }
-    .section h2 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: var(--slate-900);
-      margin-bottom: 0.5rem;
-    }
-    .section .subtitle {
-      color: var(--slate-500);
-      margin-bottom: 1.5rem;
+      border-radius: 50px;
       font-size: 0.95rem;
+      color: var(--slate-700);
+      font-weight: 600;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s;
+    }
+    .site-pill:hover {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.08);
+    }
+    .site-pill .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.15);
+    }
+
+    /* ── Install ── */
+    .install-section {
+      background: linear-gradient(180deg, var(--slate-50) 0%, white 100%);
+      padding: 4rem 1.5rem;
+    }
+    .install-card {
+      max-width: 640px;
+      margin: 0 auto;
+      background: white;
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--slate-100);
+    }
+    .install-steps {
+      list-style: none;
+      counter-reset: steps;
+      margin-top: 1.5rem;
+    }
+    .install-steps li {
+      counter-increment: steps;
+      padding: 0.8rem 0 0.8rem 3rem;
+      position: relative;
+      font-size: 0.95rem;
+      color: var(--slate-700);
+      border-left: 2px solid var(--slate-200);
+      margin-left: 0.9rem;
+    }
+    .install-steps li:last-child { border-left-color: transparent; }
+    .install-steps li::before {
+      content: counter(steps);
+      position: absolute;
+      left: -12px;
+      top: 0.65rem;
+      width: 1.55rem;
+      height: 1.55rem;
+      background: var(--teal);
+      color: white;
+      border-radius: 50%;
+      font-size: 0.72rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 4px white;
+    }
+    .install-steps code {
+      background: var(--teal-50);
+      color: var(--teal-dark);
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    /* ── Feedback Section ── */
+    .feedback-section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+    .feedback-container {
+      max-width: 640px;
+      margin: 0 auto;
     }
 
     /* ── Tabs ── */
     .tabs {
       display: flex;
-      gap: 0;
-      border-bottom: 2px solid var(--slate-200);
+      gap: 0.5rem;
       margin-bottom: 1.5rem;
+      background: var(--slate-100);
+      border-radius: 12px;
+      padding: 0.3rem;
     }
     .tab-btn {
       flex: 1;
-      padding: 0.75rem 1rem;
+      padding: 0.7rem 1rem;
       border: none;
       background: none;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       font-weight: 600;
       color: var(--slate-500);
       cursor: pointer;
-      border-bottom: 2px solid transparent;
-      margin-bottom: -2px;
-      transition: all 0.2s;
+      border-radius: 10px;
+      transition: all 0.25s;
     }
-    .tab-btn:hover { color: var(--teal); }
+    .tab-btn:hover { color: var(--slate-700); }
     .tab-btn.active {
-      color: var(--teal);
-      border-bottom-color: var(--teal);
+      color: var(--teal-dark);
+      background: white;
+      box-shadow: var(--shadow-sm);
     }
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
     /* ── Forms ── */
-    form { display: flex; flex-direction: column; gap: 1rem; }
+    .form-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 2rem;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--slate-100);
+    }
+    form { display: flex; flex-direction: column; gap: 1.1rem; }
     label {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       font-weight: 600;
       color: var(--slate-700);
+      display: block;
+      margin-bottom: 0.3rem;
     }
     label span.optional {
       font-weight: 400;
-      color: var(--slate-500);
-      font-size: 0.8rem;
+      color: var(--slate-400);
+      font-size: 0.78rem;
     }
     input, textarea, select {
       width: 100%;
-      padding: 0.65rem 0.85rem;
-      border: 1px solid var(--slate-300);
-      border-radius: 8px;
+      padding: 0.7rem 0.9rem;
+      border: 1.5px solid var(--slate-200);
+      border-radius: 10px;
       font-size: 0.9rem;
       font-family: inherit;
       color: var(--slate-800);
-      background: white;
-      transition: border-color 0.2s;
+      background: var(--slate-50);
+      transition: all 0.2s;
     }
     input:focus, textarea:focus, select:focus {
       outline: none;
       border-color: var(--teal);
-      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
+      background: white;
+      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.08);
     }
     textarea { resize: vertical; min-height: 100px; }
 
@@ -161,287 +509,304 @@
     .form-row > div { flex: 1; }
 
     .submit-btn {
-      padding: 0.75rem 2rem;
-      background: var(--teal);
+      padding: 0.8rem 2rem;
+      background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
       color: white;
       border: none;
-      border-radius: 8px;
+      border-radius: 10px;
       font-size: 0.95rem;
       font-weight: 600;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: all 0.25s;
       align-self: flex-start;
+      box-shadow: 0 2px 8px rgba(13, 148, 136, 0.25);
     }
-    .submit-btn:hover { background: var(--teal-dark); }
+    .submit-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(13, 148, 136, 0.35);
+    }
 
     .form-note {
       font-size: 0.8rem;
       color: var(--slate-500);
-      background: var(--slate-100);
+      background: var(--teal-50);
       padding: 0.75rem 1rem;
-      border-radius: 8px;
+      border-radius: 10px;
       border-left: 3px solid var(--teal);
     }
 
-    /* ── Supported sites ── */
-    .sites {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      margin-top: 1rem;
-    }
-    .site-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.4rem 0.85rem;
-      background: white;
-      border: 1px solid var(--slate-200);
-      border-radius: 20px;
-      font-size: 0.85rem;
-      color: var(--slate-700);
-      font-weight: 500;
-    }
-    .site-badge .dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--green);
-    }
-
-    /* ── Install section ── */
-    .install-steps {
-      list-style: none;
-      counter-reset: steps;
-    }
-    .install-steps li {
-      counter-increment: steps;
-      padding: 0.6rem 0 0.6rem 2.5rem;
-      position: relative;
+    /* ── Success message ── */
+    .success-msg {
+      display: none;
+      background: var(--green-light);
+      border: 1px solid #86efac;
+      color: #166534;
+      padding: 1.25rem;
+      border-radius: 12px;
       font-size: 0.95rem;
-      color: var(--slate-700);
-    }
-    .install-steps li::before {
-      content: counter(steps);
-      position: absolute;
-      left: 0;
-      top: 0.55rem;
-      width: 1.6rem;
-      height: 1.6rem;
-      background: var(--teal);
-      color: white;
-      border-radius: 50%;
-      font-size: 0.75rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .install-steps code {
-      background: var(--slate-100);
-      padding: 0.15rem 0.4rem;
-      border-radius: 4px;
-      font-size: 0.85rem;
-    }
-
-    /* ── Divider ── */
-    .divider {
-      border: none;
-      border-top: 1px solid var(--slate-200);
-      margin: 0;
+      font-weight: 500;
+      text-align: center;
     }
 
     /* ── Footer ── */
     footer {
       text-align: center;
-      padding: 2rem 1.5rem;
-      color: var(--slate-500);
+      padding: 3rem 1.5rem;
+      color: var(--slate-400);
       font-size: 0.85rem;
-    }
-    footer a { color: var(--teal); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-
-    /* ── Success message ── */
-    .success-msg {
-      display: none;
-      background: #dcfce7;
-      border: 1px solid #86efac;
-      color: #166534;
-      padding: 1rem 1.25rem;
-      border-radius: 8px;
-      font-size: 0.95rem;
-      font-weight: 500;
+      border-top: 1px solid var(--slate-200);
     }
 
     /* ── Responsive ── */
-    @media (max-width: 600px) {
-      header h1 { font-size: 1.8rem; }
-      header p { font-size: 1rem; }
+    @media (max-width: 768px) {
+      .hero { padding: 3.5rem 1.5rem 5rem; }
+      .hero h1 { font-size: 2.4rem; }
+      .hero p { font-size: 1.05rem; }
+      .stats { gap: 1rem; flex-wrap: wrap; }
+      .stat { min-width: 120px; padding: 1rem 1.25rem; }
+      .stat-number { font-size: 1.5rem; }
+      .steps-grid { grid-template-columns: 1fr; gap: 1.5rem; }
       .form-row { flex-direction: column; gap: 1rem; }
-      .feature-card { max-width: 100%; }
+      .demo-badge-container { gap: 1rem; }
+      .demo-flight { min-width: 240px; }
     }
   </style>
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <h1><span>BaggageIQ</span></h1>
-    <p>See the real cost of flights with baggage fees included. A free Chrome extension for smarter flight booking.</p>
-  </header>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">CHROME EXTENSION &middot; FREE &middot; v3.1</div>
+      <h1>Stop Overpaying<br>for <span class="gradient">Flight Baggage</span></h1>
+      <p>BaggageIQ reveals the real cost of flights by adding baggage fees directly into your search results. No more surprises at checkout.</p>
+      <a href="#install" class="hero-cta">
+        Get BaggageIQ
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+      </a>
+    </div>
+  </section>
 
-  <!-- Features -->
-  <div class="features">
-    <div class="feature-card">
-      <div class="icon">&#128176;</div>
-      <h3>Real Total Prices</h3>
-      <p>Baggage fees overlaid directly on flight results — no guesswork</p>
+  <!-- Stats -->
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-number">50+</div>
+      <div class="stat-label">Airlines</div>
     </div>
-    <div class="feature-card">
-      <div class="icon">&#9992;&#65039;</div>
-      <h3>50+ Airlines</h3>
-      <p>Covers major carriers across India, US, Europe, Middle East & Asia-Pacific</p>
+    <div class="stat">
+      <div class="stat-number">5</div>
+      <div class="stat-label">Travel Sites</div>
     </div>
-    <div class="feature-card">
-      <div class="icon">&#127919;</div>
-      <h3>Smart Scoring</h3>
-      <p>Ranks flights 1-10 based on price, travel time, or a balanced mix</p>
+    <div class="stat">
+      <div class="stat-number">1-10</div>
+      <div class="stat-label">Smart Score</div>
     </div>
   </div>
 
-  <hr class="divider">
+  <!-- How it works -->
+  <section class="how-it-works">
+    <div class="section-header">
+      <h2>How It Works</h2>
+      <p>Three steps to never overpay for baggage again</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <div class="step-icon">&#128269;</div>
+        <h3>Search Flights</h3>
+        <p>Search on Skyscanner, Kayak, Google Flights, MakeMyTrip, or CheapOAir as you normally would.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <div class="step-icon">&#127890;</div>
+        <h3>See Real Prices</h3>
+        <p>BaggageIQ instantly overlays baggage surcharges next to every flight's price. Hover for the full breakdown.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <div class="step-icon">&#9989;</div>
+        <h3>Book Smarter</h3>
+        <p>Compare flights by true total cost. The "cheapest" flight often isn't once bags are added.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo -->
+  <section class="demo-section">
+    <div class="section-header">
+      <h2>See It In Action</h2>
+      <p>Badges appear right next to each flight's price</p>
+    </div>
+    <div class="demo-badge-container">
+      <div class="demo-flight">
+        <div class="demo-score score-great">8.2</div>
+        <div class="airline">Emirates</div>
+        <div class="route">DXB &rarr; JFK &middot; 14h 10m</div>
+        <div class="price-row">
+          <span class="price">$842</span>
+          <span class="demo-badge surcharge">+$70</span>
+        </div>
+      </div>
+      <div class="demo-flight">
+        <div class="demo-score score-great">9.1</div>
+        <div class="airline">Singapore Airlines</div>
+        <div class="route">SIN &rarr; LAX &middot; 17h 35m</div>
+        <div class="price-row">
+          <span class="price">$1,120</span>
+          <span class="demo-badge included">Bags incl.</span>
+        </div>
+      </div>
+      <div class="demo-flight">
+        <div class="demo-score score-fair">5.4</div>
+        <div class="airline">Spirit Airlines</div>
+        <div class="route">JFK &rarr; MIA &middot; 3h 15m</div>
+        <div class="price-row">
+          <span class="price">$49</span>
+          <span class="demo-badge surcharge">+$83</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Supported Sites -->
-  <div class="section">
-    <h2>Supported Sites</h2>
-    <p class="subtitle">BaggageIQ works on these flight search engines</p>
-    <div class="sites">
-      <span class="site-badge"><span class="dot"></span> Skyscanner</span>
-      <span class="site-badge"><span class="dot"></span> MakeMyTrip</span>
-      <span class="site-badge"><span class="dot"></span> Kayak</span>
-      <span class="site-badge"><span class="dot"></span> Google Flights</span>
-      <span class="site-badge"><span class="dot"></span> CheapOAir</span>
+  <section class="sites-section">
+    <div class="section-header">
+      <h2>Works Everywhere You Search</h2>
+      <p>Supported on the most popular flight search engines</p>
     </div>
-  </div>
-
-  <hr class="divider">
+    <div class="sites-grid">
+      <div class="site-pill"><span class="dot"></span> Skyscanner</div>
+      <div class="site-pill"><span class="dot"></span> MakeMyTrip</div>
+      <div class="site-pill"><span class="dot"></span> Kayak</div>
+      <div class="site-pill"><span class="dot"></span> Google Flights</div>
+      <div class="site-pill"><span class="dot"></span> CheapOAir</div>
+    </div>
+  </section>
 
   <!-- Install -->
-  <div class="section">
-    <h2>Install</h2>
-    <p class="subtitle">Get BaggageIQ running in under a minute</p>
-    <ol class="install-steps">
-      <li>Download the extension from the Chrome Web Store (coming soon) or load it manually</li>
-      <li>Open <code>chrome://extensions/</code> in Chrome</li>
-      <li>Enable <strong>Developer mode</strong> (top-right toggle)</li>
-      <li>Click <strong>Load unpacked</strong> and select the extension folder</li>
-      <li>Pin the BaggageIQ icon in your toolbar — done!</li>
-    </ol>
-  </div>
-
-  <hr class="divider">
+  <section class="install-section" id="install">
+    <div class="install-card">
+      <div class="section-header" style="margin-bottom: 0;">
+        <h2>Get Started</h2>
+        <p>Up and running in under a minute</p>
+      </div>
+      <ol class="install-steps">
+        <li>Download the extension from the Chrome Web Store <em>(coming soon)</em> or load it manually</li>
+        <li>Open <code>chrome://extensions/</code> in Chrome</li>
+        <li>Enable <strong>Developer mode</strong> (top-right toggle)</li>
+        <li>Click <strong>Load unpacked</strong> and select the extension folder</li>
+        <li>Pin the BaggageIQ icon in your toolbar &mdash; done!</li>
+      </ol>
+    </div>
+  </section>
 
   <!-- Feedback Section -->
-  <div class="section" id="feedback">
-    <h2>Feedback</h2>
-    <p class="subtitle">Found a bug or have an idea? Let us know — no account needed.</p>
-
-    <div class="tabs">
-      <button class="tab-btn active" data-tab="bug">Report a Bug</button>
-      <button class="tab-btn" data-tab="feature">Request a Feature</button>
+  <section class="feedback-section" id="feedback">
+    <div class="section-header">
+      <h2>We'd Love Your Feedback</h2>
+      <p>Found a bug or have an idea? Let us know &mdash; no account needed.</p>
     </div>
 
-    <!-- Bug Report -->
-    <div id="tab-bug" class="tab-panel active">
-      <div id="bug-success" class="success-msg">Thanks for reporting! We'll look into it.</div>
-      <form action="https://formsubmit.co/bansalashish2k@gmail.com" method="POST" id="bug-form">
-        <input type="hidden" name="_subject" value="[BaggageIQ Bug Report]">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="https://aspaceb.github.io/BaggageIQ-hub/#submitted-bug">
+    <div class="feedback-container">
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="bug">Report a Bug</button>
+        <button class="tab-btn" data-tab="feature">Request a Feature</button>
+      </div>
 
-        <div class="form-row">
-          <div>
-            <label>Your Name <span class="optional">(optional)</span></label>
-            <input type="text" name="name" placeholder="Jane Doe">
-          </div>
-          <div>
-            <label>Email <span class="optional">(optional, for follow-up)</span></label>
-            <input type="email" name="email" placeholder="jane@example.com">
-          </div>
+      <!-- Bug Report -->
+      <div id="tab-bug" class="tab-panel active">
+        <div id="bug-success" class="success-msg">Thanks for reporting! We'll look into it.</div>
+        <div class="form-card">
+          <form action="https://formsubmit.co/bansalashish2k@gmail.com" method="POST" id="bug-form">
+            <input type="hidden" name="_subject" value="[BaggageIQ Bug Report]">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://aspaceb.github.io/BaggageIQ-hub/#submitted-bug">
+
+            <div class="form-row">
+              <div>
+                <label>Your Name <span class="optional">(optional)</span></label>
+                <input type="text" name="name" placeholder="Jane Doe">
+              </div>
+              <div>
+                <label>Email <span class="optional">(optional, for follow-up)</span></label>
+                <input type="email" name="email" placeholder="jane@example.com">
+              </div>
+            </div>
+
+            <div>
+              <label>Which site were you on?</label>
+              <select name="site">
+                <option value="">Select a site...</option>
+                <option value="Skyscanner">Skyscanner</option>
+                <option value="MakeMyTrip">MakeMyTrip</option>
+                <option value="Kayak">Kayak</option>
+                <option value="Google Flights">Google Flights</option>
+                <option value="CheapOAir">CheapOAir</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label>What happened?</label>
+              <textarea name="description" placeholder="Describe the bug — what did you expect vs what actually happened?" required></textarea>
+            </div>
+
+            <div>
+              <label>Steps to reproduce <span class="optional">(optional)</span></label>
+              <textarea name="steps" rows="3" placeholder="1. Go to Skyscanner&#10;2. Search DEL to BOM&#10;3. Badges don't appear..."></textarea>
+            </div>
+
+            <div class="form-note">
+              Your feedback is sent directly to the developer via email. No account or login required.
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Bug Report</button>
+          </form>
         </div>
+      </div>
 
-        <div>
-          <label>Which site were you on?</label>
-          <select name="site">
-            <option value="">Select a site...</option>
-            <option value="Skyscanner">Skyscanner</option>
-            <option value="MakeMyTrip">MakeMyTrip</option>
-            <option value="Kayak">Kayak</option>
-            <option value="Google Flights">Google Flights</option>
-            <option value="CheapOAir">CheapOAir</option>
-            <option value="Other">Other</option>
-          </select>
+      <!-- Feature Request -->
+      <div id="tab-feature" class="tab-panel">
+        <div id="feature-success" class="success-msg">Thanks for the suggestion! We'll consider it.</div>
+        <div class="form-card">
+          <form action="https://formsubmit.co/bansalashish2k@gmail.com" method="POST" id="feature-form">
+            <input type="hidden" name="_subject" value="[BaggageIQ Feature Request]">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://aspaceb.github.io/BaggageIQ-hub/#submitted-feature">
+
+            <div class="form-row">
+              <div>
+                <label>Your Name <span class="optional">(optional)</span></label>
+                <input type="text" name="name" placeholder="Jane Doe">
+              </div>
+              <div>
+                <label>Email <span class="optional">(optional, for follow-up)</span></label>
+                <input type="email" name="email" placeholder="jane@example.com">
+              </div>
+            </div>
+
+            <div>
+              <label>What feature would you like?</label>
+              <textarea name="description" placeholder="Describe the feature you'd like to see in BaggageIQ..." required></textarea>
+            </div>
+
+            <div>
+              <label>Why would this be useful? <span class="optional">(optional)</span></label>
+              <textarea name="reason" rows="3" placeholder="How would this improve your experience?"></textarea>
+            </div>
+
+            <div class="form-note">
+              Your suggestion is sent directly to the developer via email. No account or login required.
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Feature Request</button>
+          </form>
         </div>
-
-        <div>
-          <label>What happened?</label>
-          <textarea name="description" placeholder="Describe the bug — what did you expect vs what actually happened?" required></textarea>
-        </div>
-
-        <div>
-          <label>Steps to reproduce <span class="optional">(optional)</span></label>
-          <textarea name="steps" rows="3" placeholder="1. Go to Skyscanner&#10;2. Search DEL to BOM&#10;3. Badges don't appear..."></textarea>
-        </div>
-
-        <div class="form-note">
-          Your feedback is sent directly to the developer via email. No account or login required.
-        </div>
-
-        <button type="submit" class="submit-btn">Submit Bug Report</button>
-      </form>
+      </div>
     </div>
-
-    <!-- Feature Request -->
-    <div id="tab-feature" class="tab-panel">
-      <div id="feature-success" class="success-msg">Thanks for the suggestion! We'll consider it.</div>
-      <form action="https://formsubmit.co/bansalashish2k@gmail.com" method="POST" id="feature-form">
-        <input type="hidden" name="_subject" value="[BaggageIQ Feature Request]">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="https://aspaceb.github.io/BaggageIQ-hub/#submitted-feature">
-
-        <div class="form-row">
-          <div>
-            <label>Your Name <span class="optional">(optional)</span></label>
-            <input type="text" name="name" placeholder="Jane Doe">
-          </div>
-          <div>
-            <label>Email <span class="optional">(optional, for follow-up)</span></label>
-            <input type="email" name="email" placeholder="jane@example.com">
-          </div>
-        </div>
-
-        <div>
-          <label>What feature would you like?</label>
-          <textarea name="description" placeholder="Describe the feature you'd like to see in BaggageIQ..." required></textarea>
-        </div>
-
-        <div>
-          <label>Why would this be useful? <span class="optional">(optional)</span></label>
-          <textarea name="reason" rows="3" placeholder="How would this improve your experience?"></textarea>
-        </div>
-
-        <div class="form-note">
-          Your suggestion is sent directly to the developer via email. No account or login required.
-        </div>
-
-        <button type="submit" class="submit-btn">Submit Feature Request</button>
-      </form>
-    </div>
-  </div>
-
-  <hr class="divider">
+  </section>
 
   <!-- Footer -->
   <footer>
@@ -463,16 +828,23 @@
     if (window.location.hash === '#submitted-bug') {
       document.getElementById('bug-success').style.display = 'block';
       document.getElementById('bug-form').style.display = 'none';
-      // Switch to bug tab
       document.querySelectorAll('.tab-btn')[0].click();
       document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });
     } else if (window.location.hash === '#submitted-feature') {
       document.getElementById('feature-success').style.display = 'block';
       document.getElementById('feature-form').style.display = 'none';
-      // Switch to feature tab
       document.querySelectorAll('.tab-btn')[1].click();
       document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });
     }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
   </script>
 </body>
 </html>
