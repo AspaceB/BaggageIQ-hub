@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BaggageIQ — Smart Flight Pricing with Baggage</title>
+  <style>
+    :root {
+      --teal: #0d9488;
+      --teal-dark: #0f766e;
+      --teal-light: #ccfbf1;
+      --blue: #0ea5e9;
+      --slate-50: #f8fafc;
+      --slate-100: #f1f5f9;
+      --slate-200: #e2e8f0;
+      --slate-300: #cbd5e1;
+      --slate-500: #64748b;
+      --slate-600: #475569;
+      --slate-700: #334155;
+      --slate-800: #1e293b;
+      --slate-900: #0f172a;
+      --green: #16a34a;
+      --amber: #f59e0b;
+      --red: #ef4444;
+      --radius: 12px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      color: var(--slate-800);
+      background: var(--slate-50);
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, var(--slate-900) 0%, var(--teal-dark) 100%);
+      color: white;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    header h1 span { color: var(--teal-light); }
+    header p {
+      font-size: 1.15rem;
+      color: var(--slate-300);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* ── Features strip ── */
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 2rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .feature-card {
+      background: white;
+      border: 1px solid var(--slate-200);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      flex: 1 1 240px;
+      max-width: 280px;
+      text-align: center;
+    }
+    .feature-card .icon { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    .feature-card h3 { font-size: 0.95rem; color: var(--slate-700); margin-bottom: 0.25rem; }
+    .feature-card p { font-size: 0.85rem; color: var(--slate-500); }
+
+    /* ── Section ── */
+    .section {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    .section h2 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--slate-900);
+      margin-bottom: 0.5rem;
+    }
+    .section .subtitle {
+      color: var(--slate-500);
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 2px solid var(--slate-200);
+      margin-bottom: 1.5rem;
+    }
+    .tab-btn {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      border: none;
+      background: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--slate-500);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover { color: var(--teal); }
+    .tab-btn.active {
+      color: var(--teal);
+      border-bottom-color: var(--teal);
+    }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Forms ── */
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    label {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--slate-700);
+    }
+    label span.optional {
+      font-weight: 400;
+      color: var(--slate-500);
+      font-size: 0.8rem;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 0.65rem 0.85rem;
+      border: 1px solid var(--slate-300);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-family: inherit;
+      color: var(--slate-800);
+      background: white;
+      transition: border-color 0.2s;
+    }
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
+    }
+    textarea { resize: vertical; min-height: 100px; }
+
+    .form-row {
+      display: flex;
+      gap: 1rem;
+    }
+    .form-row > div { flex: 1; }
+
+    .submit-btn {
+      padding: 0.75rem 2rem;
+      background: var(--teal);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      align-self: flex-start;
+    }
+    .submit-btn:hover { background: var(--teal-dark); }
+
+    .form-note {
+      font-size: 0.8rem;
+      color: var(--slate-500);
+      background: var(--slate-100);
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      border-left: 3px solid var(--teal);
+    }
+
+    /* ── Supported sites ── */
+    .sites {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+    .site-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.4rem 0.85rem;
+      background: white;
+      border: 1px solid var(--slate-200);
+      border-radius: 20px;
+      font-size: 0.85rem;
+      color: var(--slate-700);
+      font-weight: 500;
+    }
+    .site-badge .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+
+    /* ── Install section ── */
+    .install-steps {
+      list-style: none;
+      counter-reset: steps;
+    }
+    .install-steps li {
+      counter-increment: steps;
+      padding: 0.6rem 0 0.6rem 2.5rem;
+      position: relative;
+      font-size: 0.95rem;
+      color: var(--slate-700);
+    }
+    .install-steps li::before {
+      content: counter(steps);
+      position: absolute;
+      left: 0;
+      top: 0.55rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: var(--teal);
+      color: white;
+      border-radius: 50%;
+      font-size: 0.75rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .install-steps code {
+      background: var(--slate-100);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--slate-200);
+      margin: 0;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      color: var(--slate-500);
+      font-size: 0.85rem;
+    }
+    footer a { color: var(--teal); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── Success message ── */
+    .success-msg {
+      display: none;
+      background: #dcfce7;
+      border: 1px solid #86efac;
+      color: #166534;
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      header p { font-size: 1rem; }
+      .form-row { flex-direction: column; gap: 1rem; }
+      .feature-card { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1><span>BaggageIQ</span></h1>
+    <p>See the real cost of flights with baggage fees included. A free Chrome extension for smarter flight booking.</p>
+  </header>
+
+  <!-- Features -->
+  <div class="features">
+    <div class="feature-card">
+      <div class="icon">&#128176;</div>
+      <h3>Real Total Prices</h3>
+      <p>Baggage fees overlaid directly on flight results — no guesswork</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">&#9992;&#65039;</div>
+      <h3>50+ Airlines</h3>
+      <p>Covers major carriers across India, US, Europe, Middle East & Asia-Pacific</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">&#127919;</div>
+      <h3>Smart Scoring</h3>
+      <p>Ranks flights 1-10 based on price, travel time, or a balanced mix</p>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Supported Sites -->
+  <div class="section">
+    <h2>Supported Sites</h2>
+    <p class="subtitle">BaggageIQ works on these flight search engines</p>
+    <div class="sites">
+      <span class="site-badge"><span class="dot"></span> Skyscanner</span>
+      <span class="site-badge"><span class="dot"></span> MakeMyTrip</span>
+      <span class="site-badge"><span class="dot"></span> Kayak</span>
+      <span class="site-badge"><span class="dot"></span> Google Flights</span>
+      <span class="site-badge"><span class="dot"></span> CheapOAir</span>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Install -->
+  <div class="section">
+    <h2>Install</h2>
+    <p class="subtitle">Get BaggageIQ running in under a minute</p>
+    <ol class="install-steps">
+      <li>Download the extension from the Chrome Web Store (coming soon) or load it manually</li>
+      <li>Open <code>chrome://extensions/</code> in Chrome</li>
+      <li>Enable <strong>Developer mode</strong> (top-right toggle)</li>
+      <li>Click <strong>Load unpacked</strong> and select the extension folder</li>
+      <li>Pin the BaggageIQ icon in your toolbar — done!</li>
+    </ol>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Feedback Section -->
+  <div class="section" id="feedback">
+    <h2>Feedback</h2>
+    <p class="subtitle">Found a bug or have an idea? Let us know — no account needed.</p>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="bug">Report a Bug</button>
+      <button class="tab-btn" data-tab="feature">Request a Feature</button>
+    </div>
+
+    <!-- Bug Report -->
+    <div id="tab-bug" class="tab-panel active">
+      <div id="bug-success" class="success-msg">Thanks for reporting! We'll look into it.</div>
+      <form action="https://formsubmit.co/bansalashish2k@gmail.com" method="POST" id="bug-form">
+        <input type="hidden" name="_subject" value="[BaggageIQ Bug Report]">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://aspaceb.github.io/BaggageIQ-hub/#submitted-bug">
+
+        <div class="form-row">
+          <div>
+            <label>Your Name <span class="optional">(optional)</span></label>
+            <input type="text" name="name" placeholder="Jane Doe">
+          </div>
+          <div>
+            <label>Email <span class="optional">(optional, for follow-up)</span></label>
+            <input type="email" name="email" placeholder="jane@example.com">
+          </div>
+        </div>
+
+        <div>
+          <label>Which site were you on?</label>
+          <select name="site">
+            <option value="">Select a site...</option>
+            <option value="Skyscanner">Skyscanner</option>
+            <option value="MakeMyTrip">MakeMyTrip</option>
+            <option value="Kayak">Kayak</option>
+            <option value="Google Flights">Google Flights</option>
+            <option value="CheapOAir">CheapOAir</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div>
+          <label>What happened?</label>
+          <textarea name="description" placeholder="Describe the bug — what did you expect vs what actually happened?" required></textarea>
+        </div>
+
+        <div>
+          <label>Steps to reproduce <span class="optional">(optional)</span></label>
+          <textarea name="steps" rows="3" placeholder="1. Go to Skyscanner&#10;2. Search DEL to BOM&#10;3. Badges don't appear..."></textarea>
+        </div>
+
+        <div class="form-note">
+          Your feedback is sent directly to the developer via email. No account or login required.
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Bug Report</button>
+      </form>
+    </div>
+
+    <!-- Feature Request -->
+    <div id="tab-feature" class="tab-panel">
+      <div id="feature-success" class="success-msg">Thanks for the suggestion! We'll consider it.</div>
+      <form action="https://formsubmit.co/bansalashish2k@gmail.com" method="POST" id="feature-form">
+        <input type="hidden" name="_subject" value="[BaggageIQ Feature Request]">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://aspaceb.github.io/BaggageIQ-hub/#submitted-feature">
+
+        <div class="form-row">
+          <div>
+            <label>Your Name <span class="optional">(optional)</span></label>
+            <input type="text" name="name" placeholder="Jane Doe">
+          </div>
+          <div>
+            <label>Email <span class="optional">(optional, for follow-up)</span></label>
+            <input type="email" name="email" placeholder="jane@example.com">
+          </div>
+        </div>
+
+        <div>
+          <label>What feature would you like?</label>
+          <textarea name="description" placeholder="Describe the feature you'd like to see in BaggageIQ..." required></textarea>
+        </div>
+
+        <div>
+          <label>Why would this be useful? <span class="optional">(optional)</span></label>
+          <textarea name="reason" rows="3" placeholder="How would this improve your experience?"></textarea>
+        </div>
+
+        <div class="form-note">
+          Your suggestion is sent directly to the developer via email. No account or login required.
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Feature Request</button>
+      </form>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Footer -->
+  <footer>
+    <p>BaggageIQ &mdash; Built to help travelers see the real cost of flights.</p>
+    <p style="margin-top: 0.5rem;">
+      <a href="#feedback">Report Bug</a> &middot;
+      <a href="#feedback">Request Feature</a>
+    </p>
+  </footer>
+
+  <script>
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+
+    // Show success message if redirected back after form submission
+    if (window.location.hash === '#submitted-bug') {
+      document.getElementById('bug-success').style.display = 'block';
+      document.getElementById('bug-form').style.display = 'none';
+      // Switch to bug tab
+      document.querySelectorAll('.tab-btn')[0].click();
+      document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });
+    } else if (window.location.hash === '#submitted-feature') {
+      document.getElementById('feature-success').style.display = 'block';
+      document.getElementById('feature-form').style.display = 'none';
+      // Switch to feature tab
+      document.querySelectorAll('.tab-btn')[1].click();
+      document.getElementById('feedback').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
