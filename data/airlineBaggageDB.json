@@ -1,9 +1,18 @@
 {
   "_version": "3.1.0",
-  "_updated": "2026-03-12T16:30:17Z",
+  "_updated": "2026-03-12T17:10:19Z",
   "6E": {
     "name": "IndiGo",
     "iata": "6E",
+    "icao": "IGO",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "low-cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.goindigo.in/baggage/baggage-allowance.html",
     "included": {
       "economy": {
         "domestic": {
@@ -148,6 +157,15 @@
   "SG": {
     "name": "SpiceJet",
     "iata": "SG",
+    "icao": "SEJ",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "low-cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.spicejet.com/baggage-allowance",
     "included": {
       "economy": {
         "domestic": {
@@ -292,6 +310,15 @@
   "AI": {
     "name": "Air India",
     "iata": "AI",
+    "icao": "AIC",
+    "country": "India",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.airindia.com/in/en/manage/baggage-allowance.html",
     "included": {
       "economy": {
         "domestic": {
@@ -436,6 +463,15 @@
   "UK": {
     "name": "Vistara",
     "iata": "UK",
+    "icao": "VTI",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.airvistara.com/in/en/travel-information/baggage",
     "included": {
       "economy": {
         "domestic": {
@@ -580,6 +616,15 @@
   "IX": {
     "name": "Air India Express",
     "iata": "IX",
+    "icao": "AXB",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "low-cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.airindiaexpress.com/baggage",
     "included": {
       "economy": {
         "domestic": {
@@ -724,6 +769,15 @@
   "QP": {
     "name": "Akasa Air",
     "iata": "QP",
+    "icao": "AKJ",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "low-cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.akasaair.com/baggage",
     "included": {
       "economy": {
         "domestic": {
@@ -868,6 +922,15 @@
   "AA": {
     "name": "American Airlines",
     "iata": "AA",
+    "icao": "AAL",
+    "country": "US",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.aa.com/i18n/travel-info/baggage/checked-baggage-policy.jsp",
     "included": {
       "economy": {
         "domestic": {
@@ -1090,6 +1153,15 @@
   "DL": {
     "name": "Delta Air Lines",
     "iata": "DL",
+    "icao": "DAL",
+    "country": "US",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.delta.com/us/en/baggage/overview",
     "included": {
       "economy": {
         "domestic": {
@@ -1275,6 +1347,15 @@
   "UA": {
     "name": "United Airlines",
     "iata": "UA",
+    "icao": "UAL",
+    "country": "US",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "43x25x22",
+      "cabin": "56x35x22"
+    },
+    "referenceUrl": "https://www.united.com/en/us/baggage",
     "included": {
       "economy": {
         "domestic": {
@@ -1497,6 +1578,15 @@
   "B6": {
     "name": "JetBlue",
     "iata": "B6",
+    "icao": "JBU",
+    "country": "US",
+    "alliance": "",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "43x33x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.jetblue.com/traveling-together/baggage",
     "included": {
       "economy": {
         "domestic": {
@@ -1756,6 +1846,15 @@
   "NK": {
     "name": "Spirit Airlines",
     "iata": "NK",
+    "icao": "NKS",
+    "country": "US",
+    "alliance": "",
+    "airlineType": "ultra-low-cost",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.spirit.com/optional-services",
     "included": {
       "economy": {
         "domestic": {
@@ -1900,6 +1999,15 @@
   "F9": {
     "name": "Frontier Airlines",
     "iata": "F9",
+    "icao": "FFT",
+    "country": "US",
+    "alliance": "",
+    "airlineType": "ultra-low-cost",
+    "dimensions": {
+      "personal": "35x20x18",
+      "cabin": "60x40x25"
+    },
+    "referenceUrl": "https://www.flyfrontier.com/travel/travel-info/bag-options/",
     "included": {
       "economy": {
         "domestic": {
@@ -2044,6 +2152,15 @@
   "WN": {
     "name": "Southwest Airlines",
     "iata": "WN",
+    "icao": "SWA",
+    "country": "US",
+    "alliance": "",
+    "airlineType": "low-cost",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "60x40x25"
+    },
+    "referenceUrl": "https://www.southwest.com/html/customer-service/baggage/",
     "included": {
       "economy": {
         "domestic": {
@@ -2188,6 +2305,15 @@
   "AS": {
     "name": "Alaska Airlines",
     "iata": "AS",
+    "icao": "ASA",
+    "country": "US",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "43x35x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.alaskaair.com/content/travel-info/baggage/overview",
     "included": {
       "economy": {
         "domestic": {
@@ -2332,6 +2458,15 @@
   "HA": {
     "name": "Hawaiian Airlines",
     "iata": "HA",
+    "icao": "HAL",
+    "country": "US",
+    "alliance": "",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.hawaiianairlines.com/baggage",
     "included": {
       "economy": {
         "domestic": {
@@ -2476,6 +2611,15 @@
   "BA": {
     "name": "British Airways",
     "iata": "BA",
+    "icao": "BAW",
+    "country": "UK",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x45x25"
+    },
+    "referenceUrl": "https://www.britishairways.com/en-gb/information/baggage-essentials",
     "included": {
       "economy": {
         "domestic": {
@@ -2735,6 +2879,15 @@
   "FR": {
     "name": "Ryanair",
     "iata": "FR",
+    "icao": "RYR",
+    "country": "Ireland",
+    "alliance": "",
+    "airlineType": "ultra-low-cost",
+    "dimensions": {
+      "personal": "40x25x20",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.ryanair.com/gb/en/useful-info/help-centre/fees",
     "included": {
       "economy": {
         "domestic": {
@@ -2879,6 +3032,15 @@
   "LH": {
     "name": "Lufthansa",
     "iata": "LH",
+    "icao": "DLH",
+    "country": "Germany",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.lufthansa.com/de/en/free-baggage-rules",
     "included": {
       "economy": {
         "domestic": {
@@ -3101,6 +3263,15 @@
   "AF": {
     "name": "Air France",
     "iata": "AF",
+    "icao": "AFR",
+    "country": "France",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.airfrance.com/FR/en/local/page_flottante/bagages/baggage-in-cabin.htm",
     "included": {
       "economy": {
         "domestic": {
@@ -3323,6 +3494,15 @@
   "EK": {
     "name": "Emirates",
     "iata": "EK",
+    "icao": "UAE",
+    "country": "UAE",
+    "alliance": "",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "38x30x20",
+      "cabin": "55x38x20"
+    },
+    "referenceUrl": "https://www.emirates.com/english/before-you-fly/baggage/",
     "included": {
       "economy": {
         "domestic": {
@@ -3646,6 +3826,15 @@
   "QR": {
     "name": "Qatar Airways",
     "iata": "QR",
+    "icao": "QTR",
+    "country": "Qatar",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "50x37x25"
+    },
+    "referenceUrl": "https://www.qatarairways.com/en/baggage/allowance.html",
     "included": {
       "economy": {
         "domestic": {
@@ -3969,6 +4158,15 @@
   "EY": {
     "name": "Etihad Airways",
     "iata": "EY",
+    "icao": "ETD",
+    "country": "UAE",
+    "alliance": "",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "50x40x25"
+    },
+    "referenceUrl": "https://www.etihad.com/en/fly-etihad/baggage",
     "included": {
       "economy": {
         "domestic": {
@@ -4252,6 +4450,15 @@
   "SQ": {
     "name": "Singapore Airlines",
     "iata": "SQ",
+    "icao": "SIA",
+    "country": "Singapore",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "55x36x23"
+    },
+    "referenceUrl": "https://www.singaporeair.com/en_UK/us/travel-info/baggage/checked-baggage/",
     "included": {
       "economy": {
         "domestic": {
@@ -4498,6 +4705,15 @@
   "TK": {
     "name": "Turkish Airlines",
     "iata": "TK",
+    "icao": "THY",
+    "country": "Turkey",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.turkishairlines.com/en-int/any-questions/baggage-allowance/",
     "included": {
       "economy": {
         "domestic": {
@@ -4642,6 +4858,15 @@
   "AC": {
     "name": "Air Canada",
     "iata": "AC",
+    "icao": "ACA",
+    "country": "Canada",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "43x33x16",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.aircanada.com/ca/en/aco/home/plan/baggage.html",
     "included": {
       "economy": {
         "domestic": {
@@ -4954,6 +5179,6866 @@
               "overweightPerKg": 5
             }
           }
+        }
+      }
+    }
+  },
+  "G8": {
+    "name": "Go First",
+    "iata": "G8",
+    "icao": "GOW",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "low-cost",
+    "dimensions": {
+      "personal": "",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.flygofirst.com/terms-conditions/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 10.8,
+          "checked3": 12,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 18,
+          "checked3": 24,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "S5": {
+    "name": "Star Air",
+    "iata": "S5",
+    "icao": "SDG",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "regional",
+    "dimensions": {
+      "personal": "",
+      "cabin": "53x35x20"
+    },
+    "referenceUrl": "Regional carrier operating Embraer E175 on domestic routes",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "9I": {
+    "name": "Alliance Air",
+    "iata": "9I",
+    "icao": "LLR",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "regional",
+    "dimensions": {
+      "personal": "",
+      "cabin": "40x30x15"
+    },
+    "referenceUrl": "Shimla routes limited to 10kg checked; excess INR 700/kg at airport",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 5,
+          "checkedBags": 1,
+          "checkedKg": 15
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "S9": {
+    "name": "FlyBig",
+    "iata": "S9",
+    "icao": "FLG",
+    "country": "India",
+    "alliance": "",
+    "airlineType": "regional",
+    "dimensions": {
+      "personal": "",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "Excess baggage INR 500/kg at airport; UDAN regional connectivity scheme operator",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 15
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "SY": {
+    "name": "Sun Country Airlines",
+    "iata": "SY",
+    "icao": "SCX",
+    "country": "US",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "43x33x23",
+      "cabin": "56x46x25"
+    },
+    "referenceUrl": "https://suncountry.com/bags-optional-services",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 45,
+          "checked3": 55,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "G4": {
+    "name": "Allegiant Air",
+    "iata": "G4",
+    "icao": "AAY",
+    "country": "US",
+    "alliance": "none",
+    "airlineType": "ultra_low_cost",
+    "dimensions": {
+      "personal": "36x46x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.allegiantair.com/popup/optional-services-fees",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 22
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 50,
+          "checked2": 50,
+          "checked3": 75,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "MX": {
+    "name": "Breeze Airways",
+    "iata": "MX",
+    "icao": "MXX",
+    "country": "US",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "43x33x20",
+      "cabin": "56x36x48"
+    },
+    "referenceUrl": "https://www.flybreeze.com/bag-pricing",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 45,
+          "checked3": 75,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "XP": {
+    "name": "Avelo Airlines",
+    "iata": "XP",
+    "icao": "XPO",
+    "country": "US",
+    "alliance": "none",
+    "airlineType": "ultra_low_cost",
+    "dimensions": {
+      "personal": "43x25x22",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.aveloair.com/optional-services",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 45,
+          "checked2": 45,
+          "checked3": 100,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "KL": {
+    "name": "KLM",
+    "iata": "KL",
+    "icao": "KLM",
+    "country": "NL",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.klm.com/information/baggage/checked-baggage-allowance",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 12,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 12,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 18,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 18,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 54,
+          "checked3": 162,
+          "overweightPerKg": 81
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 86,
+          "checked3": 216,
+          "overweightPerKg": 108
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 81
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 108
+        }
+      }
+    }
+  },
+  "U2": {
+    "name": "easyJet",
+    "iata": "U2",
+    "icao": "EZY",
+    "country": "GB",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "45x36x20",
+      "cabin": "56x45x25"
+    },
+    "referenceUrl": "https://www.easyjet.com/en/help/baggage/hold-luggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 38,
+          "checked1": 32,
+          "checked2": 54,
+          "checked3": 76,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 44,
+          "checked1": 38,
+          "checked2": 60,
+          "checked3": 82,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "W6": {
+    "name": "Wizz Air",
+    "iata": "W6",
+    "icao": "WZZ",
+    "country": "HU",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x20",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.wizzair.com/en-gb/information-and-services/prices-discounts/all-services-fees",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 38,
+          "checked1": 27,
+          "checked2": 43,
+          "checked3": 65,
+          "overweightPerKg": 14
+        },
+        "international": {
+          "cabin": 44,
+          "checked1": 32,
+          "checked2": 54,
+          "checked3": 76,
+          "overweightPerKg": 14
+        }
+      }
+    }
+  },
+  "VY": {
+    "name": "Vueling",
+    "iata": "VY",
+    "icao": "VLG",
+    "country": "ES",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x20",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.vueling.com/en/vueling-services/prepare-your-trip/luggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 25
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 22,
+          "checked2": 38,
+          "checked3": 54,
+          "overweightPerKg": 13
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 27,
+          "checked2": 43,
+          "checked3": 59,
+          "overweightPerKg": 13
+        }
+      }
+    }
+  },
+  "EW": {
+    "name": "Eurowings",
+    "iata": "EW",
+    "icao": "EWG",
+    "country": "DE",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.eurowings.com/en/information/baggage/checked-baggage.html",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 22,
+          "checked2": 38,
+          "checked3": 54,
+          "overweightPerKg": 16
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 27,
+          "checked2": 43,
+          "checked3": 65,
+          "overweightPerKg": 16
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 16
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 16
+        }
+      }
+    }
+  },
+  "DY": {
+    "name": "Norwegian",
+    "iata": "DY",
+    "icao": "NAX",
+    "country": "NO",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "30x20x38",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.norwegian.com/us/travel-info/baggage/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 48,
+          "checked2": 90,
+          "checked3": 135,
+          "overweightPerKg": 15
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 90,
+          "checked2": 135,
+          "checked3": 180,
+          "overweightPerKg": 15
+        }
+      }
+    }
+  },
+  "IB": {
+    "name": "Iberia",
+    "iata": "IB",
+    "icao": "IBE",
+    "country": "ES",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "30x40x15",
+      "cabin": "56x40x25"
+    },
+    "referenceUrl": "https://www.iberia.com/us/luggage/allowance-in-hold/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 14,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 14,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 54,
+          "checked3": 108,
+          "overweightPerKg": 13
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 70,
+          "checked3": 162,
+          "overweightPerKg": 108
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 162,
+          "overweightPerKg": 108
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 13
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 108
+        }
+      }
+    }
+  },
+  "EI": {
+    "name": "Aer Lingus",
+    "iata": "EI",
+    "icao": "EIN",
+    "country": "IE",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "25x33x20",
+      "cabin": "55x40x24"
+    },
+    "referenceUrl": "https://www.aerlingus.com/prepare/bags/checked-baggage/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 22,
+          "cabinBags": 1,
+          "cabinKg": 22,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 70,
+          "checked3": 105,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 81,
+          "checked3": 162,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "TP": {
+    "name": "TAP Air Portugal",
+    "iata": "TP",
+    "icao": "TAP",
+    "country": "PT",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x25"
+    },
+    "referenceUrl": "https://www.flytap.com/en-us/information/baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 41,
+          "checked3": 97,
+          "overweightPerKg": 13
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 102,
+          "checked3": 216,
+          "overweightPerKg": 22
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 8
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 11
+        }
+      }
+    }
+  },
+  "LO": {
+    "name": "LOT Polish",
+    "iata": "LO",
+    "icao": "LOT",
+    "country": "PL",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x18",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.lot.com",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 65,
+          "checked3": 130,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 108,
+          "checked3": 216,
+          "overweightPerKg": 0
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 216,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "SK": {
+    "name": "SAS Scandinavian",
+    "iata": "SK",
+    "icao": "SAS",
+    "country": "SE",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.flysas.com/us-en/travel-info/baggage/checked",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 43,
+          "checked3": 97,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 75,
+          "checked3": 162,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "AY": {
+    "name": "Finnair",
+    "iata": "AY",
+    "icao": "FIN",
+    "country": "FI",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.finnair.com/us-en/baggage-on-finnair-flights",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 12,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 12,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 65,
+          "checked3": 130,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 119,
+          "checked3": 238,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "LX": {
+    "name": "Swiss",
+    "iata": "LX",
+    "icao": "SWR",
+    "country": "CH",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.swiss.com/us/en/current-fees",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 54,
+          "checked3": 162,
+          "overweightPerKg": 54
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 76,
+          "checked3": 216,
+          "overweightPerKg": 108
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 54
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 108
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 108
+        }
+      }
+    }
+  },
+  "OS": {
+    "name": "Austrian Airlines",
+    "iata": "OS",
+    "icao": "AUA",
+    "country": "AT",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.austrian.com/us/en/free-baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 32,
+          "checked3": 108,
+          "overweightPerKg": 54
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 81,
+          "checked3": 216,
+          "overweightPerKg": 108
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 216,
+          "overweightPerKg": 108
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 54
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 108
+        }
+      }
+    }
+  },
+  "A3": {
+    "name": "Aegean Airlines",
+    "iata": "A3",
+    "icao": "AEE",
+    "country": "GR",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x20",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://en.aegeanair.com/travel-info/travelling-with-aegean/baggage/baggage-allowance/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 13,
+          "cabinBags": 1,
+          "cabinKg": 13,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 13,
+          "cabinBags": 1,
+          "cabinKg": 13,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 38,
+          "checked3": 76,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 54,
+          "checked3": 108,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "PC": {
+    "name": "Pegasus Airlines",
+    "iata": "PC",
+    "icao": "PGT",
+    "country": "TR",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x45x20"
+    },
+    "referenceUrl": "https://www.flypgs.com/en/pegasus-baggage-allowance",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 3,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 22,
+          "checked3": 38,
+          "overweightPerKg": 2
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 54,
+          "checked3": 81,
+          "overweightPerKg": 2
+        }
+      }
+    }
+  },
+  "HV": {
+    "name": "Transavia",
+    "iata": "HV",
+    "icao": "TRA",
+    "country": "NL",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x20",
+      "cabin": "55x40x25"
+    },
+    "referenceUrl": "https://www.transavia.com/help/en-eu/baggage/checked-baggage/fares-checked-baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 10,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 65,
+          "checked1": 22,
+          "checked2": 38,
+          "checked3": 54,
+          "overweightPerKg": 16
+        },
+        "international": {
+          "cabin": 65,
+          "checked1": 27,
+          "checked2": 43,
+          "checked3": 59,
+          "overweightPerKg": 16
+        }
+      }
+    }
+  },
+  "V7": {
+    "name": "Volotea",
+    "iata": "V7",
+    "icao": "VOE",
+    "country": "ES",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x20",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.volotea.com/en/baggage/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 0,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 65,
+          "checked1": 22,
+          "checked2": 38,
+          "checked3": 54,
+          "overweightPerKg": 13
+        },
+        "international": {
+          "cabin": 65,
+          "checked1": 27,
+          "checked2": 43,
+          "checked3": 59,
+          "overweightPerKg": 13
+        }
+      }
+    }
+  },
+  "SN": {
+    "name": "Brussels Airlines",
+    "iata": "SN",
+    "icao": "BEL",
+    "country": "BE",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.brusselsairlines.com/us/en/extra-services/baggage/baggage-calculator",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 54,
+          "checked3": 108,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 76,
+          "checked3": 162,
+          "overweightPerKg": 0
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 162,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "AZ": {
+    "name": "ITA Airways",
+    "iata": "AZ",
+    "icao": "ITY",
+    "country": "IT",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "36x27x15",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.ita-airways.com/en_us/fly-ita/baggage/checked-baggage.html",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 8,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 54,
+          "checked3": 108,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 86,
+          "checked3": 173,
+          "overweightPerKg": 0
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 173,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "DE": {
+    "name": "Condor",
+    "iata": "DE",
+    "icao": "CFG",
+    "country": "DE",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.condor.com/us/flight-preparation/baggage-and-animals/free-baggage-allowance.jsp",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 54,
+          "checked3": 108,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 120,
+          "checked3": 195,
+          "overweightPerKg": 0
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 195,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "SV": {
+    "name": "Saudia",
+    "iata": "SV",
+    "icao": "SVA",
+    "country": "Saudi Arabia",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.saudia.com/before-flying/baggage/baggage-allowances",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 75,
+          "checked3": 150,
+          "overweightPerKg": 15
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 75,
+          "checked3": 150,
+          "overweightPerKg": 15
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 15
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 15
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 15
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 15
+        }
+      }
+    }
+  },
+  "GF": {
+    "name": "Gulf Air",
+    "iata": "GF",
+    "icao": "GFA",
+    "country": "Bahrain",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "50x40x25"
+    },
+    "referenceUrl": "https://www.gulfair.com/help/baggage/baggage-information",
+    "included": {
+      "economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 6,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 9,
+          "checkedBags": 1,
+          "checkedKg": 40
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 100,
+          "checked3": 200,
+          "overweightPerKg": 15
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 200,
+          "overweightPerKg": 15
+        }
+      }
+    }
+  },
+  "WY": {
+    "name": "Oman Air",
+    "iata": "WY",
+    "icao": "OMA",
+    "country": "Oman",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "36x25x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.omanair.com/en/baggage-policy/baggage-allowance",
+    "included": {
+      "economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 50
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 50
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 78,
+          "checked3": 156,
+          "overweightPerKg": 13
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 156,
+          "overweightPerKg": 13
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 156,
+          "overweightPerKg": 13
+        }
+      }
+    }
+  },
+  "XY": {
+    "name": "flynas",
+    "iata": "XY",
+    "icao": "KNE",
+    "country": "Saudi Arabia",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.flynas.com/en/plan-my-trip/baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 27,
+          "checked2": 54,
+          "checked3": 80,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 70,
+          "checked3": 100,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 80,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "FZ": {
+    "name": "flydubai",
+    "iata": "FZ",
+    "icao": "FDB",
+    "country": "United Arab Emirates",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.flydubai.com/en/flying-with-us/baggage/check-in-baggage",
+    "included": {
+      "economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 40
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "international": {
+          "cabin": 55,
+          "checked1": 30,
+          "checked2": 60,
+          "checked3": 120,
+          "overweightPerKg": 11
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 55,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 120,
+          "overweightPerKg": 11
+        }
+      }
+    }
+  },
+  "G9": {
+    "name": "Air Arabia",
+    "iata": "G9",
+    "icao": "ABY",
+    "country": "United Arab Emirates",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.airarabia.com/en/checked-and-hand-baggages",
+    "included": {
+      "economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 11,
+          "checked2": 27,
+          "checked3": 49,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "J9": {
+    "name": "Jazeera Airways",
+    "iata": "J9",
+    "icao": "JZR",
+    "country": "Kuwait",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.jazeeraairways.com/en-kw/add-ons/baggage-allowance",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 15,
+          "checkedBags": 1,
+          "checkedKg": 60
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 33,
+          "checked3": 65,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 33,
+          "checked3": 65,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 65,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "KU": {
+    "name": "Kuwait Airways",
+    "iata": "KU",
+    "icao": "KAC",
+    "country": "Kuwait",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "Economy: 2x23kg. Saver: 1x32kg. Zero Bag fare: 0 pieces. Extra piece KWD 45 (~$146).",
+    "included": {
+      "economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "international": {
+          "cabin": 276,
+          "checked1": 0,
+          "checked2": 146,
+          "checked3": 211,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 276,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 211,
+          "overweightPerKg": 0
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 276,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "ET": {
+    "name": "Ethiopian Airlines",
+    "iata": "ET",
+    "icao": "ETH",
+    "country": "Ethiopia",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.ethiopianairlines.com/information/baggage-information/free-baggage-allowance",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 1,
+          "checked3": 2,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 225,
+          "checked3": 225,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 1,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 225,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "SA": {
+    "name": "South African Airways",
+    "iata": "SA",
+    "icao": "SAA",
+    "country": "South Africa",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.flysaa.com/manage-fly/baggage/checked-baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 17,
+          "checked3": 33,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 62,
+          "checked3": 124,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 17,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 62,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "KQ": {
+    "name": "Kenya Airways",
+    "iata": "KQ",
+    "icao": "KQA",
+    "country": "Kenya",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.kenya-airways.com/en/plan/baggage-information/baggage-allowance/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 75,
+          "checked3": 150,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 50,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "MS": {
+    "name": "EgyptAir",
+    "iata": "MS",
+    "icao": "MSR",
+    "country": "Egypt",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.egyptair.com/en/fly/baggage/pages/baggage-allowance.aspx",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 30,
+          "checked3": 60,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 75,
+          "checked3": 150,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 30,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 75,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "AT": {
+    "name": "Royal Air Maroc",
+    "iata": "AT",
+    "icao": "RAM",
+    "country": "Morocco",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.royalairmaroc.com/us-en/baggage-information",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 65,
+          "checked2": 130,
+          "checked3": 195,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 100,
+          "checked3": 190,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 130,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "WB": {
+    "name": "RwandAir",
+    "iata": "WB",
+    "icao": "RWD",
+    "country": "Rwanda",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.rwandair.com/information/prepare-to-fly/baggage-allowance/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 60,
+          "checked3": 120,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 80,
+          "checked3": 160,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "MK": {
+    "name": "Air Mauritius",
+    "iata": "MK",
+    "icao": "MAU",
+    "country": "Mauritius",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.airmauritius.com/en/before-you-fly/baggage/checked-baggage",
+    "included": {
+      "economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 130,
+          "checked3": 260,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 130,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "CX": {
+    "name": "Cathay Pacific",
+    "iata": "CX",
+    "icao": "CPA",
+    "country": "Hong Kong",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.cathaypacific.com/cx/en_US/baggage/extra-baggage-charges/pay-cash-or-by-credit-card.html",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 15,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 100,
+          "checked3": 200,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 100,
+          "checked2": 150,
+          "checked3": 200,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 100,
+          "checked3": 200,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "NH": {
+    "name": "ANA",
+    "iata": "NH",
+    "icao": "ANA",
+    "country": "Japan",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x25"
+    },
+    "referenceUrl": "https://www.ana.co.jp/en/us/travel-information/baggage-information/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 4.4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 100,
+          "checked3": 200,
+          "overweightPerKg": 4.4
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 4.4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 200,
+          "overweightPerKg": 4.4
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 4.4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 200,
+          "overweightPerKg": 4.4
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 4.4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 4.4
+        }
+      }
+    }
+  },
+  "JL": {
+    "name": "Japan Airlines",
+    "iata": "JL",
+    "icao": "JAL",
+    "country": "Japan",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x25"
+    },
+    "referenceUrl": "https://www.jal.co.jp/jp/en/dom/fare/f_bag/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 45
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6.7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 134,
+          "checked3": 200,
+          "overweightPerKg": 6.7
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6.7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 200,
+          "overweightPerKg": 6.7
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6.7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6.7
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6.7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6.7
+        }
+      }
+    }
+  },
+  "KE": {
+    "name": "Korean Air",
+    "iata": "KE",
+    "icao": "KAL",
+    "country": "South Korea",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.koreanair.com/us/en/airport/baggage/checked/free-allowance",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 180,
+          "checked3": 240,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 180,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 180,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "OZ": {
+    "name": "Asiana Airlines",
+    "iata": "OZ",
+    "icao": "AAR",
+    "country": "South Korea",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://flyasiana.com/C/KR/EN/contents/free-baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 68,
+          "checked2": 135,
+          "checked3": 180,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 135,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "MM": {
+    "name": "Peach Aviation",
+    "iata": "MM",
+    "icao": "APJ",
+    "country": "Japan",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x25"
+    },
+    "referenceUrl": "https://www.flypeach.com/en/lm/fares/fees_and_charges",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 27,
+          "checked2": 54,
+          "checked3": 80,
+          "overweightPerKg": 4.7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 34,
+          "checked2": 67,
+          "checked3": 100,
+          "overweightPerKg": 4.7
+        }
+      }
+    }
+  },
+  "9C": {
+    "name": "Spring Airlines",
+    "iata": "9C",
+    "icao": "CQH",
+    "country": "China",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "30x20x40",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://en.ch.com/flights/excess-baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 14,
+          "checked2": 28,
+          "checked3": 42,
+          "overweightPerKg": 2
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 21,
+          "checked2": 42,
+          "checked3": 63,
+          "overweightPerKg": 3
+        }
+      }
+    }
+  },
+  "CZ": {
+    "name": "China Southern",
+    "iata": "CZ",
+    "icao": "CSN",
+    "country": "China",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.csair.com/en/orders/order/kpxlgd/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 100,
+          "checked2": 193,
+          "checked3": 280,
+          "overweightPerKg": 2.1
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 193,
+          "overweightPerKg": 2.1
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        }
+      }
+    }
+  },
+  "MU": {
+    "name": "China Eastern",
+    "iata": "MU",
+    "icao": "CES",
+    "country": "China",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.ceair.com/global/en_static/Announcement/BaggageService/FreeBaggageAllowanceandSpecifications/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 100,
+          "checked2": 200,
+          "checked3": 300,
+          "overweightPerKg": 2.1
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 200,
+          "overweightPerKg": 2.1
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        }
+      }
+    }
+  },
+  "CA": {
+    "name": "Air China",
+    "iata": "CA",
+    "icao": "CCA",
+    "country": "China",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.airchina.com",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 5,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 5,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 60,
+          "checked2": 220,
+          "checked3": 310,
+          "overweightPerKg": 3
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 220,
+          "overweightPerKg": 3
+        }
+      },
+      "first": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.1
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 3
+        }
+      }
+    }
+  },
+  "7C": {
+    "name": "Jeju Air",
+    "iata": "7C",
+    "icao": "JJA",
+    "country": "South Korea",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.jejuair.net/en/prepare/fare/domesticBenefit.do",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 15,
+          "checked2": 38,
+          "checked3": 60,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 23,
+          "checked2": 53,
+          "checked3": 83,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "TW": {
+    "name": "T'way Air",
+    "iata": "TW",
+    "icao": "TWB",
+    "country": "South Korea",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.twayair.com/app/main",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 15,
+          "checked2": 38,
+          "checked3": 60,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 23,
+          "checked2": 53,
+          "checked3": 83,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "TG": {
+    "name": "Thai Airways",
+    "iata": "TG",
+    "icao": "THA",
+    "country": "Thailand",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x45x25"
+    },
+    "referenceUrl": "https://www.thaiairways.com/en-th/content/baggage/checked-baggage/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 60,
+          "checked3": 90,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 100,
+          "checked3": 200,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 5
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "MH": {
+    "name": "Malaysia Airlines",
+    "iata": "MH",
+    "icao": "MAS",
+    "country": "Malaysia",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.malaysiaairlines.com/us/en/travel-info/baggage.html",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 100,
+          "checked2": 150,
+          "checked3": 250,
+          "overweightPerKg": 7
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 7
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 7
+        }
+      }
+    }
+  },
+  "AK": {
+    "name": "AirAsia",
+    "iata": "AK",
+    "icao": "AXM",
+    "country": "Malaysia",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.airasia.com/aa/about-us/en/gb/fees-and-charges.html",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 15,
+          "checked1": 11,
+          "checked2": 22,
+          "checked3": 33,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 15,
+          "checked1": 18,
+          "checked2": 35,
+          "checked3": 53,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "D7": {
+    "name": "AirAsia X",
+    "iata": "D7",
+    "icao": "XAX",
+    "country": "Malaysia",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.airasia.com/aa/about-us/en/gb/fees-and-charges.html",
+    "included": {
+      "economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 40
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "international": {
+          "cabin": 15,
+          "checked1": 26,
+          "checked2": 44,
+          "checked3": 66,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 44,
+          "checked3": 66,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "JT": {
+    "name": "Lion Air",
+    "iata": "JT",
+    "icao": "LNI",
+    "country": "Indonesia",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "30x20x40",
+      "cabin": "55x40x20"
+    },
+    "referenceUrl": "https://www.lionair.co.id/en/about-us/newsroom/2025/06/30/lion-air-adjusts-checked-baggage-policy-starting-july-17-2025offering-more-practical-travel-options-to-suit-customer-needs",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 10
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 10
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 6,
+          "checked2": 13,
+          "checked3": 19,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 9,
+          "checked2": 19,
+          "checked3": 28,
+          "overweightPerKg": 4
+        }
+      }
+    }
+  },
+  "VJ": {
+    "name": "VietJet Air",
+    "iata": "VJ",
+    "icao": "VJC",
+    "country": "Vietnam",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "36x23x56",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.vietjetair.com/en/flight-tickets/free-20kg-checked-baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 10,
+          "checked2": 18,
+          "checked3": 25,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 15,
+          "checked2": 28,
+          "checked3": 40,
+          "overweightPerKg": 4
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 10,
+          "checked3": 18,
+          "overweightPerKg": 3
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 15,
+          "checked3": 28,
+          "overweightPerKg": 4
+        }
+      }
+    }
+  },
+  "5J": {
+    "name": "Cebu Pacific",
+    "iata": "5J",
+    "icao": "CEB",
+    "country": "Philippines",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "36x23x56",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.cebupacificair.com/en-PH/pages/travel-info/baggage-information",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 14,
+          "checked2": 28,
+          "checked3": 42,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 45,
+          "checked2": 72,
+          "checked3": 100,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "TR": {
+    "name": "Scoot",
+    "iata": "TR",
+    "icao": "SCO",
+    "country": "Singapore",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x30x10",
+      "cabin": "54x38x23"
+    },
+    "referenceUrl": "https://www.flyscoot.com/en/plan/booking-your-flight/baggage",
+    "included": {
+      "economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 15,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 25,
+          "checked2": 50,
+          "checked3": 75,
+          "overweightPerKg": 15
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 38,
+          "checked3": 75,
+          "overweightPerKg": 15
+        }
+      }
+    }
+  },
+  "PG": {
+    "name": "Bangkok Airways",
+    "iata": "PG",
+    "icao": "BKP",
+    "country": "Thailand",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x45x25"
+    },
+    "referenceUrl": "https://www.bangkokair.com/baggage-allowance",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 40
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 40
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 5,
+          "checked2": 10,
+          "checked3": 15,
+          "overweightPerKg": 2.6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 10,
+          "checked2": 20,
+          "checked3": 30,
+          "overweightPerKg": 4
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 10,
+          "checked3": 15,
+          "overweightPerKg": 2.6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 20,
+          "checked3": 30,
+          "overweightPerKg": 4
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2.6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 20,
+          "overweightPerKg": 4
+        }
+      }
+    }
+  },
+  "PR": {
+    "name": "Philippine Airlines",
+    "iata": "PR",
+    "icao": "PAL",
+    "country": "Philippines",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.philippineairlines.com/us/en/before-you-fly/baggage-information/baggage-allowance/baggage-allowance-fees/domestic-flights.html",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 120,
+          "checked2": 180,
+          "checked3": 250,
+          "overweightPerKg": 8
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 6
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 120,
+          "overweightPerKg": 8
+        }
+      }
+    }
+  },
+  "VN": {
+    "name": "Vietnam Airlines",
+    "iata": "VN",
+    "icao": "HVN",
+    "country": "Vietnam",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.vietnamairlines.com/us/en/travel-information/baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 23,
+          "checked2": 46,
+          "checked3": 69,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 100,
+          "checked3": 200,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 4
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "GA": {
+    "name": "Garuda Indonesia",
+    "iata": "GA",
+    "icao": "GIA",
+    "country": "Indonesia",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.garuda-indonesia.com",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 40
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 50
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 50,
+          "checked2": 100,
+          "checked3": 150,
+          "overweightPerKg": 4
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 2
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 4
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 4
+        }
+      }
+    }
+  },
+  "QF": {
+    "name": "Qantas",
+    "iata": "QF",
+    "icao": "QFA",
+    "country": "Australia",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.qantas.com/en-us/baggage/allowances-and-fees",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      },
+      "first": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 98,
+          "checked2": 98,
+          "checked3": 195,
+          "overweightPerKg": 39
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 130,
+          "checked2": 195,
+          "checked3": 260,
+          "overweightPerKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 98,
+          "checked3": 195,
+          "overweightPerKg": 39
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 195,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 195,
+          "overweightPerKg": 39
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      },
+      "first": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "VA": {
+    "name": "Virgin Australia",
+    "iata": "VA",
+    "icao": "VOZ",
+    "country": "Australia",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "48x34x23"
+    },
+    "referenceUrl": "https://www.virginaustralia.com/us/en/travel-info/baggage/checked-baggage/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 111,
+          "checked2": 111,
+          "checked3": 195,
+          "overweightPerKg": 72
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 111,
+          "checked2": 111,
+          "checked3": 195,
+          "overweightPerKg": 72
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 195,
+          "overweightPerKg": 72
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 111,
+          "overweightPerKg": 72
+        }
+      }
+    }
+  },
+  "JQ": {
+    "name": "Jetstar",
+    "iata": "JQ",
+    "icao": "JST",
+    "country": "Australia",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "36x23x56",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.jetstar.com/us/en/help/baggage-allowance",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 0,
+          "checkedKg": 20
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 30
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 30
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 36,
+          "checked2": 52,
+          "checked3": 68,
+          "overweightPerKg": 7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 52,
+          "checked2": 78,
+          "checked3": 104,
+          "overweightPerKg": 10
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 36,
+          "checked3": 52,
+          "overweightPerKg": 7
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 52,
+          "checked3": 78,
+          "overweightPerKg": 10
+        }
+      }
+    }
+  },
+  "NZ": {
+    "name": "Air New Zealand",
+    "iata": "NZ",
+    "icao": "ANZ",
+    "country": "New Zealand",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "40x30x15",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.airnewzealand.com/checked-in-baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 7,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 14,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 18,
+          "checked2": 36,
+          "checked3": 54,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 60,
+          "checked2": 102,
+          "checked3": 150,
+          "overweightPerKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 18,
+          "checked3": 36,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 102,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "WS": {
+    "name": "WestJet",
+    "iata": "WS",
+    "icao": "WJA",
+    "country": "Canada",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "41x33x15",
+      "cabin": "53x38x23"
+    },
+    "referenceUrl": "https://www.westjet.com/en-ca/flights/fees",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 78,
+          "checked3": 74,
+          "overweightPerKg": 74
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 37,
+          "checked2": 78,
+          "checked3": 74,
+          "overweightPerKg": 74
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 74,
+          "overweightPerKg": 74
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 74,
+          "overweightPerKg": 74
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 74,
+          "overweightPerKg": 74
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 74,
+          "overweightPerKg": 74
+        }
+      }
+    }
+  },
+  "F8": {
+    "name": "Flair Airlines",
+    "iata": "F8",
+    "icao": "FLE",
+    "country": "Canada",
+    "alliance": "none",
+    "airlineType": "ultra_low_cost",
+    "dimensions": {
+      "personal": "17x33x15",
+      "cabin": "55x40x22"
+    },
+    "referenceUrl": "https://flyflair.com/travel-info/baggage/allowance-and-fees",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 7,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 7,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 42,
+          "checked1": 57,
+          "checked2": 78,
+          "checked3": 104,
+          "overweightPerKg": 10
+        },
+        "international": {
+          "cabin": 50,
+          "checked1": 65,
+          "checked2": 84,
+          "checked3": 104,
+          "overweightPerKg": 10
+        }
+      }
+    }
+  },
+  "PD": {
+    "name": "Porter Airlines",
+    "iata": "PD",
+    "icao": "POE",
+    "country": "Canada",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "43x33x16",
+      "cabin": "55x40x23"
+    },
+    "referenceUrl": "https://www.flyporter.com/en-us/travel-information/baggage/checked-allowance",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 26,
+          "checked2": 37,
+          "checked3": 74,
+          "overweightPerKg": 15
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 52,
+          "checked3": 74,
+          "overweightPerKg": 15
+        }
+      }
+    }
+  },
+  "LA": {
+    "name": "LATAM Airlines",
+    "iata": "LA",
+    "icao": "LAN",
+    "country": "Chile",
+    "alliance": "oneworld",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.latamairlines.com/us/en/experience/prepare-your-trip/baggage/checked-baggage-fees",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 12,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 16,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 16,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 60,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 70,
+          "checked3": 200,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 200,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "AV": {
+    "name": "Avianca",
+    "iata": "AV",
+    "icao": "AVA",
+    "country": "Colombia",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x25",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.avianca.com/en/information-and-help/baggage/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 15,
+          "checked2": 35,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 40,
+          "checked2": 80,
+          "checked3": 180,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "CM": {
+    "name": "Copa Airlines",
+    "iata": "CM",
+    "icao": "CMP",
+    "country": "Panama",
+    "alliance": "Star Alliance",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.copaair.com/en-us/travel-information/baggage-information/checked-baggage/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 45,
+          "checked3": 180,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 45,
+          "checked3": 180,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "Y4": {
+    "name": "Volaris",
+    "iata": "Y4",
+    "icao": "VOI",
+    "country": "Mexico",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "45x35x25",
+      "cabin": "55x40x25"
+    },
+    "referenceUrl": "https://cms.volaris.com/en/travel-info/baggage-policy/",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 25
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 25,
+          "checked1": 35,
+          "checked2": 55,
+          "checked3": 95,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 25,
+          "checked1": 45,
+          "checked2": 65,
+          "checked3": 95,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "VB": {
+    "name": "VivaAerobus",
+    "iata": "VB",
+    "icao": "VIV",
+    "country": "Mexico",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "55x40x25"
+    },
+    "referenceUrl": "https://www.vivaaerobus.com/en-us/info/get-ready-to-fly/baggage-policies",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 25
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 25
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 20,
+          "checked1": 30,
+          "checked2": 50,
+          "checked3": 85,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 20,
+          "checked1": 40,
+          "checked2": 60,
+          "checked3": 100,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "AM": {
+    "name": "Aeromexico",
+    "iata": "AM",
+    "icao": "AMX",
+    "country": "Mexico",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "56x36x23"
+    },
+    "referenceUrl": "https://www.aeromexico.com/en-us/travel-information/baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 18,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 35,
+          "checked2": 55,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 30,
+          "checked2": 55,
+          "checked3": 150,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 55,
+          "checked3": 150,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "G3": {
+    "name": "GOL",
+    "iata": "G3",
+    "icao": "GLO",
+    "country": "Brazil",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.voegol.com.br/en/information/baggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 5,
+          "checked1": 20,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 8,
+          "checked1": 40,
+          "checked2": 50,
+          "checked3": 100,
+          "overweightPerKg": 0
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 5,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 8,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 100,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "AD": {
+    "name": "Azul Brazilian Airlines",
+    "iata": "AD",
+    "icao": "AZU",
+    "country": "Brazil",
+    "alliance": "none",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "56x35x25"
+    },
+    "referenceUrl": "https://www.voeazul.com.br/us/en/your-trip/plan/luggage",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 10,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 5,
+          "checked1": 10,
+          "checked2": 20,
+          "checked3": 95,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 8,
+          "checked1": 0,
+          "checked2": 95,
+          "checked3": 150,
+          "overweightPerKg": 0
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 5,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 8,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "H2": {
+    "name": "SKY Airline",
+    "iata": "H2",
+    "icao": "SKU",
+    "country": "Chile",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "45x35x25",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://qeepl.com/en/blog/complete-guide-to-sky-airline-baggage-policy-and-other-rules",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 22,
+          "checked2": 34,
+          "checked3": 100,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 42,
+          "checked2": 52,
+          "checked3": 150,
+          "overweightPerKg": 5
+        }
+      }
+    }
+  },
+  "JA": {
+    "name": "JetSMART",
+    "iata": "JA",
+    "icao": "JAT",
+    "country": "Chile",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "45x35x25",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://jetsmart.com/us/en/opcionales",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 35,
+          "checked1": 25,
+          "checked2": 40,
+          "checked3": 100,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 35,
+          "checked1": 35,
+          "checked2": 50,
+          "checked3": 120,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "P5": {
+    "name": "Wingo",
+    "iata": "P5",
+    "icao": "RPB",
+    "country": "Colombia",
+    "alliance": "none",
+    "airlineType": "low_cost",
+    "dimensions": {
+      "personal": "40x35x25",
+      "cabin": "55x45x25"
+    },
+    "referenceUrl": "https://www.wingo.com/en/help-center/optional-services/services-and-fees",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 6,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 6,
+          "cabinBags": 0,
+          "cabinKg": 10,
+          "checkedBags": 0,
+          "checkedKg": 23
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 25,
+          "checked2": 45,
+          "checked3": 85,
+          "overweightPerKg": 0
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 40,
+          "checked2": 65,
+          "checked3": 115,
+          "overweightPerKg": 0
+        }
+      }
+    }
+  },
+  "AR": {
+    "name": "Aerolineas Argentinas",
+    "iata": "AR",
+    "icao": "ARG",
+    "country": "Argentina",
+    "alliance": "SkyTeam",
+    "airlineType": "full_service",
+    "dimensions": {
+      "personal": "45x35x20",
+      "cabin": "55x35x25"
+    },
+    "referenceUrl": "https://www.aerolineas.com.ar",
+    "included": {
+      "economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 15
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 23
+        }
+      },
+      "business": {
+        "domestic": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        },
+        "international": {
+          "personalBags": 1,
+          "personalKg": 0,
+          "cabinBags": 1,
+          "cabinKg": 8,
+          "checkedBags": 1,
+          "checkedKg": 32
+        }
+      }
+    },
+    "fees": {
+      "economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 30,
+          "checked3": 120,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 40,
+          "checked3": 150,
+          "overweightPerKg": 5
+        }
+      },
+      "premium_economy": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 120,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 150,
+          "overweightPerKg": 5
+        }
+      },
+      "business": {
+        "domestic": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
+        },
+        "international": {
+          "cabin": 0,
+          "checked1": 0,
+          "checked2": 0,
+          "checked3": 0,
+          "overweightPerKg": 5
         }
       }
     }
