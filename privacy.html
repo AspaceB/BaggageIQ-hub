@@ -7,9 +7,9 @@
   <meta name="description" content="How BaggageIQ handles your data. Short answer: almost none of it leaves your browser.">
   <link rel="canonical" href="https://baggageiq.app/privacy.html">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Privacy-friendly fonts via Bunny Fonts (GDPR-compliant Google Fonts mirror) -->
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
+  <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700|jetbrains-mono:400,500,700|inter:400,500,600,700,800&display=swap" rel="stylesheet">
 
   <style>
     /* ═══════════════════════════════════════════════════════════
@@ -437,9 +437,10 @@
     </a>
     <div class="nav-links">
       <a href="index.html" class="nav-link">Home</a>
+      <a href="pricing.html" class="nav-link">Pricing</a>
       <a href="blog/index.html" class="nav-link">Blog</a>
-      <a href="index.html#install" class="nav-link">Install</a>
       <a href="privacy.html" class="nav-link">Privacy</a>
+      <a href="terms.html" class="nav-link">Terms</a>
     </div>
   </nav>
 
@@ -520,12 +521,66 @@
       <h2>Feedback forms</h2>
       <p>If you voluntarily submit the feedback, bug report, or feature request forms on this website, the information you type (name, email, message) is sent via <a href="https://formsubmit.co" target="_blank" rel="noopener">FormSubmit.co</a> to the developer's email. The forms work without providing a name or email — those fields are optional and only used if you want a reply. Nothing from these forms is linked to your extension usage.</p>
 
+      <h2>BaggageIQ Pro — payment processing</h2>
+      <p>BaggageIQ Pro is sold through <b>Paddle</b> (<a href="https://paddle.com" target="_blank" rel="noopener">paddle.com</a>) as our <b>merchant of record</b>. When you purchase a Pro licence:</p>
+      <ul>
+        <li>You enter your payment details <b>directly on Paddle's checkout</b>, not on BaggageIQ's site. BaggageIQ never sees your card number, CVV, or full billing address.</li>
+        <li>Paddle collects and processes the data required to complete the sale: name, email, billing country, IP address, and payment instrument. Paddle is the data controller for this payment data under their own <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener">privacy policy</a>.</li>
+        <li>BaggageIQ receives only a confirmation that the sale went through, a transaction ID, your email (so we can send you the licence token), your country code (for tax records), and the licence token itself.</li>
+        <li>Paddle handles VAT / sales tax collection and remittance globally, issues invoices, and processes refunds.</li>
+        <li>We retain the minimal transaction record (email, licence token, country, purchase date) for the period required by tax law — typically 7–10 years depending on jurisdiction.</li>
+      </ul>
+      <p>If you request a refund under the 14-day money-back guarantee, contact <a href="mailto:support@baggageiq.app">support@baggageiq.app</a> and we'll process it through Paddle. The refund triggers your licence to be revoked and your licence token deactivated.</p>
+
+      <h2>Legal basis for processing (GDPR Art. 6)</h2>
+      <p>Under the EU/UK General Data Protection Regulation, each processing activity needs a legal basis. Ours:</p>
+      <ul>
+        <li><b>Running the extension on your device</b> — Article 6(1)(b), performance of a contract with you (you install the extension, we provide the service). No personal data leaves your device here.</li>
+        <li><b>Remote database fetches</b> (airline DB, card benefits DB, FX rates) — Article 6(1)(f), legitimate interest in delivering an accurate service. The requests are anonymous static-file GETs and contain no personal data.</li>
+        <li><b>Opt-in telemetry</b> — Article 6(1)(a), consent. You explicitly turn the toggle on; you can withdraw consent at any time by turning it off.</li>
+        <li><b>Feedback forms</b> — Article 6(1)(a), consent (you voluntarily submit). And 6(1)(f) legitimate interest in improving the product when we read the feedback.</li>
+        <li><b>Corrections submissions</b> (Report wrong fee) — Article 6(1)(a), consent (you explicitly click submit), and 6(1)(f) legitimate interest in maintaining an accurate fee database.</li>
+        <li><b>BaggageIQ Pro purchases</b> — Article 6(1)(b), performance of a contract (completing the sale and delivering your licence). Paddle is the processor and joint controller for payment data.</li>
+        <li><b>Tax record retention</b> — Article 6(1)(c), legal obligation under applicable tax law (typically 7–10 years).</li>
+      </ul>
+
+      <h2>Data retention</h2>
+      <p>We keep as little data for as short a time as possible:</p>
+      <ul>
+        <li><b>Extension preferences</b> (bag counts, wallet cards, license token, site toggles) — stored in your Chrome profile until you uninstall the extension or clear the data yourself. We have no copy on any server.</li>
+        <li><b>Anonymous telemetry events</b> (if opted in) — aggregated daily; individual event records deleted after 90 days. The aggregate counters (parser success rates per site) are kept indefinitely but contain no personal data.</li>
+        <li><b>Feedback / bug / feature form submissions</b> — kept in the developer's email inbox. You can ask us to delete yours by emailing <a href="mailto:support@baggageiq.app">support@baggageiq.app</a>.</li>
+        <li><b>Corrections submissions</b> — kept in the corrections database indefinitely as part of the fee research pipeline. Your anonymous client ID is the only "identifier"; we have no way to tie it back to you.</li>
+        <li><b>Pro purchase records</b> — email + licence token + country + date kept for the period required by tax law (typically 7–10 years).</li>
+      </ul>
+
+      <h2>Your rights (GDPR Art. 15–22)</h2>
+      <p>If you're in the EU, UK, or another jurisdiction with similar data-protection law, you have these rights over personal data we process about you:</p>
+      <ul>
+        <li><b>Right of access</b> — ask us what personal data we hold on you. For most users the answer is "none"; Pro customers: it's your email, licence token, country, and purchase date.</li>
+        <li><b>Right to rectification</b> — ask us to correct any inaccurate data.</li>
+        <li><b>Right to erasure</b> ("right to be forgotten") — ask us to delete your data. For Pro purchases, we'll delete what we can, but tax-retention obligations may require us to keep the transaction record for up to 10 years.</li>
+        <li><b>Right to data portability</b> — ask for a copy of your data in a machine-readable format.</li>
+        <li><b>Right to object</b> — object to processing based on legitimate interest. For telemetry, this is a one-click toggle in the popup.</li>
+        <li><b>Right to withdraw consent</b> — turn off the telemetry toggle, or email us to withdraw from any consent-based processing. Withdrawing consent doesn't affect processing that already happened lawfully before withdrawal.</li>
+        <li><b>Right to lodge a complaint</b> — with your national data protection authority. For India, that's the Data Protection Board (<a href="https://www.meity.gov.in/data-protection-framework" target="_blank" rel="noopener">Ministry of Electronics & IT</a>). For the EU, it's the DPA in your member state. For the UK, it's the <a href="https://ico.org.uk" target="_blank" rel="noopener">Information Commissioner's Office (ICO)</a>.</li>
+      </ul>
+      <p>To exercise any of these rights, email <a href="mailto:support@baggageiq.app">support@baggageiq.app</a>. We aim to respond within 30 days as required by GDPR Art. 12(3).</p>
+
+      <h2>Data controller</h2>
+      <p>The data controller for BaggageIQ is the project's maintainer, contactable at <a href="mailto:support@baggageiq.app">support@baggageiq.app</a>. For BaggageIQ Pro purchases, <b>Paddle.com Market Ltd.</b> is the merchant of record and a joint controller for payment data.</p>
+
+      <h2>Cookies</h2>
+      <p>The BaggageIQ website (<code>baggageiq.app</code>) <b>does not set any cookies of its own</b>. We don't use analytics, no tag managers, no advertising pixels, no tracking. There is no cookie banner because there is nothing for you to accept. The extension itself also sets no cookies — it uses <code>chrome.storage.sync</code> for preferences, which is internal to your Chrome profile and not a web cookie.</p>
+
       <h2>Third-party services</h2>
       <p>The extension itself uses no third-party SDKs. This landing page uses:</p>
       <ul>
-        <li><b>Google Fonts</b> — for the Space Grotesk, JetBrains Mono, and Inter typefaces</li>
-        <li><b>FormSubmit.co</b> — for processing feedback form submissions</li>
-        <li><b>images.kiwi.com</b> — public airline-logo CDN used by the extension tooltip; each logo request contains the airline IATA code only (e.g. <code>DL.png</code>)</li>
+        <li><b>Bunny Fonts</b> (<code>fonts.bunny.net</code>) — a GDPR-compliant, EU-hosted drop-in replacement for Google Fonts that does not log IPs, does not set cookies, and does not track visitors. Used for the Space Grotesk, JetBrains Mono, and Inter typefaces.</li>
+        <li><b>FormSubmit.co</b> — processes feedback / bug / feature form submissions only when you voluntarily submit one.</li>
+        <li><b>Paddle</b> (<code>paddle.com</code>) — merchant of record for BaggageIQ Pro purchases. Paddle handles billing, tax, invoices, and refunds.</li>
+        <li><b>images.kiwi.com</b> — public airline-logo CDN used by the extension tooltip; each logo request contains the airline IATA code only (e.g. <code>DL.png</code>).</li>
+        <li><b>GitHub Pages</b> — hosts the website and the remote database snapshots. GitHub may log IPs when you visit the site; see GitHub's <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">privacy statement</a>.</li>
       </ul>
 
       <h2>Changes to this policy</h2>
@@ -548,9 +603,11 @@
       </div>
       <div class="footer-links">
         <a href="index.html">Home</a>
+        <a href="pricing.html">Pricing</a>
         <a href="blog/index.html">Blog</a>
         <a href="index.html#install">Install</a>
         <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
       </div>
     </div>
     <div class="footer-rule"></div>
