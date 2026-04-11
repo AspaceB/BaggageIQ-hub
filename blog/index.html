@@ -4,333 +4,170 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO Meta Tags -->
+  <!-- SEO -->
   <title>BaggageIQ Blog — Airline Baggage Tips, Fee Comparisons & Travel Guides</title>
   <meta name="description" content="Expert guides on airline baggage fees, tips to avoid surprise charges, and comparisons of baggage policies across airlines. Save money on your next flight.">
-  <meta name="keywords" content="airline baggage fees, baggage tips, flight cost comparison, checked bag fees, carry-on rules, budget airline fees, BaggageIQ blog">
+  <meta name="keywords" content="airline baggage fees, baggage tips, flight cost comparison, checked bag fees, carry-on rules, budget airline fees">
   <meta name="author" content="BaggageIQ">
 
-  <!-- Open Graph Tags -->
-  <meta property="og:title" content="BaggageIQ Blog — Airline Baggage Tips, Fee Comparisons & Travel Guides">
-  <meta property="og:description" content="Expert guides on airline baggage fees, tips to avoid surprise charges, and comparisons of baggage policies across airlines.">
+  <meta property="og:title" content="BaggageIQ Blog — Airline Baggage Tips & Fee Comparisons">
+  <meta property="og:description" content="Guides on airline baggage fees, tips to avoid surprise charges, and comparisons across airlines.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://aspaceb.github.io/BaggageIQ-hub/blog/">
-  <meta property="og:image" content="https://aspaceb.github.io/BaggageIQ-hub/og-image.png">
+  <meta property="og:url" content="https://baggageiq.app/blog/">
+  <meta property="og:image" content="https://baggageiq.app/og-image.png">
   <meta property="og:site_name" content="BaggageIQ">
 
-  <!-- Twitter Card Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="BaggageIQ Blog — Airline Baggage Tips, Fee Comparisons & Travel Guides">
-  <meta name="twitter:description" content="Expert guides on airline baggage fees, tips to avoid surprise charges, and comparisons of baggage policies across airlines.">
-  <meta name="twitter:image" content="https://aspaceb.github.io/BaggageIQ-hub/og-image.png">
+  <meta name="twitter:title" content="BaggageIQ Blog">
+  <meta name="twitter:description" content="Airline baggage tips & fee comparisons.">
+  <meta name="twitter:image" content="https://baggageiq.app/og-image.png">
 
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://aspaceb.github.io/BaggageIQ-hub/blog/">
+  <link rel="canonical" href="https://baggageiq.app/blog/">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "BaggageIQ Blog",
-    "description": "Expert guides on airline baggage fees, tips to avoid surprise charges, and comparisons of baggage policies across airlines.",
-    "url": "https://aspaceb.github.io/BaggageIQ-hub/blog/",
+    "description": "Guides on airline baggage fees and flight cost comparisons.",
+    "url": "https://baggageiq.app/blog/",
     "publisher": {
       "@type": "Organization",
       "name": "BaggageIQ",
-      "url": "https://aspaceb.github.io/BaggageIQ-hub/"
+      "url": "https://baggageiq.app/"
     }
   }
   </script>
 
-  <style>
-    :root {
-      --teal: #0d9488;
-      --teal-dark: #0f766e;
-      --teal-light: #ccfbf1;
-      --teal-50: #f0fdfa;
-      --blue: #0ea5e9;
-      --indigo: #6366f1;
-      --purple: #8b5cf6;
-      --slate-50: #f8fafc;
-      --slate-100: #f1f5f9;
-      --slate-200: #e2e8f0;
-      --slate-300: #cbd5e1;
-      --slate-400: #94a3b8;
-      --slate-500: #64748b;
-      --slate-600: #475569;
-      --slate-700: #334155;
-      --slate-800: #1e293b;
-      --slate-900: #0f172a;
-      --green: #16a34a;
-      --green-light: #dcfce7;
-      --amber: #f59e0b;
-      --red: #ef4444;
-      --radius: 16px;
-      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-      --shadow: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
-      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.05);
-      --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
-    }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      color: var(--slate-800);
-      background: var(--slate-50);
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    /* -- Nav bar -- */
-    .nav {
-      background: var(--slate-900);
-      padding: 1rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .nav-brand {
-      font-size: 1.1rem;
-      font-weight: 800;
-      color: white;
-      text-decoration: none;
-      letter-spacing: -0.02em;
-    }
-    .nav-brand span {
-      background: linear-gradient(135deg, var(--teal-light) 0%, #67e8f9 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .nav-link {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--slate-400);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .nav-link:hover { color: white; }
-
-    /* -- Blog hero -- */
-    .blog-hero {
-      background: var(--slate-900);
-      color: white;
-      padding: 3rem 1.5rem 4rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .blog-hero::before {
-      content: '';
-      position: absolute;
-      top: -50%; left: -20%;
-      width: 140%; height: 200%;
-      background: radial-gradient(ellipse at 30% 50%, rgba(13, 148, 136, 0.15) 0%, transparent 60%),
-                  radial-gradient(ellipse at 70% 30%, rgba(99, 102, 241, 0.1) 0%, transparent 50%);
-      pointer-events: none;
-    }
-    .blog-hero::after {
-      content: '';
-      position: absolute;
-      bottom: -2px; left: 0; right: 0;
-      height: 60px;
-      background: var(--slate-50);
-      clip-path: ellipse(55% 100% at 50% 100%);
-    }
-    .blog-hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: 720px;
-      margin: 0 auto;
-    }
-    .blog-hero .tag {
-      display: inline-block;
-      padding: 0.3rem 0.9rem;
-      background: rgba(13, 148, 136, 0.15);
-      border: 1px solid rgba(13, 148, 136, 0.3);
-      border-radius: 50px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--teal-light);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      margin-bottom: 1.25rem;
-    }
-    .blog-hero h1 {
-      font-size: 2.6rem;
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      line-height: 1.15;
-      margin-bottom: 1rem;
-    }
-    .blog-hero .subtitle {
-      font-size: 1.1rem;
-      color: var(--slate-400);
-      line-height: 1.7;
-    }
-
-    /* -- Blog cards -- */
-    .blog-grid {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 3rem 1.5rem 4rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 2rem;
-    }
-    .blog-card {
-      background: white;
-      border-radius: var(--radius);
-      padding: 1.75rem;
-      box-shadow: var(--shadow);
-      border: 1px solid var(--slate-100);
-      transition: all 0.3s;
-      display: flex;
-      flex-direction: column;
-      text-decoration: none;
-      color: inherit;
-    }
-    .blog-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-xl);
-    }
-    .blog-card .card-tag {
-      display: inline-block;
-      padding: 0.2rem 0.7rem;
-      background: var(--teal-50);
-      border: 1px solid rgba(13, 148, 136, 0.15);
-      border-radius: 50px;
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: var(--teal-dark);
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      margin-bottom: 0.75rem;
-      align-self: flex-start;
-    }
-    .blog-card h2 {
-      font-size: 1.15rem;
-      font-weight: 800;
-      color: var(--slate-900);
-      letter-spacing: -0.02em;
-      line-height: 1.3;
-      margin-bottom: 0.5rem;
-    }
-    .blog-card p {
-      font-size: 0.9rem;
-      color: var(--slate-500);
-      line-height: 1.6;
-      flex: 1;
-      margin-bottom: 1rem;
-    }
-    .blog-card .card-date {
-      font-size: 0.78rem;
-      color: var(--slate-400);
-      font-weight: 500;
-    }
-    .blog-card .read-more {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--teal);
-      margin-top: 0.5rem;
-    }
-    .blog-card .read-more svg { width: 16px; height: 16px; }
-
-    /* -- Footer -- */
-    footer {
-      text-align: center;
-      padding: 3rem 1.5rem;
-      color: var(--slate-400);
-      font-size: 0.85rem;
-      border-top: 1px solid var(--slate-200);
-    }
-    footer a {
-      color: var(--teal);
-      text-decoration: none;
-      font-weight: 600;
-    }
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* -- Responsive -- */
-    @media (max-width: 768px) {
-      .blog-hero { padding: 2.5rem 1.5rem 3.5rem; }
-      .blog-hero h1 { font-size: 1.9rem; }
-      .blog-grid { grid-template-columns: 1fr; }
-    }
-  </style>
+  <link rel="stylesheet" href="blog.css">
 </head>
 <body>
 
-  <!-- Navigation -->
+  <!-- NAV -->
   <nav class="nav">
-    <a href="../index.html" class="nav-brand">Baggage<span>IQ</span></a>
-    <a href="../index.html" class="nav-link">&larr; Back to Home</a>
+    <a href="../index.html" class="nav-brand">
+      <span class="nav-brand-name">Baggage<span>IQ</span></span>
+      <span class="nav-tagline">Smart Flight Pricing with Baggage</span>
+    </a>
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="index.html" class="nav-link">Blog</a>
+      <a href="../index.html#install" class="nav-link">Install</a>
+      <a href="../privacy.html" class="nav-link">Privacy</a>
+    </div>
   </nav>
 
-  <!-- Blog Hero -->
-  <header class="blog-hero">
-    <div class="blog-hero-content">
-      <div class="tag">BaggageIQ Blog</div>
-      <h1>Baggage Tips, Fee Guides &amp; Travel Smarts</h1>
-      <p class="subtitle">Everything you need to know about airline baggage fees, packing strategies, and booking flights at the true lowest price.</p>
+  <!-- HEAD -->
+  <header class="blog-index-head">
+    <div class="blog-index-head-inner">
+      <div class="eyebrow">
+        <span class="sqr"></span>
+        BaggageIQ Log · Volume 01
+      </div>
+      <h1>Baggage tips · fee guides · <span class="hand">travel smarts.</span></h1>
+      <p class="lead">Long-form dispatches on airline baggage fees, fare-tier traps, packing strategy, and booking flights at the true lowest price.</p>
     </div>
   </header>
 
-  <!-- Blog Cards -->
-  <section class="blog-grid">
+  <!-- ARTICLES -->
+  <section class="article-grid">
 
-    <a href="airlines-free-checked-bags-2026.html" class="blog-card">
+    <a href="airlines-free-checked-bags-2026.html" class="article-card">
       <span class="card-tag">Airline Guide</span>
       <h2>Airlines That Include Free Checked Bags in 2026</h2>
       <p>Not every airline charges for checked bags. Here are the full-service carriers around the world that still include free checked luggage in economy.</p>
-      <span class="card-date">March 13, 2026</span>
-      <span class="read-more">Read article <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></span>
+      <div class="card-meta">
+        <span class="card-date">March 13, 2026</span>
+        <span class="read-more">
+          Read
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
     </a>
 
-    <a href="budget-airline-baggage-fees-compared.html" class="blog-card">
+    <a href="budget-airline-baggage-fees-compared.html" class="article-card">
       <span class="card-tag">Fee Comparison</span>
       <h2>Budget Airline Baggage Fees Compared: Spirit vs Frontier vs Ryanair</h2>
       <p>A side-by-side breakdown of baggage fees on the three biggest budget airlines. Find out which one is actually cheapest when you need bags.</p>
-      <span class="card-date">March 13, 2026</span>
-      <span class="read-more">Read article <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></span>
+      <div class="card-meta">
+        <span class="card-date">March 13, 2026</span>
+        <span class="read-more">
+          Read
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
     </a>
 
-    <a href="how-to-avoid-surprise-baggage-fees.html" class="blog-card">
+    <a href="how-to-avoid-surprise-baggage-fees.html" class="article-card">
       <span class="card-tag">Travel Tips</span>
       <h2>How to Avoid Surprise Baggage Fees When Booking Flights</h2>
       <p>Practical strategies to ensure you never get hit with unexpected baggage charges at the airport. From fare tiers to credit card perks.</p>
-      <span class="card-date">March 13, 2026</span>
-      <span class="read-more">Read article <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></span>
+      <div class="card-meta">
+        <span class="card-date">March 13, 2026</span>
+        <span class="read-more">
+          Read
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
     </a>
 
-    <a href="why-cheapest-flight-isnt-cheapest.html" class="blog-card">
+    <a href="why-cheapest-flight-isnt-cheapest.html" class="article-card">
       <span class="card-tag">Travel Tips</span>
       <h2>Why the Cheapest Flight Isn't Actually the Cheapest</h2>
       <p>That ultra-low fare might cost you more once you add bags. Learn how hidden baggage fees inflate flight prices and how to find the true lowest cost.</p>
-      <span class="card-date">March 13, 2026</span>
-      <span class="read-more">Read article <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg></span>
+      <div class="card-meta">
+        <span class="card-date">March 13, 2026</span>
+        <span class="read-more">
+          Read
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
     </a>
 
   </section>
 
-  <!-- Footer -->
+  <!-- CTA STRIP -->
+  <div class="blog-cta-strip">
+    <div class="blog-cta-strip-inner">
+      <div class="blog-cta-strip-text">
+        <div class="blog-cta-strip-eyebrow">NOW BOARDING</div>
+        <div class="blog-cta-strip-title">Stop guessing what flights cost.</div>
+        <div class="blog-cta-strip-sub">Install BaggageIQ and see real baggage totals on every flight search.</div>
+      </div>
+      <a href="https://chromewebstore.google.com/detail/baggageiq-%E2%80%94-smart-flight/ijhahbcdcepaaomkfameehpebigllbpc" target="_blank" rel="noopener">
+        Install BaggageIQ
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
   <footer>
-    <p>BaggageIQ &mdash; Built to help travelers see the real cost of flights.</p>
-    <p style="margin-top:0.5rem;">
-      <a href="../index.html">Home</a> &middot;
-      <a href="../privacy.html">Privacy Policy</a>
-    </p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Baggage<span>IQ</span></div>
+        <div class="footer-tagline">Smart Flight Pricing with Baggage</div>
+        <p>Built for travellers who are tired of booking<br>a "cheap" flight and paying twice at the gate.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="index.html">Blog</a>
+        <a href="../index.html#install">Install</a>
+        <a href="../privacy.html">Privacy</a>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <span>BIQ · 2026</span>
+      <span>No trackers · no affiliate · all cash tips</span>
+    </div>
+    <div class="footer-made">
+      Made with <span class="heart">&#9829;</span> from Claude
+    </div>
   </footer>
 
 </body>

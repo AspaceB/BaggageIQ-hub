@@ -3,88 +3,565 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — BaggageIQ</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Privacy — BaggageIQ — Smart Flight Pricing with Baggage</title>
+  <meta name="description" content="How BaggageIQ handles your data. Short answer: almost none of it leaves your browser.">
+  <link rel="canonical" href="https://baggageiq.app/privacy.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <style>
-    :root { --teal: #0d9488; --teal-dark: #0f766e; --slate-800: #1e293b; --slate-600: #475569; --slate-200: #e2e8f0; }
+    /* ═══════════════════════════════════════════════════════════
+       BaggageIQ Privacy — Aviation editorial aesthetic
+       Matches index.html + blog/blog.css exactly
+       ═══════════════════════════════════════════════════════════ */
+    :root {
+      --paper: #faf6ec;
+      --paper-warm: #f5efdf;
+      --cream: #fdfaf2;
+      --ink: #0a1530;
+      --ink-2: #1b2442;
+      --ink-3: #384460;
+      --muted: #6b6660;
+      --faint: #9d968a;
+      --rule: rgba(10, 21, 48, 0.12);
+      --rule-soft: rgba(10, 21, 48, 0.06);
+
+      --stamp-red: #d93524;
+      --yellow: #f4c542;
+      --teal: #0d9488;
+      --teal-dark: #0f766e;
+
+      --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+      --font-body: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      --font-mono: 'JetBrains Mono', 'SF Mono', 'Menlo', 'Consolas', monospace;
+    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', sans-serif; color: var(--slate-800); background: #f0fdfa; line-height: 1.7; }
-    .header { background: linear-gradient(135deg, #0d9488, #0f766e, #115e59); padding: 2rem 1.5rem; text-align: center; color: #fff; }
-    .header h1 { font-size: 1.8rem; font-weight: 800; }
-    .header p { opacity: 0.8; margin-top: 0.3rem; font-size: 0.9rem; }
-    .content { max-width: 720px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 16px; border: 1px solid var(--slate-200); }
-    h2 { font-size: 1.1rem; color: var(--teal-dark); margin: 1.5rem 0 0.5rem; }
-    h2:first-of-type { margin-top: 0; }
-    p, li { font-size: 0.95rem; color: var(--slate-600); }
-    ul { padding-left: 1.5rem; margin: 0.5rem 0; }
-    li { margin-bottom: 0.3rem; }
-    .updated { text-align: center; font-size: 0.8rem; color: #94a3b8; margin-top: 2rem; }
-    a { color: var(--teal); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    footer { text-align: center; padding: 1.5rem; font-size: 0.85rem; color: #94a3b8; }
+    html, body {
+      font-family: var(--font-body);
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      font-feature-settings: "ss01", "cv11";
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background-image:
+        radial-gradient(circle at 17% 23%, rgba(10,21,48,0.018) 1px, transparent 1px),
+        radial-gradient(circle at 81% 67%, rgba(10,21,48,0.012) 1px, transparent 1px);
+      background-size: 32px 32px, 48px 48px;
+      opacity: 0.8;
+    }
+    body > * { position: relative; z-index: 1; }
+    a { color: var(--teal-dark); text-decoration: none; font-weight: 600; }
+    a:hover { color: var(--teal); }
+
+    /* ═══ NAV RAIL — unified across all pages ═══ */
+    .nav {
+      background: var(--ink);
+      color: #fff;
+      padding: 12px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      flex-wrap: wrap;
+    }
+    .nav-brand {
+      color: #fff;
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      text-transform: none;
+      display: inline-flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+    .nav-brand-name { color: #fff; }
+    .nav-brand-name > span { color: #6ee7b7; }
+    .nav-tagline {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      border-left: 1px solid rgba(255, 255, 255, 0.15);
+      padding-left: 12px;
+    }
+    @media (max-width: 760px) { .nav-tagline { display: none; } }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    .nav-link {
+      color: rgba(255, 255, 255, 0.55);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .nav-link:hover { color: var(--yellow); }
+    @media (max-width: 560px) {
+      .nav-links { gap: 14px; }
+    }
+
+    /* ═══ HERO ═══ */
+    .hero {
+      padding: 72px 28px 84px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle at 80% 30%, rgba(13, 148, 136, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 15% 75%, rgba(244, 197, 66, 0.05) 0%, transparent 40%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      max-width: 780px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      padding-bottom: 8px;
+      margin-bottom: 22px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .hero-eyebrow .sqr {
+      width: 8px;
+      height: 8px;
+      background: var(--stamp-red);
+    }
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: 62px;
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      line-height: 1;
+      color: var(--ink);
+      margin-bottom: 20px;
+    }
+    @media (max-width: 680px) { .hero h1 { font-size: 42px; } }
+    .hero h1 .hand {
+      color: var(--stamp-red);
+      font-style: italic;
+      display: inline-block;
+      transform: rotate(-2deg);
+    }
+    .hero p {
+      font-size: 18px;
+      color: var(--ink-3);
+      max-width: 640px;
+      line-height: 1.6;
+    }
+
+    /* ═══ CONTENT CARD ═══ */
+    .content {
+      max-width: 820px;
+      margin: 0 auto 80px;
+      padding: 0 28px;
+    }
+    .doc-card {
+      background: var(--cream);
+      border: 1px solid var(--rule);
+      border-top: 6px solid var(--ink);
+      border-radius: 4px;
+      padding: 48px 56px 52px;
+      box-shadow:
+        0 1px 2px rgba(10,21,48,0.04),
+        0 24px 60px rgba(10,21,48,0.1);
+      position: relative;
+    }
+    .doc-card::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-image: linear-gradient(90deg, var(--rule) 50%, transparent 50%);
+      background-size: 8px 1px;
+    }
+    @media (max-width: 640px) { .doc-card { padding: 32px 28px 40px; } }
+
+    .tl-dr {
+      padding: 18px 22px;
+      background: var(--paper);
+      border: 1px solid var(--rule);
+      border-left: 4px solid var(--stamp-red);
+      border-radius: 3px;
+      margin-bottom: 40px;
+      font-size: 14px;
+      color: var(--ink-2);
+      line-height: 1.65;
+      position: relative;
+    }
+    .tl-dr::before {
+      content: "TL;DR";
+      position: absolute;
+      top: -10px;
+      left: 20px;
+      padding: 2px 10px;
+      background: var(--cream);
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--stamp-red);
+      font-weight: 700;
+    }
+    .tl-dr b { color: var(--ink); font-weight: 700; }
+
+    h2 {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin: 40px 0 14px;
+      padding-top: 16px;
+      border-top: 1px solid var(--rule);
+      position: relative;
+    }
+    h2::before {
+      content: "§";
+      position: absolute;
+      top: 16px;
+      left: -24px;
+      font-family: var(--font-mono);
+      font-size: 14px;
+      color: var(--stamp-red);
+      font-weight: 400;
+    }
+    @media (max-width: 720px) { h2::before { display: none; } }
+    h2:first-of-type {
+      margin-top: 0;
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: var(--ink-2);
+      line-height: 1.75;
+    }
+    p + p { margin-top: 12px; }
+    p b { color: var(--ink); font-weight: 700; }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 14px;
+    }
+    ul li {
+      position: relative;
+      padding-left: 26px;
+      margin-bottom: 6px;
+    }
+    ul li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--stamp-red);
+    }
+    ul li b { color: var(--ink); font-weight: 700; }
+    code {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 2px 7px;
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: var(--font-mono);
+      font-weight: 500;
+    }
+
+    .updated {
+      margin-top: 40px;
+      padding-top: 22px;
+      border-top: 1px dashed var(--rule);
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    /* ═══ FOOTER — unified across all pages ═══ */
+    footer {
+      padding: 72px 28px 48px;
+      background: var(--ink);
+      color: var(--paper);
+    }
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+    @media (max-width: 640px) {
+      .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+    }
+    .footer-brand .footer-logo {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.01em;
+      margin-bottom: 6px;
+      display: inline-block;
+    }
+    .footer-brand .footer-logo > span { color: #6ee7b7; }
+    .footer-tagline {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--yellow);
+      margin-bottom: 16px;
+    }
+    .footer-brand p {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      line-height: 1.7;
+      max-width: 360px;
+    }
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-end;
+    }
+    @media (max-width: 640px) {
+      .footer-links { align-items: flex-start; }
+    }
+    .footer-links a {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: 500;
+    }
+    .footer-links a:hover { color: var(--yellow); }
+    .footer-rule {
+      max-width: 1200px;
+      margin: 40px auto 20px;
+      border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    }
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.3);
+    }
+    @media (max-width: 560px) {
+      .footer-bottom { flex-direction: column; gap: 6px; text-align: center; }
+    }
+    .footer-made {
+      max-width: 1200px;
+      margin: 20px auto 0;
+      padding-top: 18px;
+      border-top: 1px dashed rgba(255, 255, 255, 0.08);
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.35);
+      font-weight: 500;
+    }
+    .footer-made .heart {
+      display: inline-block;
+      color: var(--stamp-red);
+      font-size: 13px;
+      line-height: 0;
+      margin: 0 4px;
+      transform: translateY(2px);
+      animation: heartbeat 1.8s ease-in-out infinite;
+    }
+    @keyframes heartbeat {
+      0%, 100% { transform: translateY(2px) scale(1); }
+      50%      { transform: translateY(2px) scale(1.2); }
+    }
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>Privacy Policy</h1>
-    <p><a href="index.html" style="color:#fef08a;">BaggageIQ</a> — Smart Flight Pricing with Baggage</p>
-  </div>
 
+  <!-- ═══════════ NAV ═══════════ -->
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-brand-name">Baggage<span>IQ</span></span>
+      <span class="nav-tagline">Smart Flight Pricing with Baggage</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="blog/index.html" class="nav-link">Blog</a>
+      <a href="index.html#install" class="nav-link">Install</a>
+      <a href="privacy.html" class="nav-link">Privacy</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">
+        <span class="sqr"></span>
+        Flight manual · privacy brief
+      </div>
+      <h1>Your data <span class="hand">stays on your device.</span></h1>
+      <p>BaggageIQ is built so the honest answer to "what do you collect?" is: almost nothing. Here's exactly what the extension touches and what it doesn't.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ CONTENT ═══════════ -->
   <div class="content">
-    <h2>Overview</h2>
-    <p>BaggageIQ is a browser extension that helps travelers see the real cost of flights by adding estimated baggage fees to displayed prices. We are committed to protecting your privacy and being transparent about what data we handle.</p>
+    <div class="doc-card">
 
-    <h2>Data We Collect</h2>
-    <p><strong>We do not collect, transmit, or store any personal data.</strong> Specifically:</p>
-    <ul>
-      <li>No browsing history is collected or shared</li>
-      <li>No flight search details leave your browser</li>
-      <li>No user accounts or sign-ins are required</li>
-      <li>No analytics, tracking pixels, or third-party scripts are used</li>
-      <li>No cookies are set by the extension</li>
-    </ul>
+      <div class="tl-dr">
+        <b>TL;DR:</b> No tracking, no affiliate links, no accounts. BaggageIQ reads flight results on the sites you enable, computes baggage fees locally, and stores your preferences in your Chrome profile. Anonymous usage counters are <b>off by default</b> and never include URLs, prices, or any personal data.
+      </div>
 
-    <h2>Local Storage</h2>
-    <p>BaggageIQ uses Chrome's <code>storage.local</code> API solely to save your preferences:</p>
-    <ul>
-      <li>Extension enabled/disabled state</li>
-      <li>Number of cabin and checked bags selected</li>
-      <li>Scoring priority preference (cost, time, or balanced)</li>
-    </ul>
-    <p>This data is stored locally on your device and is never transmitted to any server.</p>
+      <h2>What we don't collect</h2>
+      <p>The extension <b>does not</b>:</p>
+      <ul>
+        <li>Collect or transmit your browsing history</li>
+        <li>Record which flights you search for, which prices you saw, or which sites you visited</li>
+        <li>Require a user account, login, or sign-in</li>
+        <li>Use tracking pixels, analytics scripts, or third-party advertising</li>
+        <li>Set cookies of its own</li>
+        <li>Rewrite booking URLs or inject affiliate links</li>
+        <li>Earn commission when you book a flight — there are no partnerships in the code</li>
+      </ul>
 
-    <h2>Network Requests</h2>
-    <p>The extension makes a single network request to fetch the latest airline baggage database from our public GitHub Pages URL (<code>baggageiq.app</code>). This request:</p>
-    <ul>
-      <li>Contains no personal information</li>
-      <li>Is a simple GET request for a static JSON file</li>
-      <li>Falls back to the bundled database if the request fails</li>
-    </ul>
+      <h2>What we store locally</h2>
+      <p>BaggageIQ uses Chrome's <code>storage.sync</code> to save preferences that follow you across devices signed into the same Chrome profile:</p>
+      <ul>
+        <li><b>Bag configuration</b> — how many cabin and check-in bags you travel with</li>
+        <li><b>Scoring preference</b> — whether to rank flights by price, time, or a balance</li>
+        <li><b>Per-site enable toggle</b> — which flight sites you've granted permission to</li>
+        <li><b>Pro wallet (optional)</b> — the list of travel cards you've added for the card benefits feature (card keys only, e.g. <code>amex_delta_platinum_us</code> — no card numbers, no personal data)</li>
+        <li><b>License token (if Pro)</b> — the activation token you entered to unlock Pro features</li>
+      </ul>
+      <p>It also uses Chrome's <code>storage.local</code> (not synced across devices) for caches:</p>
+      <ul>
+        <li>The airline baggage database snapshot (refreshed daily from our public GitHub Pages host)</li>
+        <li>The card benefits database snapshot (same source)</li>
+        <li>Daily FX rates (from <code>open.er-api.com</code>)</li>
+        <li>A locally-generated random client ID used only if you opt into anonymous telemetry</li>
+      </ul>
 
-    <h2>Host Permissions</h2>
-    <p>The extension requires access to specific travel websites (Skyscanner, MakeMyTrip, Kayak, Google Flights, CheapOAir) to read flight prices displayed on those pages and overlay baggage cost information. It does not access any other websites or read any data beyond what is displayed on flight search results pages.</p>
+      <h2>Network requests</h2>
+      <p>The extension's background service worker makes a handful of outbound requests, all against static endpoints with no personal data:</p>
+      <ul>
+        <li><b>Airline database</b> — <code>aspaceb.github.io/BaggageIQ-hub/data/airlineBaggageDB.json</code>, fetched once a day</li>
+        <li><b>Card benefits database</b> — <code>aspaceb.github.io/BaggageIQ-hub/data/cardBenefitsDB.json</code>, fetched once a day</li>
+        <li><b>FX rates</b> — <code>open.er-api.com/v6/latest/USD</code>, fetched once a day</li>
+        <li><b>Corrections endpoint</b> — only when you explicitly submit the "Report wrong fee" form in the tooltip; the payload contains only the airline / route / cabin / fare type / your reported fee / your anonymous client ID</li>
+        <li><b>Telemetry endpoint</b> — only if you turn the telemetry toggle on; see below</li>
+      </ul>
+      <p>None of these requests contain your browsing history, your identity, or the flight prices you're looking at.</p>
 
-    <h2>Feedback Forms</h2>
-    <p>If you voluntarily submit feedback through our website, any information you provide (name, email, message) is sent via FormSubmit.co to our email. This data is used solely to respond to your feedback and is not shared with third parties.</p>
+      <h2>Anonymous telemetry (opt-in)</h2>
+      <p>There is an optional telemetry switch in the popup's Privacy section. It is <b>off by default</b>. When enabled, once a day the extension sends an aggregated counter to our backend:</p>
+      <ul>
+        <li>Which site the parser ran on (e.g. <code>skyscanner</code>)</li>
+        <li>Whether the parse succeeded and how many flights were found</li>
+        <li>How many airlines matched our database vs. were unknown</li>
+        <li>Your extension version and browser family</li>
+        <li>An anonymous client ID (a random UUID generated on your device, never linked to you)</li>
+      </ul>
+      <p>What is <b>never</b> sent: the URL of the flight page you were on, the origin or destination you searched, any prices, any timestamps beyond daily bucketing, or any identifying info. You can turn it off at any time in the popup and the client ID is cleared if you uninstall the extension.</p>
 
-    <h2>Third-Party Services</h2>
-    <p>The extension itself uses no third-party services. The landing page website uses:</p>
-    <ul>
-      <li>Google Fonts (for the Inter typeface)</li>
-      <li>FormSubmit.co (for processing feedback form submissions)</li>
-    </ul>
+      <h2>Host permissions</h2>
+      <p>Flight sites are listed under Chrome's <code>optional_host_permissions</code>, which means the extension does <b>not</b> request access to them at install time. When you toggle a site on in the popup's Enabled sites section, Chrome shows its native permission prompt and you explicitly grant access just to that domain. You can revoke any site permission at any time from the same popup.</p>
 
-    <h2>Changes to This Policy</h2>
-    <p>If we make material changes to this privacy policy, we will update this page and change the date below.</p>
+      <h2>Feedback forms</h2>
+      <p>If you voluntarily submit the feedback, bug report, or feature request forms on this website, the information you type (name, email, message) is sent via <a href="https://formsubmit.co" target="_blank" rel="noopener">FormSubmit.co</a> to the developer's email. The forms work without providing a name or email — those fields are optional and only used if you want a reply. Nothing from these forms is linked to your extension usage.</p>
 
-    <h2>Contact</h2>
-    <p>If you have questions about this privacy policy, please reach out at <a href="mailto:support@baggageiq.app">support@baggageiq.app</a>.</p>
+      <h2>Third-party services</h2>
+      <p>The extension itself uses no third-party SDKs. This landing page uses:</p>
+      <ul>
+        <li><b>Google Fonts</b> — for the Space Grotesk, JetBrains Mono, and Inter typefaces</li>
+        <li><b>FormSubmit.co</b> — for processing feedback form submissions</li>
+        <li><b>images.kiwi.com</b> — public airline-logo CDN used by the extension tooltip; each logo request contains the airline IATA code only (e.g. <code>DL.png</code>)</li>
+      </ul>
 
-    <p class="updated">Last updated: March 13, 2026</p>
+      <h2>Changes to this policy</h2>
+      <p>If we make material changes to this privacy policy, we will update this page and change the date below. Since the extension is open-source, any change in data handling is also visible in the source code on GitHub.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy? Reach out at <a href="mailto:support@baggageiq.app">support@baggageiq.app</a> or via the <a href="index.html#feedback">feedback form</a> on the home page — no account needed.</p>
+
+      <div class="updated">Last updated · April 11, 2026</div>
+    </div>
   </div>
 
+  <!-- ═══════════ FOOTER ═══════════ -->
   <footer>
-    <p>BaggageIQ &mdash; Built to help travelers see the real cost of flights.</p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Baggage<span>IQ</span></div>
+        <div class="footer-tagline">Smart Flight Pricing with Baggage</div>
+        <p>Built for travellers who are tired of booking<br>a "cheap" flight and paying twice at the gate.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="index.html#install">Install</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <span>BIQ · 2026</span>
+      <span>No trackers · no affiliate · all cash tips</span>
+    </div>
+    <div class="footer-made">
+      Made with <span class="heart">&#9829;</span> from Claude
+    </div>
   </footer>
+
 </body>
 </html>
