@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- SEO -->
-  <meta name="description" content="You paid for a ticket. You also paid for bags. BaggageIQ reveals what every flight actually costs — on Skyscanner, Google Flights, Kayak, MakeMyTrip & CheapOAir.">
-  <meta name="keywords" content="baggage fees, flight prices, chrome extension, skyscanner, google flights, kayak, real cost, hidden fees">
+  <meta name="description" content="See the real cost of flights — baggage fees and seat selection fees included. Free Chrome extension for Skyscanner, Google Flights, Kayak, MakeMyTrip & CheapOAir. 109 airlines, 62 travel cards. Works on mobile.">
+  <meta name="keywords" content="baggage fees, flight prices, chrome extension, skyscanner, google flights, kayak, real cost, hidden fees, seat selection fees, airline baggage calculator, travel card benefits, cheapest flight, budget airline fees, carry on fees, checked bag fees, flight comparison">
   <meta name="author" content="BaggageIQ">
+  <meta name="robots" content="index, follow">
 
-  <meta property="og:title" content="BaggageIQ — Smart Flight Pricing with Baggage">
-  <meta property="og:description" content="Stop getting tricked by bait fares. BaggageIQ stamps the real total — bags and all — onto every flight on Skyscanner, Google Flights & more.">
+  <meta property="og:title" content="BaggageIQ — See the Real Cost of Flights with Baggage & Seat Fees">
+  <meta property="og:description" content="Stop getting tricked by bait fares. BaggageIQ adds baggage fees + seat selection costs to every flight on Skyscanner, Google Flights, Kayak & more. Free. 109 airlines.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://baggageiq.app/">
   <meta property="og:image" content="https://baggageiq.app/og-image.png">
@@ -22,8 +23,78 @@
   <meta name="twitter:image" content="https://baggageiq.app/og-image.png">
 
   <link rel="canonical" href="https://baggageiq.app/">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
-  <title>BaggageIQ — Smart Flight Pricing with Baggage</title>
+  <title>BaggageIQ — See the Real Cost of Flights with Baggage & Seat Fees</title>
+
+  <!-- Structured data: SoftwareApplication + Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "BaggageIQ",
+    "applicationCategory": "TravelApplication",
+    "operatingSystem": "Chrome, Edge, Firefox, Safari, iOS, Android (Kiwi Browser)",
+    "description": "Browser extension that reveals the real cost of flights by adding baggage and seat selection fees directly into search results on Skyscanner, Google Flights, Kayak, MakeMyTrip and CheapOAir.",
+    "url": "https://baggageiq.app/",
+    "downloadUrl": "https://chromewebstore.google.com/detail/baggageiq-%E2%80%94-smart-flight/ijhahbcdcepaaomkfameehpebigllbpc",
+    "screenshot": "https://baggageiq.app/og-image.png",
+    "softwareVersion": "2.4.0",
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "name": "Free",
+        "description": "Real price overlays, 109 airlines, 5 flight sites, re-rank, savings banner, comparison"
+      },
+      {
+        "@type": "Offer",
+        "price": "14",
+        "priceCurrency": "USD",
+        "name": "Pro",
+        "description": "Credit card baggage benefits, seat selection fees, card seat coverage. One-time payment."
+      }
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "BaggageIQ",
+      "url": "https://baggageiq.app/"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "1",
+      "bestRating": "5"
+    },
+    "featureList": "Real-time baggage fee overlays, Seat selection fee calculator, Credit card benefit subtraction, Flight re-ranking by real total, Side-by-side comparison, Savings banner, Upgrade math tips, 109 airlines, 62 travel cards, Mobile support"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BaggageIQ",
+    "url": "https://baggageiq.app/",
+    "logo": "https://baggageiq.app/og-image.png",
+    "sameAs": [
+      "https://github.com/AspaceB/BaggageIQ"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BaggageIQ",
+    "url": "https://baggageiq.app/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://baggageiq.app/blog/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 
   <!-- Privacy-friendly fonts via Bunny Fonts (GDPR-compliant Google Fonts mirror) -->
   <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>

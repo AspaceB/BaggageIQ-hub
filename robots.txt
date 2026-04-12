@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://baggageiq.app/sitemap.xml
+
+# Block data endpoints (served by Cloudflare Workers, not this site)
+Disallow: /data/
