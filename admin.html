@@ -424,8 +424,9 @@
 
     function renderCorrection(c) {
       const airlineName = c.airlines?.name || c.airline_iata;
-      const currentValue = getCurrentValue(c);
-      const reportedValue = c.reported_value != null ? `${c.reported_currency || ''} ${c.reported_value}` : '—';
+      const currentUSD = getCurrentValue(c);
+      const currentDisplay = currentUSD !== '—' ? `USD ${currentUSD}` : '—';
+      const reportedValue = c.reported_value != null ? `${c.reported_currency || 'USD'} ${c.reported_value}` : '—';
       const submitted = new Date(c.submitted_at).toLocaleString();
       const isPending = c.status === 'pending';
 
@@ -446,7 +447,7 @@
           <div class="correction-grid">
             <div class="correction-col">
               <div class="correction-col-label">Current (DB)</div>
-              <div class="correction-col-value">${escapeHTML(currentValue)}</div>
+              <div class="correction-col-value">${escapeHTML(currentDisplay)}</div>
             </div>
             <div class="correction-col">
               <div class="correction-col-label">Reported</div>
