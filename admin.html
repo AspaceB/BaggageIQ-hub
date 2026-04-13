@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>BaggageIQ Admin — Fee Corrections</title>
+
+  <style>
+    :root {
+      --bg: #0a1530;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --faint: #94a3b8;
+      --hair: rgba(15, 23, 42, 0.1);
+      --accent: #0d9488;
+      --accent-dark: #0f766e;
+      --good: #059669;
+      --bad: #dc2626;
+      --warn: #b45309;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, system-ui, sans-serif;
+      background: #f6f8fb;
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    .header {
+      background: var(--bg);
+      color: #fff;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header h1 {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .header h1 span { color: #5eead4; }
+    .header .user {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    .header button {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      border: 0.5px solid rgba(255, 255, 255, 0.2);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-left: 12px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 24px auto;
+      padding: 0 24px;
+    }
+
+    /* Login */
+    .login-card {
+      background: #fff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      max-width: 400px;
+      margin: 80px auto;
+    }
+    .login-card h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .login-card p {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+    .login-card input {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 14px;
+      border: 1px solid var(--hair);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      font-family: inherit;
+    }
+    .login-card button {
+      width: 100%;
+      padding: 12px;
+      background: var(--accent);
+      color: #fff;
+      border: 0;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .login-card button:hover { background: var(--accent-dark); }
+    .login-card .error {
+      color: var(--bad);
+      font-size: 12px;
+      margin-top: 8px;
+      display: none;
+    }
+
+    /* Stats bar */
+    .stats {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      flex: 1;
+      background: #fff;
+      padding: 16px;
+      border-radius: 10px;
+      border: 0.5px solid var(--hair);
+    }
+    .stat-label {
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+    }
+    .stat-value {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .stat-card.pending .stat-value { color: var(--warn); }
+    .stat-card.accepted .stat-value { color: var(--good); }
+    .stat-card.rejected .stat-value { color: var(--bad); }
+
+    /* Filter tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 16px;
+      background: #fff;
+      padding: 4px;
+      border-radius: 8px;
+      border: 0.5px solid var(--hair);
+      width: fit-content;
+    }
+    .tab {
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      background: transparent;
+      border: 0;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .tab.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* Corrections list */
+    .correction {
+      background: #fff;
+      border: 0.5px solid var(--hair);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .correction-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .correction-title {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .correction-meta {
+      font-size: 11px;
+      color: var(--faint);
+    }
+    .correction-status {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .correction-status.pending { background: #fef3c7; color: var(--warn); }
+    .correction-status.accepted { background: #d1fae5; color: var(--good); }
+    .correction-status.rejected { background: #fee2e2; color: var(--bad); }
+
+    .correction-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .correction-col {
+      background: #f8fafc;
+      padding: 10px 12px;
+      border-radius: 8px;
+    }
+    .correction-col-label {
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .correction-col-value {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .correction-notes {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 8px 0;
+      padding: 8px 10px;
+      background: #f8fafc;
+      border-radius: 6px;
+      border-left: 3px solid var(--accent);
+    }
+
+    .correction-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .btn-accept, .btn-reject {
+      flex: 1;
+      padding: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      border: 0;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-accept {
+      background: var(--good);
+      color: #fff;
+    }
+    .btn-reject {
+      background: var(--bad);
+      color: #fff;
+    }
+    .btn-accept:hover { background: #047857; }
+    .btn-reject:hover { background: #b91c1c; }
+    .btn-accept:disabled, .btn-reject:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .evidence-link {
+      font-size: 11px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .evidence-link:hover { text-decoration: underline; }
+
+    .empty {
+      text-align: center;
+      padding: 60px 24px;
+      color: var(--faint);
+      font-size: 14px;
+    }
+
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+
+  <!-- Login page -->
+  <div id="login-page">
+    <div class="login-card">
+      <h2>🔒 Admin Login</h2>
+      <p>BaggageIQ fee corrections review</p>
+      <input type="email" id="login-email" placeholder="admin@baggageiq.app">
+      <input type="password" id="login-password" placeholder="Password">
+      <button id="login-btn">Sign in</button>
+      <div class="error" id="login-error"></div>
+    </div>
+  </div>
+
+  <!-- Admin page -->
+  <div id="admin-page" class="hidden">
+    <div class="header">
+      <h1>Baggage<span>IQ</span> · Admin</h1>
+      <div>
+        <span class="user" id="user-email"></span>
+        <button id="logout-btn">Sign out</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="stats" id="stats">
+        <div class="stat-card pending"><div class="stat-label">Pending</div><div class="stat-value" id="stat-pending">—</div></div>
+        <div class="stat-card accepted"><div class="stat-label">Accepted</div><div class="stat-value" id="stat-accepted">—</div></div>
+        <div class="stat-card rejected"><div class="stat-label">Rejected</div><div class="stat-value" id="stat-rejected">—</div></div>
+        <div class="stat-card"><div class="stat-label">Total</div><div class="stat-value" id="stat-total">—</div></div>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" data-status="pending">Pending</button>
+        <button class="tab" data-status="accepted">Accepted</button>
+        <button class="tab" data-status="rejected">Rejected</button>
+        <button class="tab" data-status="all">All</button>
+      </div>
+
+      <div id="corrections-list">
+        <div class="empty">Loading...</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+
+    const SUPABASE_URL = 'https://renfsingcmkjcezklizs.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJlbmZzaW5nY21ramNlemtsaXpzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU2NzUxOTgsImV4cCI6MjA5MTI1MTE5OH0._5N8-G_puCaKpvfO52ib_BESmHqoAIMGEKLHXEc4-W0';
+    const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+    let currentFilter = 'pending';
+
+    async function init() {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session) showAdmin(session.user);
+      else showLogin();
+    }
+
+    function showLogin() {
+      document.getElementById('login-page').classList.remove('hidden');
+      document.getElementById('admin-page').classList.add('hidden');
+    }
+
+    function showAdmin(user) {
+      document.getElementById('login-page').classList.add('hidden');
+      document.getElementById('admin-page').classList.remove('hidden');
+      document.getElementById('user-email').textContent = user.email;
+      loadCorrections();
+    }
+
+    document.getElementById('login-btn').addEventListener('click', async () => {
+      const email = document.getElementById('login-email').value;
+      const password = document.getElementById('login-password').value;
+      const err = document.getElementById('login-error');
+      err.style.display = 'none';
+      const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+      if (error) {
+        err.textContent = error.message;
+        err.style.display = 'block';
+        return;
+      }
+      showAdmin(data.user);
+    });
+
+    document.getElementById('logout-btn').addEventListener('click', async () => {
+      await supabase.auth.signOut();
+      showLogin();
+    });
+
+    document.querySelectorAll('.tab').forEach(t => {
+      t.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+        t.classList.add('active');
+        currentFilter = t.dataset.status;
+        loadCorrections();
+      });
+    });
+
+    async function loadCorrections() {
+      const list = document.getElementById('corrections-list');
+      list.innerHTML = '<div class="empty">Loading...</div>';
+
+      // Stats
+      const stats = await supabase.from('fee_corrections').select('status', { count: 'exact' });
+      if (stats.error) {
+        list.innerHTML = `<div class="empty">Error: ${stats.error.message}<br><br>Make sure your email is in the admin_users table.</div>`;
+        return;
+      }
+      const counts = { pending: 0, accepted: 0, rejected: 0, duplicate: 0 };
+      (stats.data || []).forEach(r => { if (counts[r.status] !== undefined) counts[r.status]++; });
+      document.getElementById('stat-pending').textContent = counts.pending;
+      document.getElementById('stat-accepted').textContent = counts.accepted;
+      document.getElementById('stat-rejected').textContent = counts.rejected;
+      document.getElementById('stat-total').textContent = stats.count || 0;
+
+      // Load filtered
+      let q = supabase
+        .from('fee_corrections')
+        .select('*, airlines(name, fees, included)')
+        .order('submitted_at', { ascending: false })
+        .limit(100);
+      if (currentFilter !== 'all') q = q.eq('status', currentFilter);
+      const { data, error } = await q;
+
+      if (error) {
+        list.innerHTML = `<div class="empty">Error: ${error.message}</div>`;
+        return;
+      }
+      if (!data || data.length === 0) {
+        list.innerHTML = `<div class="empty">No ${currentFilter} corrections</div>`;
+        return;
+      }
+
+      list.innerHTML = data.map(c => renderCorrection(c)).join('');
+
+      list.querySelectorAll('.btn-accept').forEach(b => {
+        b.addEventListener('click', () => moderate(b.dataset.id, 'accepted'));
+      });
+      list.querySelectorAll('.btn-reject').forEach(b => {
+        b.addEventListener('click', () => moderate(b.dataset.id, 'rejected'));
+      });
+    }
+
+    function renderCorrection(c) {
+      const airlineName = c.airlines?.name || c.airline_iata;
+      const currentValue = getCurrentValue(c);
+      const reportedValue = c.reported_value != null ? `${c.reported_currency || ''} ${c.reported_value}` : '—';
+      const submitted = new Date(c.submitted_at).toLocaleString();
+      const isPending = c.status === 'pending';
+
+      return `
+        <div class="correction">
+          <div class="correction-head">
+            <div>
+              <div class="correction-title">${escapeHTML(airlineName)} · ${escapeHTML(c.route || '—')} · ${escapeHTML(c.cabin_class || '—')}</div>
+              <div class="correction-meta">
+                ${c.field ? `<code>${escapeHTML(c.field)}</code> · ` : ''}
+                Submitted ${submitted}
+                ${c.client_id ? ` · ${c.client_id.slice(0, 8)}…` : ''}
+              </div>
+            </div>
+            <span class="correction-status ${c.status}">${c.status}</span>
+          </div>
+
+          <div class="correction-grid">
+            <div class="correction-col">
+              <div class="correction-col-label">Current (DB)</div>
+              <div class="correction-col-value">${escapeHTML(currentValue)}</div>
+            </div>
+            <div class="correction-col">
+              <div class="correction-col-label">Reported</div>
+              <div class="correction-col-value">${escapeHTML(reportedValue)}</div>
+            </div>
+          </div>
+
+          ${c.notes ? `<div class="correction-notes">${escapeHTML(c.notes)}</div>` : ''}
+          ${c.evidence_url ? `<a class="evidence-link" href="${escapeHTML(c.evidence_url)}" target="_blank" rel="noopener">Evidence ↗</a>` : ''}
+
+          ${isPending ? `
+            <div class="correction-actions">
+              <button class="btn-accept" data-id="${c.id}">Accept</button>
+              <button class="btn-reject" data-id="${c.id}">Reject</button>
+            </div>
+          ` : ''}
+        </div>
+      `;
+    }
+
+    function getCurrentValue(c) {
+      if (!c.airlines || !c.field) return '—';
+      // Walk field path like "fees.economy.international.checked1"
+      try {
+        const parts = c.field.split('.');
+        let val = c.airlines;
+        for (const p of parts) {
+          if (val == null) return '—';
+          val = val[p];
+        }
+        return val != null ? String(val) : '—';
+      } catch { return '—'; }
+    }
+
+    function escapeHTML(s) {
+      if (s == null) return '';
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    async function moderate(id, status) {
+      if (!confirm(`${status === 'accepted' ? 'Accept' : 'Reject'} this correction?`)) return;
+      const { error } = await supabase
+        .from('fee_corrections')
+        .update({
+          status,
+          moderated_at: new Date().toISOString(),
+        })
+        .eq('id', id);
+      if (error) {
+        alert('Failed: ' + error.message);
+        return;
+      }
+      loadCorrections();
+    }
+
+    init();
+  </script>
+</body>
+</html>

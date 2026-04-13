@@ -5,3 +5,6 @@ Sitemap: https://baggageiq.app/sitemap.xml
 
 # Block data endpoints (served by Cloudflare Workers, not this site)
 Disallow: /data/
+
+# Block admin page
+Disallow: /admin.html
