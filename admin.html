@@ -330,6 +330,16 @@
     const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
     let currentFilter = 'pending';
+    let fxRates = {};
+
+    async function loadFxRates() {
+      try {
+        const r = await fetch('https://open.er-api.com/v6/latest/USD');
+        const d = await r.json();
+        if (d.rates) fxRates = d.rates;
+      } catch (e) { console.warn('FX load failed', e); }
+    }
+    loadFxRates();
 
     async function init() {
       const { data: { session } } = await supabase.auth.getSession();
@@ -425,20 +435,43 @@
     function renderCorrection(c) {
       const airlineName = c.airlines?.name || c.airline_iata;
       const currentUSD = getCurrentValue(c);
-      const currentDisplay = currentUSD !== '—' ? `USD ${currentUSD}` : '—';
-      const reportedValue = c.reported_value != null ? `${c.reported_currency || 'USD'} ${c.reported_value}` : '—';
+      const reportedCcy = c.reported_currency || 'USD';
+
+      // Convert DB value (USD) to user's reported currency for fair comparison
+      let currentDisplay = '—';
+      if (currentUSD !== '—') {
+        const usdNum = parseFloat(currentUSD);
+        if (!isNaN(usdNum)) {
+          currentDisplay = `USD ${usdNum}`;
+          if (reportedCcy !== 'USD' && fxRates[reportedCcy]) {
+            const localVal = Math.round(usdNum * fxRates[reportedCcy]);
+            currentDisplay = `${reportedCcy} ${localVal.toLocaleString()} (USD ${usdNum})`;
+          }
+        }
+      }
+
+      const reportedValue = c.reported_value != null
+        ? `${reportedCcy} ${parseFloat(c.reported_value).toLocaleString()}`
+        : '—';
       const submitted = new Date(c.submitted_at).toLocaleString();
       const isPending = c.status === 'pending';
+
+      // Friendly field label (don't expose DB path)
+      const fieldLabel = getFriendlyField(c.field);
+
+      // Route: show DEL-HAN or fallback to routeType
+      const routeStr = c.route && c.route !== 'domestic' && c.route !== 'international'
+        ? c.route
+        : (c.route || '—');
 
       return `
         <div class="correction">
           <div class="correction-head">
             <div>
-              <div class="correction-title">${escapeHTML(airlineName)} · ${escapeHTML(c.route || '—')} · ${escapeHTML(c.cabin_class || '—')}</div>
+              <div class="correction-title">${escapeHTML(airlineName)} · ${escapeHTML(routeStr)} · ${escapeHTML(c.cabin_class || '—')}</div>
               <div class="correction-meta">
-                ${c.field ? `<code>${escapeHTML(c.field)}</code> · ` : ''}
+                ${fieldLabel ? `${escapeHTML(fieldLabel)} · ` : ''}
                 Submitted ${submitted}
-                ${c.client_id ? ` · ${c.client_id.slice(0, 8)}…` : ''}
               </div>
             </div>
             <span class="correction-status ${c.status}">${c.status}</span>
@@ -466,6 +499,31 @@
           ` : ''}
         </div>
       `;
+    }
+
+    function getFriendlyField(field) {
+      if (!field) return '';
+      const map = {
+        'fees.economy.international.checked1': '1st checked bag · Economy · International',
+        'fees.economy.domestic.checked1': '1st checked bag · Economy · Domestic',
+        'fees.economy.international.checked2': '2nd checked bag · Economy · International',
+        'fees.economy.domestic.checked2': '2nd checked bag · Economy · Domestic',
+        'fees.economy.international.cabin': 'Cabin bag · Economy · International',
+        'fees.economy.domestic.cabin': 'Cabin bag · Economy · Domestic',
+        'baggage_fee_total': 'Total baggage fee',
+      };
+      if (map[field]) return map[field];
+      // Generic parsing: fees.economy.domestic.checked1 → 1st checked bag, Economy, Domestic
+      const parts = field.split('.');
+      if (parts.length === 4 && parts[0] === 'fees') {
+        const [, cls, route, bag] = parts;
+        const bagLabel = bag === 'cabin' ? 'Cabin bag' :
+                         bag === 'checked1' ? '1st checked bag' :
+                         bag === 'checked2' ? '2nd checked bag' :
+                         bag === 'checked3' ? '3rd+ checked bag' : bag;
+        return `${bagLabel} · ${cls.replace('_', ' ')} · ${route}`;
+      }
+      return field;
     }
 
     function getCurrentValue(c) {
