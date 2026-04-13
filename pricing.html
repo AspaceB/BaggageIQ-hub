@@ -789,14 +789,14 @@
 
   <!-- ═══════════════════════════════════════════════════════════
        Paddle checkout integration
-       Replace PADDLE_VENDOR_ID and PADDLE_PRODUCT_ID with real
+       Replace PADDLE_SELLER_ID and PADDLE_PRICE_ID with real
        values when the Paddle account and product are set up.
        ═══════════════════════════════════════════════════════════ -->
   <script src="https://cdn.paddle.com/paddle/v2/paddle.js" defer></script>
   <script>
     // Paddle config — BaggageIQ Pro ($15/year)
-    const PADDLE_VENDOR_ID   = 56721;
-    const PADDLE_PRODUCT_ID  = 'pri_01kp2m6s4p8cyd574nrcjjtvmr';
+    const PADDLE_SELLER_ID   = 56721;
+    const PADDLE_PRICE_ID    = 'pri_01kp2m6s4p8cyd574nrcjjtvmr';
     const PADDLE_ENVIRONMENT = 'sandbox';  // switch to 'production' after KYC approval
 
     window.addEventListener('load', () => {
@@ -805,7 +805,7 @@
 
       // If Paddle isn't configured yet, keep the button visible but
       // wire it to a friendly "coming soon" alert instead of a broken checkout.
-      const paddleConfigured = PADDLE_VENDOR_ID && PADDLE_PRODUCT_ID && window.Paddle;
+      const paddleConfigured = PADDLE_SELLER_ID && PADDLE_PRICE_ID && window.Paddle;
 
       if (!paddleConfigured) {
         btn.addEventListener('click', (ev) => {
@@ -822,11 +822,11 @@
       // Real Paddle.js v2 setup (runs only once IDs are filled in).
       try {
         Paddle.Environment.set(PADDLE_ENVIRONMENT);
-        Paddle.Setup({ seller: PADDLE_VENDOR_ID });
+        Paddle.Setup({ seller: PADDLE_SELLER_ID });
         btn.addEventListener('click', (ev) => {
           ev.preventDefault();
           Paddle.Checkout.open({
-            items: [{ priceId: PADDLE_PRODUCT_ID, quantity: 1 }],
+            items: [{ priceId: PADDLE_PRICE_ID, quantity: 1 }],
             settings: {
               theme: 'light',
               displayMode: 'overlay',
