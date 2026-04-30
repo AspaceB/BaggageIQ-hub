@@ -511,9 +511,10 @@
         <li>Whether the parse succeeded and how many flights were found</li>
         <li>How many airlines matched our database vs. were unknown</li>
         <li>Your extension version and browser family</li>
+        <li>Your timezone (e.g. <code>Asia/Kolkata</code>) and language tag (e.g. <code>en-IN</code>), read from your browser's locale settings — used only to bucket aggregate analytics by approximate region. We never request or store your IP address.</li>
         <li>An anonymous client ID (a random UUID generated on your device, never linked to you)</li>
       </ul>
-      <p>What is <b>never</b> sent: the URL of the flight page you were on, the origin or destination you searched, any prices, any timestamps beyond daily bucketing, or any identifying info. You can turn it off at any time in the popup and the client ID is cleared if you uninstall the extension.</p>
+      <p>What is <b>never</b> sent: the URL of the flight page you were on, the origin or destination you searched, any prices, any timestamps beyond daily bucketing, your IP address, or any identifying info. You can turn it off at any time in the popup and the client ID is cleared if you uninstall the extension.</p>
 
       <h2>Host permissions</h2>
       <p>Flight sites are listed under Chrome's <code>optional_host_permissions</code>, which means the extension does <b>not</b> request access to them at install time. When you toggle a site on in the popup's Enabled sites section, Chrome shows its native permission prompt and you explicitly grant access just to that domain. You can revoke any site permission at any time from the same popup.</p>
