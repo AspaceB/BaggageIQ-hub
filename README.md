@@ -6,11 +6,14 @@ Pages. It contains the public marketing site, blog, and admin pages.
 ## What's in this repo
 
 - `index.html` — landing page
-- `pricing.html` — Pro pricing
 - `privacy.html` / `terms.html` — legal
 - `admin.html` — internal admin dashboard
 - `blog/` — content marketing
 - `sitemap.xml`, `robots.txt`, `og-image.png`, `CNAME`
+
+`pricing.html` was deleted on 2026-04-29 when the BaggageIQ Pro tier
+was retired and all features became free. Marketing copy across
+`index.html` no longer references a paid tier.
 
 ## What used to be here
 
