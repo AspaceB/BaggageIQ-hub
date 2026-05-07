@@ -1,0 +1,10 @@
+# BaggageIQ — Vulnerability Disclosure
+# Found a security issue? Please email us at the address below.
+# Reports are reviewed within 30 days. We do not run a paid bug bounty,
+# but credible reports may be acknowledged on the changelog.
+
+Contact: mailto:support@baggageiq.app
+Expires: 2027-05-08T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://baggageiq.app/.well-known/security.txt
+Policy: https://baggageiq.app/terms.html
