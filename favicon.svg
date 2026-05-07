@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="50%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- Suitcase body -->
+  <rect x="18" y="42" width="56" height="46" rx="7" fill="none" stroke="#fff" stroke-width="5" filter="url(#shadow)"/>
+  <!-- Suitcase handle -->
+  <path d="M34 42V32a8 8 0 018-8h8a8 8 0 018 8v10" fill="none" stroke="#fff" stroke-width="4"/>
+  <!-- Suitcase detail lines -->
+  <line x1="18" y1="58" x2="74" y2="58" stroke="#fff" stroke-width="2" opacity="0.35"/>
+  <line x1="18" y1="72" x2="74" y2="72" stroke="#fff" stroke-width="2" opacity="0.35"/>
+  <!-- Suitcase wheels -->
+  <circle cx="30" cy="92" r="3" fill="#fff" opacity="0.6"/>
+  <circle cx="62" cy="92" r="3" fill="#fff" opacity="0.6"/>
+  <!-- Dollar coin -->
+  <circle cx="92" cy="74" r="24" fill="#fef08a" filter="url(#shadow)"/>
+  <circle cx="92" cy="74" r="20" fill="none" stroke="#0f766e" stroke-width="1.5" opacity="0.3"/>
+  <text x="92" y="83" font-family="Arial,sans-serif" font-size="34" font-weight="800" fill="#0f766e" text-anchor="middle">$</text>
+  <!-- Sparkle/IQ indicator -->
+  <circle cx="104" cy="38" r="4" fill="#fef08a" opacity="0.8"/>
+  <circle cx="112" cy="46" r="2.5" fill="#fef08a" opacity="0.5"/>
+  <circle cx="108" cy="32" r="2" fill="#fef08a" opacity="0.4"/>
+</svg>
