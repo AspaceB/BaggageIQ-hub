@@ -563,8 +563,9 @@
       <h2>Data controller</h2>
       <p>The data controller for BaggageIQ is the project's maintainer, contactable at <a href="mailto:support@baggageiq.app">support@baggageiq.app</a>.</p>
 
-      <h2>Cookies</h2>
-      <p>The BaggageIQ website (<code>baggageiq.app</code>) <b>does not set any cookies of its own</b>. We don't use analytics, no tag managers, no advertising pixels, no tracking. There is no cookie banner because there is nothing for you to accept. The extension itself also sets no cookies — it uses <code>chrome.storage.sync</code> for preferences, which is internal to your Chrome profile and not a web cookie.</p>
+      <h2>Cookies & website analytics</h2>
+      <p>The BaggageIQ website (<code>baggageiq.app</code>) <b>does not set any cookies of its own</b>, and there is no cookie banner because there is nothing for you to accept. The extension itself also sets no cookies — it uses <code>chrome.storage.sync</code> for preferences, which is internal to your Chrome profile and not a web cookie.</p>
+      <p>The website uses <b>Cloudflare Web Analytics</b> for aggregate page-view counts, referrers, country, and browser type. It is <b>privacy-first by design</b>: no cookies, no <code>localStorage</code>, no fingerprinting, no cross-site tracking, no advertising IDs, and no per-visitor profiles. Cloudflare does not retain visitor IP addresses; analytics are bucketed and aggregated at the edge. There are no tag managers, advertising pixels, Google Analytics, or third-party trackers on this site. See the Third-party services section below for the link to Cloudflare's privacy policy.</p>
 
       <h2>Third-party services</h2>
       <p>The extension itself uses no third-party SDKs. This landing page uses:</p>
@@ -574,6 +575,7 @@
         <li><b>images.kiwi.com</b> — public airline-logo CDN used by the extension tooltip; each logo request contains the airline IATA code only (e.g. <code>DL.png</code>).</li>
         <li><b>GitHub Pages</b> — hosts this website (<code>baggageiq.app</code>). GitHub may log IPs when you visit the site; see GitHub's <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">privacy statement</a>.</li>
         <li><b>Cloudflare</b> — fronts the BaggageIQ data API (<code>api.baggageiq.app</code>) as a thin proxy to our Supabase backend. Cloudflare may log connection metadata (IP, user-agent) for abuse prevention; see <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare's privacy policy</a>.</li>
+        <li><b>Cloudflare Web Analytics</b> — privacy-first, cookieless aggregate analytics for the website (<code>baggageiq.app</code>). Counts page views, referrers, countries, and browsers without setting cookies, fingerprinting, or storing visitor IPs. No data is shared with advertisers; see <a href="https://www.cloudflare.com/web-analytics/" target="_blank" rel="noopener">Cloudflare Web Analytics</a> and Cloudflare's privacy policy.</li>
         <li><b>Supabase</b> — backend that serves the BaggageIQ data API. Receives only the anonymous install identifier (no name, email, IP-derived location, or browsing data); see <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase's privacy policy</a>.</li>
       </ul>
 
@@ -583,7 +585,7 @@
       <h2>Contact</h2>
       <p>Questions about this policy? Reach out at <a href="mailto:support@baggageiq.app">support@baggageiq.app</a> or via the <a href="index.html#feedback">feedback form</a> on the home page — no account needed.</p>
 
-      <div class="updated">Last updated · April 11, 2026</div>
+      <div class="updated">Last updated · May 7, 2026</div>
     </div>
   </div>
 
@@ -606,7 +608,7 @@
     <div class="footer-rule"></div>
     <div class="footer-bottom">
       <span>BIQ · 2026</span>
-      <span>No trackers · no affiliate · all cash tips</span>
+      <span>No third-party trackers · no affiliate · all cash tips</span>
     </div>
     <div class="footer-made">
       Made with <span class="heart">&#9829;</span> from Claude
