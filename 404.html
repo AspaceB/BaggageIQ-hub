@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <title>404 — Page Not Found · BaggageIQ</title>
+  <meta name="description" content="That page didn't board. Here's how to find what you were looking for on BaggageIQ.">
+  <meta name="robots" content="noindex, follow">
+
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
+  <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700|jetbrains-mono:400,500,700|inter:400,500,600,700,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/index.css?v=2">
+
+  <style>
+    body { line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+
+    .err-main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 28px;
+      position: relative;
+      overflow: hidden;
+    }
+    .err-main::before {
+      content: ""; position: absolute; inset: 0;
+      background-image:
+        radial-gradient(circle at 80% 30%, rgba(13, 148, 136, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 15% 75%, rgba(244, 197, 66, 0.05) 0%, transparent 40%);
+      pointer-events: none;
+    }
+
+    .err-card {
+      max-width: 640px;
+      width: 100%;
+      background: var(--cream);
+      border: 1px solid var(--rule);
+      border-top: 6px solid var(--stamp-red);
+      border-radius: 4px;
+      padding: 48px 56px 44px;
+      box-shadow: 0 1px 2px rgba(10,21,48,0.04), 0 24px 60px rgba(10,21,48,0.1);
+      position: relative;
+      text-align: center;
+    }
+    @media (max-width: 640px) { .err-card { padding: 36px 28px 32px; } }
+
+    .err-stamp {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--stamp-red);
+      border: 2px solid var(--stamp-red);
+      padding: 5px 14px;
+      border-radius: 2px;
+      transform: rotate(-2deg);
+      margin-bottom: 22px;
+    }
+
+    .err-code {
+      font-family: var(--font-display);
+      font-size: 88px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    @media (max-width: 640px) { .err-code { font-size: 68px; } }
+
+    .err-title {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+      margin-bottom: 14px;
+    }
+    .err-title .hand {
+      color: var(--stamp-red); font-style: italic;
+      display: inline-block; transform: rotate(-2deg);
+    }
+
+    .err-lead {
+      font-size: 16px;
+      color: var(--ink-3);
+      max-width: 480px;
+      margin: 0 auto 28px;
+      line-height: 1.65;
+    }
+
+    .err-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    @media (max-width: 480px) { .err-links { grid-template-columns: 1fr; } }
+    .err-links a {
+      display: block;
+      padding: 14px 18px;
+      background: var(--paper);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      text-align: left;
+      text-decoration: none;
+      color: var(--ink);
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 14px;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    .err-links a:hover {
+      border-color: var(--ink); transform: translateY(-1px);
+      color: var(--ink);
+    }
+    .err-links a small {
+      display: block;
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 2px;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    .err-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal-dark);
+      text-decoration: none;
+    }
+    .err-back:hover { color: var(--teal); }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="/index.html" class="nav-brand">
+      <span class="nav-brand-name">Baggage<span>IQ</span></span>
+      <span class="nav-tagline">Smart Flight Pricing with Baggage</span>
+    </a>
+    <div class="nav-links">
+      <a href="/index.html" class="nav-link">Home</a>
+      <a href="/blog/index.html" class="nav-link">Blog</a>
+      <a href="/index.html#install" class="nav-link">Install</a>
+      <a href="/privacy.html" class="nav-link">Privacy</a>
+      <a href="/terms.html" class="nav-link">Terms</a>
+    </div>
+  </nav>
+
+  <!-- 404 -->
+  <main class="err-main">
+    <div class="err-card">
+
+      <div class="err-stamp">Diverted · gate not found</div>
+
+      <div class="err-code">404</div>
+
+      <div class="err-title">That page <span class="hand">didn't board.</span></div>
+
+      <p class="err-lead">The URL you tried doesn't match anything we currently serve. The page may have been renamed, the link may have been mistyped, or the flight may have been cancelled. Pick a destination below.</p>
+
+      <div class="err-links">
+        <a href="/index.html">
+          Home
+          <small>BaggageIQ landing + install links</small>
+        </a>
+        <a href="/blog/index.html">
+          Blog
+          <small>Long-form on baggage fees & pricing</small>
+        </a>
+        <a href="/glossary.html">
+          Glossary
+          <small>Airline pricing terms defined</small>
+        </a>
+        <a href="/methodology.html">
+          Methodology
+          <small>How we source baggage data</small>
+        </a>
+      </div>
+
+      <a href="/index.html" class="err-back">
+        ←  Back to home
+      </a>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Baggage<span>IQ</span></div>
+        <div class="footer-tagline">Smart Flight Pricing with Baggage</div>
+        <p>Built for travellers who are tired of booking<br>a "cheap" flight and paying twice at the gate.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/index.html">Home</a>
+        <a href="/blog/index.html">Blog</a>
+        <a href="/index.html#install">Install</a>
+        <a href="/about.html">About</a>
+        <a href="/methodology.html">Methodology</a>
+        <a href="/glossary.html">Glossary</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <span>BIQ · 2026</span>
+      <span>No third-party trackers · no affiliate · all cash tips</span>
+    </div>
+    <div class="footer-made">
+      Made with <span class="heart">&#9829;</span> from Claude
+    </div>
+  </footer>
+
+</body>
+</html>
