@@ -15,6 +15,8 @@ The marketing site at baggageiq.app is a static HTML site hosted on GitHub Pages
 ## Blog
 
 - [BaggageIQ Blog index](https://baggageiq.app/blog/): Landing page for long-form posts on baggage fees, fare-tier traps, and finding the true lowest flight cost.
+- [Credit Cards That Waive Baggage Fees in 2026](https://baggageiq.app/blog/credit-cards-that-waive-baggage-fees.html): The travel credit cards that pay for your checked bag in 2026 — Delta SkyMiles, United Explorer, Citi AAdvantage, Alaska Visa, Southwest Priority. Annual fee math, companion coverage, and which card is worth it.
+- [What Counts as a Personal Item? Size Limits by Airline (2026)](https://baggageiq.app/blog/personal-item-size-limits-by-airline.html): Personal item size limits for every major airline in 2026 — Spirit, Frontier, Ryanair, Delta, United, American, British Airways, Lufthansa, Emirates, Singapore Airlines, and more. The under-seat bag, dimensioned.
 - [Why the Cheapest Flight Isn't Actually the Cheapest](https://baggageiq.app/blog/why-cheapest-flight-isnt-cheapest.html): How baggage fees inflate the apparent lowest fare and how to compare flights by total cost.
 - [Airlines That Include Free Checked Bags in 2026](https://baggageiq.app/blog/airlines-free-checked-bags-2026.html): Full-service carriers worldwide that still include free checked bags in economy, grouped by region with weight limits.
 - [Budget Airline Baggage Fees Compared: Spirit vs Frontier vs Ryanair](https://baggageiq.app/blog/budget-airline-baggage-fees-compared.html): Side-by-side breakdown of personal-item, cabin-bag, and checked-bag fees on the three biggest budget carriers.
