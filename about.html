@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <title>About — BaggageIQ — Smart Flight Pricing with Baggage</title>
+  <meta name="description" content="BaggageIQ is a free browser extension that overlays the real total cost of flights. Built as a side project to make flight pricing honest. No Pro tier, no affiliate, no tracking.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://baggageiq.app/about.html">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+  <meta property="og:title" content="About BaggageIQ — Smart Flight Pricing with Baggage">
+  <meta property="og:description" content="A side project that became the answer to bait-fare flight pricing. Free, no affiliate, no tracking.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://baggageiq.app/about.html">
+  <meta property="og:image" content="https://baggageiq.app/og-image.png">
+  <meta property="og:site_name" content="BaggageIQ">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About BaggageIQ",
+    "url": "https://baggageiq.app/about.html",
+    "description": "About the BaggageIQ project — what it is, who built it, how it's funded, and why it exists.",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "BaggageIQ",
+      "url": "https://baggageiq.app/",
+      "logo": "https://baggageiq.app/og-image.png",
+      "sameAs": [
+        "https://www.linkedin.com/company/baggageiq/",
+        "https://www.instagram.com/baggageiqapp/",
+        "https://chromewebstore.google.com/detail/baggageiq-%E2%80%94-smart-flight/ijhahbcdcepaaomkfameehpebigllbpc",
+        "https://microsoftedge.microsoft.com/addons/detail/dpeonnbnggjdfkfhlehlnhegiajlhfjp",
+        "https://addons.mozilla.org/en-US/firefox/addon/baggageiq/"
+      ],
+      "description": "BaggageIQ is a free browser extension that overlays real flight costs (base fare plus baggage fees plus seat-selection fees minus credit-card baggage benefits) directly onto search results on six major flight booking sites."
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://baggageiq.app/"},
+      {"@type": "ListItem", "position": 2, "name": "About", "item": "https://baggageiq.app/about.html"}
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
+  <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700|jetbrains-mono:400,500,700|inter:400,500,600,700,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/index.css?v=2">
+
+  <style>
+    /* About-specific layout — overrides for doc layout */
+    body { line-height: 1.7; }
+    .doc-hero { padding: 72px 28px 56px; position: relative; overflow: hidden; }
+    .doc-hero::before {
+      content: ""; position: absolute; inset: 0;
+      background-image:
+        radial-gradient(circle at 80% 30%, rgba(13, 148, 136, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 15% 75%, rgba(244, 197, 66, 0.05) 0%, transparent 40%);
+      pointer-events: none;
+    }
+    .doc-hero-inner { max-width: 780px; margin: 0 auto; position: relative; }
+    .doc-hero .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-family: var(--font-mono); font-size: 11px; font-weight: 500;
+      letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3);
+      padding-bottom: 8px; margin-bottom: 22px; border-bottom: 1px solid var(--rule);
+    }
+    .doc-hero .eyebrow .sqr { width: 8px; height: 8px; background: var(--stamp-red); }
+    .doc-hero h1 {
+      font-family: var(--font-display); font-size: 62px; font-weight: 700;
+      letter-spacing: -0.035em; line-height: 1; color: var(--ink); margin-bottom: 20px;
+    }
+    @media (max-width: 680px) { .doc-hero h1 { font-size: 42px; } }
+    .doc-hero h1 .hand {
+      color: var(--stamp-red); font-style: italic; display: inline-block; transform: rotate(-2deg);
+    }
+    .doc-hero .lead { font-size: 18px; color: var(--ink-3); max-width: 640px; line-height: 1.6; }
+
+    .doc-content { max-width: 820px; margin: 0 auto 80px; padding: 0 28px; }
+    .doc-card {
+      background: var(--cream); border: 1px solid var(--rule); border-top: 6px solid var(--ink);
+      border-radius: 4px; padding: 48px 56px 52px;
+      box-shadow: 0 1px 2px rgba(10,21,48,0.04), 0 24px 60px rgba(10,21,48,0.1);
+      position: relative;
+    }
+    .doc-card::before {
+      content: ""; position: absolute; top: 6px; left: 0; right: 0; height: 1px;
+      background-image: linear-gradient(90deg, var(--rule) 50%, transparent 50%);
+      background-size: 8px 1px;
+    }
+    @media (max-width: 640px) { .doc-card { padding: 32px 28px 40px; } }
+    .doc-card h2 {
+      font-family: var(--font-display); font-size: 26px; font-weight: 700;
+      color: var(--ink); letter-spacing: -0.02em; line-height: 1.2;
+      margin: 40px 0 14px; padding-top: 16px; border-top: 1px solid var(--rule); position: relative;
+    }
+    .doc-card h2::before {
+      content: "§"; position: absolute; top: 16px; left: -24px;
+      font-family: var(--font-mono); font-size: 14px; color: var(--stamp-red); font-weight: 400;
+    }
+    @media (max-width: 720px) { .doc-card h2::before { display: none; } }
+    .doc-card h2:first-of-type { margin-top: 0; border-top: 0; padding-top: 0; }
+    .doc-card p, .doc-card li { font-size: 15px; color: var(--ink-2); line-height: 1.75; }
+    .doc-card p + p { margin-top: 12px; }
+    .doc-card p b { color: var(--ink); font-weight: 700; }
+    .doc-card ul { list-style: none; padding: 0; margin: 10px 0 14px; }
+    .doc-card ul li { position: relative; padding-left: 26px; margin-bottom: 6px; }
+    .doc-card ul li::before {
+      content: "→"; position: absolute; left: 0; top: 0;
+      font-family: var(--font-display); font-weight: 700; color: var(--stamp-red);
+    }
+    .doc-card a { color: var(--teal-dark); text-decoration: underline; text-decoration-color: var(--teal); text-underline-offset: 3px; }
+    .doc-card a:hover { color: var(--teal); }
+
+    .tl-dr {
+      padding: 18px 22px; background: var(--paper); border: 1px solid var(--rule);
+      border-left: 4px solid var(--stamp-red); border-radius: 3px;
+      margin-bottom: 40px; font-size: 14px; color: var(--ink-2); line-height: 1.65; position: relative;
+    }
+    .tl-dr::before {
+      content: "TL;DR"; position: absolute; top: -10px; left: 20px;
+      padding: 2px 10px; background: var(--cream); font-family: var(--font-mono);
+      font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--stamp-red); font-weight: 700;
+    }
+    .tl-dr b { color: var(--ink); font-weight: 700; }
+
+    .updated {
+      margin-top: 40px; padding-top: 22px; border-top: 1px dashed var(--rule);
+      text-align: center; font-family: var(--font-mono); font-size: 11px;
+      color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-brand-name">Baggage<span>IQ</span></span>
+      <span class="nav-tagline">Smart Flight Pricing with Baggage</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="blog/index.html" class="nav-link">Blog</a>
+      <a href="index.html#install" class="nav-link">Install</a>
+      <a href="privacy.html" class="nav-link">Privacy</a>
+      <a href="terms.html" class="nav-link">Terms</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="doc-hero">
+    <div class="doc-hero-inner">
+      <div class="eyebrow">
+        <span class="sqr"></span>
+        Manifest · who & why
+      </div>
+      <h1>The bait fare problem, <span class="hand">solved on a side project budget.</span></h1>
+      <p class="lead">BaggageIQ exists because flight booking sites stopped showing the real price of flights about fifteen years ago, and nobody had the tooling to fix it from the user side. So we did.</p>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <main class="doc-content">
+    <article class="doc-card">
+
+      <div class="tl-dr">
+        <b>Short version:</b> BaggageIQ is a free browser extension that adds baggage and seat-selection fees back into the prices on flight search sites. It is a side project — not a startup, not a subscription, no Pro tier, no affiliate links. The full feature set ships free to every user. The goal is simple: make it impossible to fall for a bait fare.
+      </div>
+
+      <h2>What BaggageIQ does</h2>
+      <p>BaggageIQ runs as a browser extension on Chrome, Edge, Brave, and Firefox. When you search for flights on Google Flights, Skyscanner, Kayak, MakeMyTrip, Booking.com, or Expedia, BaggageIQ reads the flight cards already on the page, looks up the airline's baggage policy for your fare tier, calculates the seat-selection fee, subtracts any credit-card baggage benefit you have, and stamps the real total directly onto every flight. No clicks. No checkout. The number you'll actually pay shows up next to the number the booking site is hoping you'll book on.</p>
+      <p>The bundled database covers <b>109 airlines</b> with per-fare-tier baggage allowances and per-route fee breakdowns, plus <b>62 travel credit cards</b> with their free-checked-bag and seat-fee benefits. All computed locally in the browser — no flight data leaves your device.</p>
+
+      <h2>Why it exists</h2>
+      <p>The unbundling of airline pricing started with Spirit and Ryanair in the late 2000s and spread to mainline carriers' Basic Economy tiers by the late 2010s. Today, the headline fare on a flight search results page is rarely the real total. Spirit shows you $49 and charges you $215. Ryanair shows you €19.99 and charges you €68. Every other booking site sorts by that misleading headline, so the "cheapest" flight at the top is almost always not the cheapest flight to actually take.</p>
+      <p>The booking sites have no incentive to fix this — they get paid on bookings, not on accuracy. The airlines have no incentive to fix this — opaque pricing is a profit centre. The only people with an incentive to fix this are travellers, and travellers don't have the tools.</p>
+      <p>BaggageIQ is the tool. Free, because charging for it would defeat the point.</p>
+
+      <h2>Who built it</h2>
+      <p>BaggageIQ is built and maintained by <b>Ashish Bansal</b>, a software engineer based in India. It started in early 2026 as a personal frustration after one too many Spirit checkouts and grew into the published extension you see now. The work involved is roughly equal parts: writing parsers that adapt as booking sites redesign their layouts, maintaining the airline fee research pipeline, building the credit-card benefit resolver, and keeping the privacy posture clean.</p>
+      <p>There is no team, no investors, no roadmap meetings, no growth metrics. Decisions get made on the principle of "would I want this on my own bookings." Where that principle conflicts with growth (no affiliate, no Pro tier, no email capture), the principle wins.</p>
+
+      <h2>How it's funded</h2>
+      <p>It isn't, in any traditional sense. BaggageIQ runs on the developer's time and a small server bill (Cloudflare Workers, Supabase Edge Functions, GitHub Pages — all on free or near-free tiers). The economics work because the project doesn't need to scale revenue, only quality. If running costs ever exceed what's reasonable for a side project, the most likely fix is asking heavy users to chip in voluntarily — not gating features.</p>
+      <p>Things BaggageIQ explicitly will not do for revenue: affiliate commissions on bookings, sponsored airline placements in scoring, paid Pro tiers that gate the real-cost calculation, ad networks, selling user data, mailing-list rentals.</p>
+
+      <h2>What we're not</h2>
+      <p>BaggageIQ is not a flight booking site, a flight comparison engine, or an airline. We don't sell tickets, take commissions, or have business relationships with any airline. We don't tell you which flight to book — we just show you what each flight will actually cost so you can decide.</p>
+      <p>We're also not a travel rewards site, a points-and-miles blog, or a credit-card recommendation engine. We use the credit cards in your wallet to subtract real benefits from real bookings. That's it.</p>
+
+      <h2>Brand & press</h2>
+      <p>If you're writing about BaggageIQ, the assets and accurate phrasing live here:</p>
+      <ul>
+        <li><b>Name:</b> BaggageIQ (one word, capital B and Q)</li>
+        <li><b>Tagline:</b> Smart Flight Pricing with Baggage</li>
+        <li><b>Logo / OG image:</b> <a href="/og-image.png">og-image.png</a></li>
+        <li><b>Favicon:</b> <a href="/favicon.svg">favicon.svg</a></li>
+        <li><b>Listings:</b> <a href="https://chromewebstore.google.com/detail/baggageiq-%E2%80%94-smart-flight/ijhahbcdcepaaomkfameehpebigllbpc" rel="noopener">Chrome Web Store</a> · <a href="https://microsoftedge.microsoft.com/addons/detail/dpeonnbnggjdfkfhlehlnhegiajlhfjp" rel="noopener">Microsoft Edge Add-ons</a> · <a href="https://addons.mozilla.org/en-US/firefox/addon/baggageiq/" rel="noopener">Firefox Add-ons</a></li>
+        <li><b>Social:</b> <a href="https://www.linkedin.com/company/baggageiq/" rel="noopener">LinkedIn</a> · <a href="https://www.instagram.com/baggageiqapp/" rel="noopener">Instagram</a></li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Press, partnerships, bug reports, fee corrections, or just notes: <a href="mailto:support@baggageiq.app">support@baggageiq.app</a> or via the <a href="index.html#feedback">feedback form</a> on the home page. Replies usually come within a few days.</p>
+
+      <div class="updated">Last updated · May 9, 2026</div>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Baggage<span>IQ</span></div>
+        <div class="footer-tagline">Smart Flight Pricing with Baggage</div>
+        <p>Built for travellers who are tired of booking<br>a "cheap" flight and paying twice at the gate.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="index.html#install">Install</a>
+        <a href="about.html">About</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="glossary.html">Glossary</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <span>BIQ · 2026</span>
+      <span>No third-party trackers · no affiliate · all cash tips</span>
+    </div>
+    <div class="footer-made">
+      Made with <span class="heart">&#9829;</span> from Claude
+    </div>
+  </footer>
+
+</body>
+</html>

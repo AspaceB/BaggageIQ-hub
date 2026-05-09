@@ -20,6 +20,12 @@ The marketing site at baggageiq.app is a static HTML site hosted on GitHub Pages
 - [Budget Airline Baggage Fees Compared: Spirit vs Frontier vs Ryanair](https://baggageiq.app/blog/budget-airline-baggage-fees-compared.html): Side-by-side breakdown of personal-item, cabin-bag, and checked-bag fees on the three biggest budget carriers.
 - [How to Avoid Surprise Baggage Fees When Booking Flights](https://baggageiq.app/blog/how-to-avoid-surprise-baggage-fees.html): Eight practical steps — checking policies, comparing total cost, fare-tier math, credit-card perks, packing strategy, online vs gate fees, size/weight rules, and tools that show the real price.
 
+## Reference
+
+- [About BaggageIQ](https://baggageiq.app/about.html): Who built it, why it exists, how it's funded, and what we explicitly will not do for revenue. Side project, not a startup.
+- [Methodology](https://baggageiq.app/methodology.html): How the airline baggage database (109 airlines) and credit-card benefits database (62 cards) are sourced, verified, and updated. Includes confidence ratings and the correction process.
+- [Glossary](https://baggageiq.app/glossary.html): Plain-English definitions of airline pricing terms — bait fare, basic economy, fare tier, personal item, real total, unbundling, and 19 more.
+
 ## Quick facts
 
 - Pricing: Free. There is no Pro tier, no subscription, no paywall, no affiliate commission on bookings.

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <title>Methodology — BaggageIQ — Smart Flight Pricing with Baggage</title>
+  <meta name="description" content="How BaggageIQ sources, verifies, and updates its database of 109 airlines and 62 travel credit cards. Sources, confidence ratings, update frequency, and correction process.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://baggageiq.app/methodology.html">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+  <meta property="og:title" content="Methodology — BaggageIQ">
+  <meta property="og:description" content="Where every baggage fee, fare-tier allowance, and credit-card benefit number comes from. Plus how to report a wrong number.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://baggageiq.app/methodology.html">
+  <meta property="og:image" content="https://baggageiq.app/og-image.png">
+  <meta property="og:site_name" content="BaggageIQ">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "BaggageIQ Methodology",
+    "url": "https://baggageiq.app/methodology.html",
+    "description": "Sourcing, verification, and update methodology for the BaggageIQ airline and credit-card baggage benefit databases.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "BaggageIQ",
+      "url": "https://baggageiq.app/"
+    },
+    "inLanguage": "en"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://baggageiq.app/"},
+      {"@type": "ListItem", "position": 2, "name": "Methodology", "item": "https://baggageiq.app/methodology.html"}
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
+  <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700|jetbrains-mono:400,500,700|inter:400,500,600,700,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/index.css?v=2">
+
+  <style>
+    body { line-height: 1.7; }
+    .doc-hero { padding: 72px 28px 56px; position: relative; overflow: hidden; }
+    .doc-hero::before {
+      content: ""; position: absolute; inset: 0;
+      background-image:
+        radial-gradient(circle at 80% 30%, rgba(13, 148, 136, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 15% 75%, rgba(244, 197, 66, 0.05) 0%, transparent 40%);
+      pointer-events: none;
+    }
+    .doc-hero-inner { max-width: 780px; margin: 0 auto; position: relative; }
+    .doc-hero .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-family: var(--font-mono); font-size: 11px; font-weight: 500;
+      letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3);
+      padding-bottom: 8px; margin-bottom: 22px; border-bottom: 1px solid var(--rule);
+    }
+    .doc-hero .eyebrow .sqr { width: 8px; height: 8px; background: var(--stamp-red); }
+    .doc-hero h1 {
+      font-family: var(--font-display); font-size: 62px; font-weight: 700;
+      letter-spacing: -0.035em; line-height: 1; color: var(--ink); margin-bottom: 20px;
+    }
+    @media (max-width: 680px) { .doc-hero h1 { font-size: 42px; } }
+    .doc-hero h1 .hand { color: var(--stamp-red); font-style: italic; display: inline-block; transform: rotate(-2deg); }
+    .doc-hero .lead { font-size: 18px; color: var(--ink-3); max-width: 640px; line-height: 1.6; }
+
+    .doc-content { max-width: 820px; margin: 0 auto 80px; padding: 0 28px; }
+    .doc-card {
+      background: var(--cream); border: 1px solid var(--rule); border-top: 6px solid var(--ink);
+      border-radius: 4px; padding: 48px 56px 52px;
+      box-shadow: 0 1px 2px rgba(10,21,48,0.04), 0 24px 60px rgba(10,21,48,0.1);
+      position: relative;
+    }
+    .doc-card::before {
+      content: ""; position: absolute; top: 6px; left: 0; right: 0; height: 1px;
+      background-image: linear-gradient(90deg, var(--rule) 50%, transparent 50%);
+      background-size: 8px 1px;
+    }
+    @media (max-width: 640px) { .doc-card { padding: 32px 28px 40px; } }
+    .doc-card h2 {
+      font-family: var(--font-display); font-size: 26px; font-weight: 700;
+      color: var(--ink); letter-spacing: -0.02em; line-height: 1.2;
+      margin: 40px 0 14px; padding-top: 16px; border-top: 1px solid var(--rule); position: relative;
+    }
+    .doc-card h2::before {
+      content: "§"; position: absolute; top: 16px; left: -24px;
+      font-family: var(--font-mono); font-size: 14px; color: var(--stamp-red); font-weight: 400;
+    }
+    @media (max-width: 720px) { .doc-card h2::before { display: none; } }
+    .doc-card h2:first-of-type { margin-top: 0; border-top: 0; padding-top: 0; }
+    .doc-card p, .doc-card li { font-size: 15px; color: var(--ink-2); line-height: 1.75; }
+    .doc-card p + p { margin-top: 12px; }
+    .doc-card p b { color: var(--ink); font-weight: 700; }
+    .doc-card ul { list-style: none; padding: 0; margin: 10px 0 14px; }
+    .doc-card ul li { position: relative; padding-left: 26px; margin-bottom: 6px; }
+    .doc-card ul li::before {
+      content: "→"; position: absolute; left: 0; top: 0;
+      font-family: var(--font-display); font-weight: 700; color: var(--stamp-red);
+    }
+    .doc-card a { color: var(--teal-dark); text-decoration: underline; text-decoration-color: var(--teal); text-underline-offset: 3px; }
+    .doc-card a:hover { color: var(--teal); }
+    .doc-card code {
+      background: var(--ink); color: var(--paper);
+      padding: 2px 7px; border-radius: 2px; font-size: 12px;
+      font-family: var(--font-mono); font-weight: 500;
+    }
+
+    .tl-dr {
+      padding: 18px 22px; background: var(--paper); border: 1px solid var(--rule);
+      border-left: 4px solid var(--stamp-red); border-radius: 3px;
+      margin-bottom: 40px; font-size: 14px; color: var(--ink-2); line-height: 1.65; position: relative;
+    }
+    .tl-dr::before {
+      content: "TL;DR"; position: absolute; top: -10px; left: 20px;
+      padding: 2px 10px; background: var(--cream); font-family: var(--font-mono);
+      font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--stamp-red); font-weight: 700;
+    }
+    .tl-dr b { color: var(--ink); font-weight: 700; }
+
+    .confidence-table {
+      margin: 18px 0 24px; border: 1px solid var(--rule);
+      border-radius: 3px; overflow: hidden;
+    }
+    .confidence-row {
+      display: grid; grid-template-columns: 90px 1fr; gap: 18px;
+      padding: 14px 18px; border-bottom: 1px solid var(--rule-soft);
+      font-size: 14px;
+    }
+    .confidence-row:last-child { border-bottom: none; }
+    .confidence-row b {
+      font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .confidence-row.high b { color: var(--good); }
+    .confidence-row.medium b { color: var(--warn); }
+    .confidence-row.low b { color: var(--bad); }
+
+    .updated {
+      margin-top: 40px; padding-top: 22px; border-top: 1px dashed var(--rule);
+      text-align: center; font-family: var(--font-mono); font-size: 11px;
+      color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-brand-name">Baggage<span>IQ</span></span>
+      <span class="nav-tagline">Smart Flight Pricing with Baggage</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="blog/index.html" class="nav-link">Blog</a>
+      <a href="index.html#install" class="nav-link">Install</a>
+      <a href="privacy.html" class="nav-link">Privacy</a>
+      <a href="terms.html" class="nav-link">Terms</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="doc-hero">
+    <div class="doc-hero-inner">
+      <div class="eyebrow">
+        <span class="sqr"></span>
+        Sources · verification · updates
+      </div>
+      <h1>How we know <span class="hand">what your bag costs.</span></h1>
+      <p class="lead">Every baggage fee, fare-tier allowance, and credit-card benefit number BaggageIQ shows you traces back to a published source. This page documents what those sources are, how often we re-check them, and what to do when a number is wrong.</p>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <main class="doc-content">
+    <article class="doc-card">
+
+      <div class="tl-dr">
+        <b>Short version:</b> Airline baggage policies come directly from each airline's published fee pages, refreshed via a monitored research pipeline. Credit-card benefits come from each card issuer's published terms. Every row in the database carries a <code>sourceUrl</code>, a <code>lastVerifiedAt</code> date, and a <code>confidence</code> rating. When something changes, we ship the update in the next snapshot. When you spot a wrong number, the extension has a built-in correction button that goes straight to a queue we review.
+      </div>
+
+      <h2>The two databases</h2>
+      <p>BaggageIQ runs on two bundled databases that ship inside the extension:</p>
+      <ul>
+        <li><b>Airline baggage DB</b> — 109 airlines, with per-fare-tier rules (Basic Economy, Main, Premium, Business, etc.), per-route variations where airlines price bags differently by region, and per-cabin-vs-checked allowances.</li>
+        <li><b>Card benefits DB</b> — 62 travel credit cards (across US, UK, EU, India, UAE, Singapore, Australia issuers), with their free-checked-bag, seat-fee, lounge, and priority-boarding benefits — plus the conditions each benefit applies under (cardholder-only, primary + companions, requires booking on the card, etc.).</li>
+      </ul>
+      <p>Both databases are encrypted at rest with AES-256-GCM and decrypted in the extension's service worker. The encryption is operational hygiene, not a confidence signal — the data itself comes from public sources we credit on every row.</p>
+
+      <h2>Where airline baggage data comes from</h2>
+      <p>The primary source for every airline is that airline's own published baggage policy page (typically <code>/baggage</code>, <code>/baggage-policy</code>, <code>/fees</code>, or equivalent). For each airline we capture:</p>
+      <ul>
+        <li><b>Free allowances per fare tier</b> — what's included in the bare/basic/main/premium/business fares without paying extra</li>
+        <li><b>Per-bag fees</b> — first checked, second checked, third+, plus oversize and overweight surcharges</li>
+        <li><b>Cabin/carry-on rules</b> — whether a cabin bag is included, dimension limits, weight limits</li>
+        <li><b>Personal item rules</b> — dimension and weight limits, whether one is always included</li>
+        <li><b>Route-specific variants</b> — many airlines charge differently for transatlantic vs domestic vs intra-Europe etc., and we encode each variant separately</li>
+      </ul>
+      <p>Where airlines publish fees in multiple currencies, we capture each currency the airline officially quotes (USD, EUR, GBP, INR, AED, AUD, SGD, etc.). At runtime BaggageIQ converts to your search currency using daily rates from <a href="https://open.er-api.com/" rel="noopener">open.er-api.com</a>, the same FX feed used in the extension.</p>
+
+      <h2>Where credit-card data comes from</h2>
+      <p>Every card benefit row sources from the card issuer's official terms-and-conditions document or benefits guide for that specific card. We do not source from credit-card review sites, points-and-miles blogs, or affiliate marketing pages — they go stale faster than the issuer pages and they're written to sell cards.</p>
+      <p>For each card we capture: the issuer, the card network, the region the card is issued in, and the benefits relevant to flight cost (free checked bags, seat-selection credits, lounge access, priority boarding). Each benefit row records the conditions that gate it: cardholder-only versus cardholder + companions, whether it requires booking the flight on the card, whether it requires a co-branded airline, and which airlines it applies to.</p>
+
+      <h2>Confidence ratings</h2>
+      <p>Every row in both databases carries a <code>confidence</code> field with three values:</p>
+      <div class="confidence-table">
+        <div class="confidence-row high">
+          <b>High</b>
+          <span>Sourced directly from the airline or card issuer's official page within the last 90 days. The page was machine-readable and the number is stated explicitly. Most rows fall here.</span>
+        </div>
+        <div class="confidence-row medium">
+          <b>Medium</b>
+          <span>Source is verified but either older than 90 days, requires interpretation (e.g. policy stated in prose rather than a table), or has fare-tier ambiguity that we resolved by best-effort inference.</span>
+        </div>
+        <div class="confidence-row low">
+          <b>Low</b>
+          <span>Reserved for cases where the airline doesn't publish a clear fee schedule and we've reconstructed the rule from booking flow observations. Rare.</span>
+        </div>
+      </div>
+      <p>The extension's tooltip shows confidence implicitly through the "Estimated baggage cost" framing — we don't claim exactness on numbers we're not sure about.</p>
+
+      <h2>How often the data is refreshed</h2>
+      <p>The bundled databases inside the extension are refreshed on a regular cadence — typically every few weeks for the airline DB, more often when an airline announces a fee change. Card benefits move slower; those refresh quarterly unless an issuer announces a benefit change.</p>
+      <p>Between extension releases, BaggageIQ also performs lazy hydration: if the extension encounters an airline IATA code that isn't in the bundled snapshot (a small carrier, or a new partnership code), it queries the BaggageIQ data API for the latest data on that airline specifically. This is the only network round-trip per flight search, and it's cached for 7 days locally.</p>
+
+      <h2>What we don't do</h2>
+      <p>To keep the methodology honest, here are things BaggageIQ explicitly does not do:</p>
+      <ul>
+        <li><b>We don't scrape booking sites for fees.</b> Booking sites display fees inconsistently, often omit fare-tier breakdowns, and sometimes show different fees to different users based on personalization. The airline's own published page is more reliable.</li>
+        <li><b>We don't crowdsource fees.</b> User-submitted fees are inconsistent and prone to honest mistakes about which fare tier was booked, which route, etc. We use them as alerts to re-check the official source, not as data.</li>
+        <li><b>We don't infer fees from past bookings.</b> A flight that charged $35 last month might charge $45 this month if the airline raised fees. Always re-verifying the published source is more accurate than extrapolating.</li>
+        <li><b>We don't pad estimates "to be safe".</b> The number in the badge is what we believe the actual fee is. If we're wrong, we'd rather be told and fix it than show artificially high numbers.</li>
+      </ul>
+
+      <h2>Reporting wrong numbers</h2>
+      <p>Every flight badge in the extension has a small footer with a "Report wrong fee" link. Clicking it opens a tiny form that captures what you observed (the actual fee at checkout) and sends it through the corrections endpoint at <code>api.baggageiq.app/v1/corrections</code>. The payload is minimal: airline IATA, route, cabin class, fare type, the observed fee, and your anonymous client ID. No personal data, no booking info, no flight numbers.</p>
+      <p>Corrections go into a review queue. We re-check the airline's published source and either confirm the new number or note that the original was correct (sometimes the booking site quoted the wrong fee — that's a different bug). Confirmed corrections ship in the next database refresh, usually within two weeks.</p>
+      <p>You can also email corrections directly to <a href="mailto:support@baggageiq.app">support@baggageiq.app</a> with screenshots if the in-extension flow doesn't fit what you saw.</p>
+
+      <h2>Where this methodology breaks</h2>
+      <p>Three known limits of the current approach:</p>
+      <ul>
+        <li><b>Personalised pricing.</b> Some airlines run A/B tests on baggage fees or charge different fees in different geographic markets. BaggageIQ shows the most-published-rate, which matches what most users see, but a small percentage of users in tested markets may see a different number at checkout.</li>
+        <li><b>Promotional fee waivers.</b> Airlines occasionally run "free checked bag" promotions tied to specific routes or co-branded credit-card sign-ups. We update these as they're announced, but a brand-new promo may not be in the database for a week.</li>
+        <li><b>Mid-itinerary fare-tier changes.</b> On a multi-leg itinerary with different airlines, baggage policy can change between legs. BaggageIQ uses the operating-airline rule for each leg, which is the most-common policy, but a few alliance partnerships override this.</li>
+      </ul>
+
+      <div class="updated">Last updated · May 9, 2026</div>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Baggage<span>IQ</span></div>
+        <div class="footer-tagline">Smart Flight Pricing with Baggage</div>
+        <p>Built for travellers who are tired of booking<br>a "cheap" flight and paying twice at the gate.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="index.html#install">Install</a>
+        <a href="about.html">About</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="glossary.html">Glossary</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <span>BIQ · 2026</span>
+      <span>No third-party trackers · no affiliate · all cash tips</span>
+    </div>
+    <div class="footer-made">
+      Made with <span class="heart">&#9829;</span> from Claude
+    </div>
+  </footer>
+
+</body>
+</html>
