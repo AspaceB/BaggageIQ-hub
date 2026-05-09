@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://baggageiq.app/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://baggageiq.app/og-image.png</image:loc>
+      <image:title>BaggageIQ — Smart Flight Pricing with Baggage</image:title>
+      <image:caption>Browser extension that overlays baggage fees onto flight search results.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://baggageiq.app/privacy.html</loc>
@@ -23,6 +28,11 @@
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://baggageiq.app/og-image.png</image:loc>
+      <image:title>BaggageIQ Blog — Airline Baggage Tips, Fee Comparisons &amp; Travel Guides</image:title>
+      <image:caption>Long-form guides on airline baggage fees, fare-tier traps, and finding the true lowest flight cost.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://baggageiq.app/blog/why-cheapest-flight-isnt-cheapest.html</loc>
