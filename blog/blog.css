@@ -752,9 +752,12 @@ footer {
 
 /* ═══════════ INTRO ═══════════ */
 .blog-intro {
-  max-width: 760px;
+  max-width: 1080px;
   margin: 0 auto;
-  padding: 8px 32px 56px;
+  padding: 8px 28px 48px;
+}
+.blog-intro-inner {
+  max-width: 720px;
 }
 .blog-intro-inner p {
   font-size: 17px;
@@ -764,6 +767,6 @@ footer {
 }
 .blog-intro-inner p:last-child { margin-bottom: 0; }
 @media (max-width: 680px) {
-  .blog-intro { padding: 4px 22px 40px; }
+  .blog-intro { padding: 4px 22px 32px; }
   .blog-intro-inner p { font-size: 15.5px; line-height: 1.7; }
 }
