@@ -749,3 +749,21 @@ footer {
   0%, 100% { transform: translateY(2px) scale(1); }
   50%      { transform: translateY(2px) scale(1.2); }
 }
+
+/* ═══════════ INTRO ═══════════ */
+.blog-intro {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 32px 56px;
+}
+.blog-intro-inner p {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--ink-2);
+  margin-bottom: 18px;
+}
+.blog-intro-inner p:last-child { margin-bottom: 0; }
+@media (max-width: 680px) {
+  .blog-intro { padding: 4px 22px 40px; }
+  .blog-intro-inner p { font-size: 15.5px; line-height: 1.7; }
+}
