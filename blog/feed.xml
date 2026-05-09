@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BaggageIQ Blog</title>
+    <link>https://baggageiq.app/blog/</link>
+    <atom:link href="https://baggageiq.app/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Long-form dispatches on airline baggage fees, fare-tier traps, packing strategy, and booking flights at the true lowest price.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
+    <generator>BaggageIQ static build</generator>
+    <ttl>1440</ttl>
+    <item>
+      <title>Why the Cheapest Flight Isn't Actually the Cheapest</title>
+      <link>https://baggageiq.app/blog/why-cheapest-flight-isnt-cheapest.html</link>
+      <guid isPermaLink="true">https://baggageiq.app/blog/why-cheapest-flight-isnt-cheapest.html</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[That ultra-low fare might cost you more once you add bags. Learn how hidden baggage fees inflate flight prices and how to compare flights by true total cost.]]></description>
+      <category>Travel Tips</category>
+    </item>
+    <item>
+      <title>Airlines That Include Free Checked Bags in 2026</title>
+      <link>https://baggageiq.app/blog/airlines-free-checked-bags-2026.html</link>
+      <guid isPermaLink="true">https://baggageiq.app/blog/airlines-free-checked-bags-2026.html</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[A complete list of airlines that still include free checked baggage in economy class in 2026 — grouped by region with weight limits and comparisons to budget carriers.]]></description>
+      <category>Airline Guide</category>
+    </item>
+    <item>
+      <title>Budget Airline Baggage Fees Compared: Spirit vs Frontier vs Ryanair</title>
+      <link>https://baggageiq.app/blog/budget-airline-baggage-fees-compared.html</link>
+      <guid isPermaLink="true">https://baggageiq.app/blog/budget-airline-baggage-fees-compared.html</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Side-by-side comparison of Spirit Airlines, Frontier Airlines, and Ryanair baggage fees in 2026. Personal items, cabin bags, and checked bags — which budget airline is cheapest?]]></description>
+      <category>Fee Comparison</category>
+    </item>
+    <item>
+      <title>How to Avoid Surprise Baggage Fees When Booking Flights</title>
+      <link>https://baggageiq.app/blog/how-to-avoid-surprise-baggage-fees.html</link>
+      <guid isPermaLink="true">https://baggageiq.app/blog/how-to-avoid-surprise-baggage-fees.html</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Practical tips to avoid unexpected baggage fees — from checking policies before booking to using credit card perks and tools like BaggageIQ to compare flights by true total cost.]]></description>
+      <category>Travel Tips</category>
+    </item>
+  </channel>
+</rss>
