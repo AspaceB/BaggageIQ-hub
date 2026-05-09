@@ -1,0 +1,30 @@
+# BaggageIQ
+
+> Browser extension that overlays the real total cost of flights — base fare plus baggage fees plus seat-selection fees plus credit-card baggage benefits — directly onto search results on Google Flights, Skyscanner, Kayak, MakeMyTrip, Booking.com, and Expedia. Free, no subscription, no affiliate, no tracking.
+
+BaggageIQ is a Manifest V3 browser extension distributed on the Chrome Web Store, Microsoft Edge Add-ons, and Firefox Add-ons. It ships with a bundled database of 109 airlines (per-fare-tier baggage allowances and per-route fee breakdowns) and 62 travel credit cards (free-checked-bag benefits, seat-fee credits). The extension reads flight cards already loaded by the booking site and stamps the real total — including bags, seats, and applicable card-benefit subtractions — on top, so users can compare flights by what they will actually pay rather than by the bait-fare headline number.
+
+The marketing site at baggageiq.app is a static HTML site hosted on GitHub Pages with Cloudflare in front. It contains the landing page, install instructions, FAQ, privacy policy, terms, and a small blog covering airline baggage policies and fare-tier strategy.
+
+## Core pages
+
+- [Home / install page](https://baggageiq.app/): Product overview, real-cost example, supported booking sites, FAQ, install links for Chrome, Edge, Firefox.
+- [Privacy policy](https://baggageiq.app/privacy.html): What data the extension and website do and do not collect. No cookies, no tracking pixels, no affiliate links, no advertising IDs. Cloudflare Web Analytics for aggregate page-view counts only.
+- [Terms of service](https://baggageiq.app/terms.html): Usage terms for the extension and website.
+
+## Blog
+
+- [BaggageIQ Blog index](https://baggageiq.app/blog/): Landing page for long-form posts on baggage fees, fare-tier traps, and finding the true lowest flight cost.
+- [Why the Cheapest Flight Isn't Actually the Cheapest](https://baggageiq.app/blog/why-cheapest-flight-isnt-cheapest.html): How baggage fees inflate the apparent lowest fare and how to compare flights by total cost.
+- [Airlines That Include Free Checked Bags in 2026](https://baggageiq.app/blog/airlines-free-checked-bags-2026.html): Full-service carriers worldwide that still include free checked bags in economy, grouped by region with weight limits.
+- [Budget Airline Baggage Fees Compared: Spirit vs Frontier vs Ryanair](https://baggageiq.app/blog/budget-airline-baggage-fees-compared.html): Side-by-side breakdown of personal-item, cabin-bag, and checked-bag fees on the three biggest budget carriers.
+- [How to Avoid Surprise Baggage Fees When Booking Flights](https://baggageiq.app/blog/how-to-avoid-surprise-baggage-fees.html): Eight practical steps — checking policies, comparing total cost, fare-tier math, credit-card perks, packing strategy, online vs gate fees, size/weight rules, and tools that show the real price.
+
+## Quick facts
+
+- Pricing: Free. There is no Pro tier, no subscription, no paywall, no affiliate commission on bookings.
+- Supported booking sites: Google Flights, Skyscanner, Kayak, MakeMyTrip, Booking.com, Expedia.
+- Supported browsers: Chrome, Edge, Brave, Firefox. Mobile is not yet supported because mobile browsers do not support full extension APIs.
+- Coverage: 109 airlines, 62 travel credit cards.
+- Privacy: No cookies on the website. The extension uses chrome.storage.sync for preferences only. Telemetry is opt-in and limited to anonymous extension health metrics.
+- Source / contact: Listed in /security.txt and on the privacy page. Feedback form on the home page.
