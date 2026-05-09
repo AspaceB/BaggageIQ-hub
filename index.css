@@ -43,6 +43,7 @@ html, body {
   font-feature-settings: "ss01", "cv11";
   overflow-x: hidden;
 }
+html { scroll-padding-top: 72px; scroll-behavior: smooth; }
 
 /* Subtle paper texture: dual speckle layer */
 body::before {
@@ -82,6 +83,9 @@ button { font-family: inherit; }
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255,255,255,0.08);
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 .nav-brand {
   color: #fff;
