@@ -142,7 +142,7 @@ refuse to do affiliate.
 - Moderators sometimes allow platform-expansion relaunches, sometimes consolidate into existing page.
 - ~50/50 odds. Worst case: gets merged into existing page (same outcome as Ship).
 - ~5 min effort to attempt.
-- **In progress as of 2026-05-14.**
+- **Submitted 2026-05-14, awaiting moderator decision** (standalone launch vs. merge into existing BaggageIQ page). Skipped the optional "Connect with Investors" form — wrong fit for a free, no-monetization side project.
 
 ### Shoutouts strategy (PH submission form has a Shoutouts tab)
 - Purpose: notify 3-5 PH-listed products' teams, build relationships, occasional reciprocation on launch day.
@@ -437,6 +437,8 @@ Most extension installs come from in-store search ("baggage fee", "flight compar
 ### 2026-05-14
 - Chose to attempt the speculative "BaggageIQ for Safari" relaunch on Product Hunt (option #2 above), not just a Ship update. Worst case is moderator consolidation back into the existing page — same outcome as Ship, so the downside is bounded.
 - Filled PH Shoutouts with: Going, Skiplagged, Flighty, Raycast. Rationale logged in the Product Hunt section above.
+- Skipped the optional "Connect with Investors" section. Mismatch with product posture (free, no Pro tier, no affiliate, no monetization path) — filling it would either require dishonest framing or leave a "tried to raise, no traction" footprint in PH's investor feed. Optional field; submission flow proceeds without it.
+- Submission complete, awaiting moderator decision.
 - **Pending observation:** whether moderators allow this as a standalone launch or merge it into the existing BaggageIQ page. Outcome determines whether the speculative-relaunch tactic stays in the playbook for future platform expansions (e.g., a future Safari-iOS or Android port).
 
 ### 2026-05-13
