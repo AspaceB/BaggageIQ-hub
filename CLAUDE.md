@@ -45,6 +45,8 @@ b45975767ce30e222f252fc5d1a11255.txt   IndexNow key file (push protocol for Bing
 og-image.png           1200×630 OG card; lossless-optimized to 100KB (was 272KB) on 2026-05-09
 favicon.svg            Vector favicon (also 16/48 PNG variants + apple-touch-icon)
 CNAME                  Holds "baggageiq.app" — GitHub Pages custom domain
+
+.notes/growth-playbook.md   Internal growth/awareness playbook — launch channels, HN/PH/newsletter/HARO/video/Reddit tactics, ready-to-ship Show HN draft and pitch templates. NOT served (Jekyll excludes dot-prefixed dirs). Update as channels are tried.
 ```
 
 ## Schema graph (per page)
