@@ -23,6 +23,16 @@ admin.html             Admin tool for fee corrections review (noindex, robots-di
 
 index.css              Shared chrome (nav, footer, hero, body, FAQ) — extracted from index.html
                        Used by: index, about, methodology, glossary, 404. NOT used by privacy/terms (embedded).
+                       Top of file declares the self-hosted @font-face rules (see fonts/).
+
+fonts/                 Self-hosted woff2 (latin subset) — Space Grotesk / Inter / JetBrains Mono,
+                       weights 400/500/600/700 (mono: 400/500/700). 11 files, ~230KB total.
+                       Replaced the Bunny Fonts CDN on 2026-06-23 (kills a render-blocking
+                       cross-origin request; also a privacy win — no third-party font CDN).
+                       @font-face lives in index.css + blog/blog.css + the inline <style> of
+                       privacy.html & terms.html (those four are the only stylesheets). All use
+                       absolute /fonts/ paths + font-display:swap. index.html preloads the two
+                       above-the-fold faces (space-grotesk-700, inter-400).
 
 blog/
   index.html           Blog landing — article-grid cards, ItemList JSON-LD, intro
@@ -74,7 +84,7 @@ BlogPosting `mentions` arrays link to Wikidata + Wikipedia for airlines (Spirit 
 
 ## Conventions & gotchas
 - **No build step.** Edits to HTML/CSS deploy as-is when pushed to `main`. GitHub Pages takes ~30-90s to propagate; Cloudflare may cache HTML briefly.
-- **CSS cache-busting.** When `/index.css` or `/blog/blog.css` changes, bump the `?v=N` query string in every HTML reference, otherwise users get stale CSS via Cloudflare edge cache. Currently: `/index.css?v=2`, `/blog/blog.css?v=4`.
+- **CSS cache-busting.** When `/index.css` or `/blog/blog.css` changes, bump the `?v=N` query string in every HTML reference, otherwise users get stale CSS. Currently: `/index.css?v=3`, `/blog/blog.css?v=6`.
 - **`privacy.html` and `terms.html` have embedded CSS.** They predate the `index.css` extraction. Don't refactor them without explicit ask — they work and refactoring risks breaking layout for legal pages.
 - **Footer parity.** All 14 HTML pages share the same footer link list (Home / Blog / Install / About / Methodology / Glossary / Privacy / Terms). When adding a top-level page, update every footer.
 - **Sticky nav.** `.nav` is `position: sticky; top: 0; z-index: 50;` plus `html { scroll-padding-top: 72px; }` so anchor links don't slide under the header.

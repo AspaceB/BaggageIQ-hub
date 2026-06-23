@@ -13,11 +13,20 @@
   <link rel="canonical" href="https://baggageiq.app/terms.html">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
-  <!-- Privacy-friendly fonts via Bunny Fonts (GDPR-compliant Google Fonts mirror) -->
-  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
-  <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700|jetbrains-mono:400,500,700|inter:400,500,600,700,800&display=swap" rel="stylesheet">
-
   <style>
+    /* Self-hosted fonts (latin woff2) — replaces the Bunny Fonts CDN. font-display:swap. */
+    @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/space-grotesk-latin-400-normal.woff2) format('woff2')}
+    @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/space-grotesk-latin-500-normal.woff2) format('woff2')}
+    @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/space-grotesk-latin-600-normal.woff2) format('woff2')}
+    @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/space-grotesk-latin-700-normal.woff2) format('woff2')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/inter-latin-400-normal.woff2) format('woff2')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/inter-latin-500-normal.woff2) format('woff2')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/inter-latin-600-normal.woff2) format('woff2')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/inter-latin-700-normal.woff2) format('woff2')}
+    @font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/jetbrains-mono-latin-400-normal.woff2) format('woff2')}
+    @font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/jetbrains-mono-latin-500-normal.woff2) format('woff2')}
+    @font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/jetbrains-mono-latin-700-normal.woff2) format('woff2')}
+
     /* ═══════════════════════════════════════════════════════════
        BaggageIQ Terms — Aviation editorial aesthetic
        Matches index.html + privacy.html + blog/blog.css exactly
@@ -30,7 +39,7 @@
       --ink-2: #1b2442;
       --ink-3: #384460;
       --muted: #6b6660;
-      --faint: #9d968a;
+      --faint: #756f64; /* darkened from #9d968a for WCAG AA contrast (~4.6:1 on cream) */
       --rule: rgba(10, 21, 48, 0.12);
       --rule-soft: rgba(10, 21, 48, 0.06);
 
